@@ -48,7 +48,7 @@
 			<?php
 //			if($pageClass == 'about') {echo 'class="active"';} ?>
 <!-- ><a href="about.php">About me</a></li>-->
-			<li <?php if($pageClass == 'resume'){echo 'class="active"';} ?>><a href="quintanilla-resume.pdf" target="_blank">Resume</a></li>
+			<li <?php if($pageClass == 'resume'){echo 'class="active"';} ?>><a href="quintanilla-resume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
 		</ul>
 	</nav>
 </header>

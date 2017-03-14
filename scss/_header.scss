@@ -16,7 +16,8 @@ svg.logo {
 		fill: $color-bright;
 	}
 
-	&:hover path.logo-dot {
+	&:hover path.logo-dot, &:focus path.logo-dot, &:active path.logo-dot
+	{
 		fill: $color-highlight1;
 	}  //hover just the dot
 }
@@ -51,7 +52,7 @@ nav {
 			transition: $hover-ease;
 		}
 
-		li:hover {
+		li:hover, li:focus, li:active{
 			a:before {
 				width: 100%;
 				background: $color-highlight1;

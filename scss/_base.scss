@@ -1,6 +1,7 @@
 /* base styles */
 
 html {
+	height: 100%;
 	box-sizing: border-box;
 }
 
@@ -10,9 +11,15 @@ html {
 }
 
 body {
+	min-height: 100%;
 	font-family: $font-body;
 	font-size: 1.1rem;
 	line-height: 1.2;
+	display: flex;
+	flex-direction: column; //flex for sticky footer
+	//background: linear-gradient(
+	//	180deg,
+	//	$color-primary 75%, $color-highlight1);
 }
 
 
@@ -20,14 +27,17 @@ body {
 main, header, footer {
 	padding: 1em 5%;
 	position: relative;
+	flex: 1;
 }
 main {
 	min-height: 80vh;
+	padding-top: 10rem;
+	flex: 1; //to make main content area expand as needed for sticky footer
 	//margin-top: 2rem;
 }
 
 footer {
-	background-color: $color-highlight1;
+	//background-color: $color-highlight1;
 	padding-bottom: .25em;
 
 	h4 {
@@ -46,7 +56,7 @@ footer {
 		padding: .25em .5rem;
 		transition: $hover-ease;
 
-		&:hover {
+		&:hover, &:focus, &:active {
 			color: $color-highlight2;
 		}
 	}
@@ -80,7 +90,7 @@ h1 {
 	font-style: italic;
 	font-size: 3rem;
 	margin-bottom: .2em;
-	line-height: .9;
+	line-height: 1;
 }
 
 h2 {
