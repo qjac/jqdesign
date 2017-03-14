@@ -6,8 +6,8 @@
 
 
 
-        <main> 
-            <img src="img/logo.svg" alt="JQ.">
+        <main class="content">
+<!--            <img src="img/logo.svg" alt="JQ.">-->
             <div class="soon">
                 <h1>Coming Soon!</h1>
                 <p>Until then, drop a line at hello@jqdesign.co</p>

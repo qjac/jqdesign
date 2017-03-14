@@ -15,10 +15,15 @@ body {
 	line-height: 1.2;
 }
 
+
+
 main, header, footer {
 	padding: 1em 5%;
 	position: relative;
-	//height: 90vh;
+}
+main {
+	min-height: 80vh;
+	//margin-top: 2rem;
 }
 
 footer {
@@ -26,13 +31,9 @@ footer {
 	padding-bottom: .25em;
 
 	h4 {
-		//display: block;
-		//width: 50%;
-		//text-align: right;
 		padding: 0 2rem .5em;
 		text-align: center;
 		color: $color-light;
-		//font-size: 2rem;
 	}
 
 	div {
@@ -43,6 +44,7 @@ footer {
 		text-decoration: none;
 		color: $color-bright;
 		padding: .25em .5rem;
+		transition: $hover-ease;
 
 		&:hover {
 			color: $color-highlight2;
@@ -54,7 +56,7 @@ footer {
 		padding-top: 2em;
 		text-align: center;
 	}
-	
+
 } //end footer
 
 /* typography */

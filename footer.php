@@ -4,13 +4,13 @@
 
 	<div>
 		<a href="mailto:hello@jqdesign.co" target="_blank">
-			<i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+			<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+		<a href="http:/www.github.com/qjac" target="_blank">
+			<i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 		<a href="http://www.instagram.com/qjac/" target="_blank">
 			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
 		<a href="http:/www.twitter.com/Q_Quesadilla" target="_blank">
 			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-		<a href="http:/www.github.com/qjac" target="_blank">
-			<i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 		<a href="http:/www.linkedin.com/in/jacquintanilla/" target="_blank">
 			<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
 	</div>

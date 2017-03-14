@@ -1,0 +1,65 @@
+header {
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+
+.logo, .logo-j, .logo-q, .logo-dot {transition: $hover-ease;}
+
+svg.logo {
+	min-width: 6rem;
+	width: 20%;
+	transform: translate(20vw, 0);
+	margin: .25rem;
+
+	a {
+		fill: $color-bright;
+	}
+
+	&:hover path.logo-dot {
+		fill: $color-highlight1;
+	}
+}
+
+nav {
+	float: right;
+	ul {
+		list-style-type: none;
+		margin-top: 1em;
+	}
+	li {
+		padding: .5em 1rem 1em;
+		text-align: right;
+		position: relative;
+	}
+
+	a {
+		@extend h3;
+		text-decoration: none;
+			position: relative;
+			transition: $hover-ease;
+		}
+
+		a:before {
+			content:"";
+			background: $color-bright;
+			position: absolute;
+			top: -.75em;
+			right: 0;
+			height: 3px;
+			width: 1.5rem;
+			transition: $hover-ease;
+		}
+
+		li:hover {
+			a:before {
+				width: 100%;
+				background: $color-highlight1;
+			}
+			a { color: $color-highlight2;}
+		}
+
+	.active a {
+		color: $color-highlight1;
+	}
+	}

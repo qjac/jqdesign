@@ -2,6 +2,8 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 /config.codekit
 **/.idea/workspace.xml
+**/.DS_Store
+.sass-cache/**
 
 
 # Created by https://www.gitignore.io/api/phpstorm
@@ -59,3 +61,6 @@ fabric.properties
 # *.ipr
 
 # End of https://www.gitignore.io/api/phpstorm
+/scss/.sass-cache/
+css/
+scss/main.css.map
