@@ -29,7 +29,6 @@
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<!-- Add your site or application content here -->
 
 <header>
 	<a class="visuallyhidden" href="#content">Skip to content</a>
@@ -43,8 +42,13 @@
 	<nav>
 		<ul>
 			<li <?php if($pageClass == 'index') {echo 'class="active"';} ?>><a href="index.php">Work</a></li>
-			<li <?php if($pageClass == 'about') {echo 'class="active"';} ?>><a href="about.php">About me</a></li>
-			<li <?php if($pageClass == 'resume'){echo 'class="active"';} ?>><a href="contact.php">Resume</a></li>
+
+<!--			Add back in once about page is built -->
+<!--		<li -->
+			<?php
+//			if($pageClass == 'about') {echo 'class="active"';} ?>
+<!-- ><a href="about.php">About me</a></li>-->
+			<li <?php if($pageClass == 'resume'){echo 'class="active"';} ?>><a href="quintanilla-resume.pdf" target="_blank">Resume</a></li>
 		</ul>
 	</nav>
 </header>
