@@ -9,6 +9,7 @@
         <main class="content">
 	       <section class="content-top">
 		       <h1>&nbsp;Design&nbsp;<span class="plus">+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> Web&nbsp;Development</h1>
+		       <hr>
 	       </section>
         <section class="portfolio">
 		        <figure class="portfolio-item">
