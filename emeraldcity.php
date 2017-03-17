@@ -21,14 +21,22 @@
 
 
 	        <section class="portfolio-details">
-		        <img  src="http://placecage.com/c/600/600" alt="desc" class="full-width">
-
-		        <img  src="http://placecage.com/c/600/400" alt="desc" class="half-width">
-		        <img  src="http://placecage.com/c/600/400" alt="desc" class="half-width">
-
-		        <img  src="http://placecage.com/c/600/400" alt="desc" class="full-width">
-
-		        <img  src="http://placecage.com/c/600/400" alt="desc" class="full-width">
+		       <div class="img-height">
+			       <img  src="http://placecage.com/c/600/600" alt="desc" class="full-width">
+		       </div>
+		        <div class="img-height">
+			        <img  src="http://placecage.com/c/600/400" alt="desc" class="half-width">
+			        <img  src="http://placecage.com/c/600/400" alt="desc" class="half-width">
+		        </div>
+		        <div class="img-height">
+			        <img  src="http://placecage.com/c/600/600" alt="desc" class="full-width">
+		        </div>
+		        <div class="img-height">
+			        <img  src="http://placecage.com/c/600/600" alt="desc" class="full-width">
+		        </div>
+		        <div class="img-height">
+			        <img  src="http://placecage.com/c/600/600" alt="desc" class="full-width">
+		        </div>
 	        </section>
 
 	        <section>

@@ -31,7 +31,6 @@
 
 	.project-intro h2 {
 		width: 100%;
-		//text-align: center;
 		margin-bottom: .25em;
 		color: $color-primary;
 		position: relative;
@@ -60,21 +59,28 @@
 	.portfolio-details {
 		width: 100%;
 		box-sizing: border-box;
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: center;
 
-		img.full-width {
-			margin: .5em 0;
+
+		.img-height {
 			width: 100%;
-			//width: 100vw;
-			//height: auto;
+			max-height: 33vh;
+			overflow: hidden;
+			margin: .5em 0;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			align-items: center;
+			@media only screen and (min-width: $breakpoint-md) {
+				max-height: 66vh;
+			}
+		}
+		img.full-width {
+			width: 100%;
 		}
 		img.half-width {
-			margin: .5em 0;
+
 			width: 50%;
-		}
+		} //	use self-align to determine how img gets clipped in div
 	}
 }
 
