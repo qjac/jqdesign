@@ -24,12 +24,16 @@ svg.logo {
 
 nav {
 	float: right;
+	padding-right: 5%;
+	//background: rgb(255, 255, 255); /* The Fallback */
+	//background: rgba($color-primary, .5);
 	ul {
 		list-style-type: none;
 		margin-top: 1em;
+
 	}
 	li {
-		padding: .5em 1rem 1em;
+		padding: .5em 5% 1em;
 		text-align: right;
 		position: relative;
 	}

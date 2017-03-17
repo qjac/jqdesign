@@ -18,7 +18,7 @@
 	<meta name="theme-color" content="#e2088b">
 	<!-- Place favicon.ico in the root directory -->
 
-	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Playfair+Display:900i|Sanchez:400,400i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i|Source+Sans+Pro:400,600|Yantramanav:300" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://use.fontawesome.com/5d7a631154.js"></script>
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
