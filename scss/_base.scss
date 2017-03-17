@@ -1,10 +1,11 @@
-/* base styles */
+/*=================================================================
+				BIG BLOCKS
+===================================================================*/
 
 html {
 	height: 100%;
 	box-sizing: border-box;
 }
-
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -12,7 +13,6 @@ html {
 
 body {
 	min-height: 100%;
-	margin-top: 2em;
 	font-family: $font-body;
 	font-size: 1.1rem;
 	line-height: 1.2;
@@ -23,19 +23,74 @@ body {
 //		$color-primary 75%, $color-highlight1);
 }
 
-
-
 main, header, footer {
-	//padding: 0;
 	position: relative;
 	flex: 1;
 }
+
+/*=================================================================
+				MAIN
+===================================================================*/
 main {
+	width: 100%;
 	min-height: 80vh;
-	padding-top: 10rem;
 	flex: 1; //to make main content area expand as needed for sticky footer
-	//margin-top: 2rem;
 }
+
+.plus { color: $color-bright; font-size: 1.1em;}
+
+/*=================================================================
+				.content-top  SECTION
+===================================================================*/
+section {
+	flex: 1;
+	width: 100%;
+}
+.content-top {
+	padding-top: 12rem;
+	position: relative;
+	//margin-top: 1em;
+	min-height: 20vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-top h1 {
+	display: block;
+	font-family: $font-brand;
+	font-weight: normal;
+	text-transform: lowercase;
+	margin-top: 1em;
+	@media only screen and (min-width: $breakpoint-md) {
+		font-size: 4.5rem;
+	}
+}
+.content-top hr {
+	border-top: 3px solid $color-bright;
+	width:33%;
+	margin: 0 auto 1em;
+	align-self: flex-end;
+}
+
+/*=================================================================
+				MAIN -PORTFOLIO SECTION
+==================================================================*/
+.portfolio {
+	margin-top: 1.5rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+
+/*=================================================================
+				FOOTER
+===================================================================*/
 
 footer {
 	background-color: $color-highlight1;
@@ -71,7 +126,9 @@ footer {
 
 } //end footer
 
-/* typography */
+/*=================================================================
+				TYPOGRAPHY
+===================================================================*/
 
 body {
 	font-family: $font-body;
@@ -116,4 +173,47 @@ h4 {
 	font-size: 1.25rem;
 	margin-bottom: 0;
 	line-height: initial;
+}
+
+/*=================================================================
+				COMPONENTS
+===================================================================*/
+
+.btn {
+	width: 100%;
+	text-align: right;
+	margin-bottom: 1.6rem;
+	font-family: $font-brand;
+	align-self: flex-end;
+	transition: $hover-ease;
+
+}
+
+/* Icon Forward */
+.hvr-icon-forward {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em 1rem .75em;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	position: relative;
+	padding-right: 2.2em;
+}
+.hvr-icon-forward:before {
+	content: "\f054";
+	position: absolute;
+	right: 1rem;
+	top: 32%;
+	padding: 0 1px;
+	font-family: FontAwesome;
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
+	transition: $hover-ease;
+}
+.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
+	-webkit-transform: translateX(4px);
+	transform: translateX(4px);
+	color: $color-bright;
 }

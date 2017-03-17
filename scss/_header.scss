@@ -8,25 +8,24 @@ header {
 
 svg.logo {
 	min-width: 6rem;
+	margin: 0;
+	padding: 1.5rem .25rem .25rem;
 	width: 20%;
 	transform: translate(20vw, 0);
-	margin: .25rem;
 
 	a {
 		fill: $color-bright;
+		padding-top: 2rem .25rem .25rem;
 	}
 
 	&:hover path.logo-dot, &:focus path.logo-dot, &:active path.logo-dot
-	{
-		fill: $color-highlight1;
-	}  //hover just the dot
+	{ fill: $color-highlight1; }  //hover just the dot
 }
 
 nav {
 	float: right;
 	padding-right: 5%;
-	//background: rgb(255, 255, 255); /* The Fallback */
-	//background: rgba($color-primary, .5);
+	padding-top: 1.5rem;
 	ul {
 		list-style-type: none;
 		margin-top: 1em;
@@ -64,7 +63,5 @@ nav {
 			a { color: $color-highlight2;}
 		}
 
-	.active a {
-		color: $color-highlight1;
-	}
+	.active a { color: $color-highlight1;}
 	}

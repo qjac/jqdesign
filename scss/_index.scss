@@ -1,4 +1,4 @@
-/* PAGE SPECIFIC STYLES
+/* INDEX SPECIFIC STYLES
 		using the class name on the pages body element
 		changes mostly effect <main> */
 
@@ -10,58 +10,12 @@
 
 .index {
 	background-color: $color-primary;
-
-	main {
-		width: 100%;
 	}
-
-	.plus { color: $color-bright; font-size: 1.1em;}
-
-	section {
-		flex: 1;
-		width:100%;
-	}
-	.content-top {
-		position: relative;
-		margin-top: 1em;
-		min-height: 20vh;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.content-top h1 {
-		display: block;
-		font-family: $font-brand;
-		font-weight: normal;
-		text-transform: lowercase;
-		margin-top: 1em;
-		@media only screen and (min-width: $breakpoint-md) {
-			font-size: 4.5rem;
-		}
-	}
-
-	.content-top hr {
-		background: $color-bright;
-		width:33%;
-		height: 5px;
-		margin: .5em auto 0;
-		align-self: flex-end;
-	}
-}
 
 /*=================================================================
 				portfolio section
 ==================================================================*/
-.portfolio {
-	margin-top: 3rem;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: stretch;
+
 
 	figure.portfolio-item {
 		display: border-box;
@@ -110,10 +64,6 @@
 			bottom: 24px;
 			opacity: 0;
 			z-index: 1;
-			//-webkit-transition-duration: 0.3s;
-			//transition-duration: 0.3s;
-			//-webkit-transition-property: opacity;
-			//transition-property: opacity;
 			transition: $hover-ease;
 		}
 		&:focus:before, &:hover:before, &:active:before {
@@ -144,59 +94,16 @@
 			background: $color-bright;
 			position: absolute;
 			top: -.5em;
-			leftt: 0;
+			left: 0;
 			height: 3px;
 			width: 1.5rem;
 			}
 		}
 
-	figcaption div.btn {
-		width: 100%;
-		text-align: right;
-		margin-bottom: 1.6rem;
-		font-family: $font-brand;
-		align-self: flex-end;
-		transition: $hover-ease;
-
-	}
-
 	.portfolio-item:active >  figcaption .hvr-icon-forward, .portfolio-item:focus >  figcaption .hvr-icon-forward, .portfolio-item:hover >  figcaption .hvr-icon-forward, {
 		color: $color-highlight1;
 	}
-		/* Icon Forward */
-		.hvr-icon-forward {
-			display: inline-block;
-			text-decoration: none;
-			//color: $color-primary;
-			padding: 1em 1rem .75em;
-			vertical-align: middle;
-			-webkit-transform: perspective(1px) translateZ(0);
-			transform: perspective(1px) translateZ(0);
-			box-shadow: 0 0 1px transparent;
-			position: relative;
-			//left:-1rem;
-			padding-right: 2.2em;
-		}
-		.hvr-icon-forward:before {
-			content: "\f054";
-			position: absolute;
-			right: 1rem;
-			top: 32%;
-			padding: 0 1px;
-			font-family: FontAwesome;
-			//font-size: inherit;
-			-webkit-transform: translateZ(0);
-			transform: translateZ(0);
-			transition: $hover-ease;
-		}
-		.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
-			-webkit-transform: translateX(4px);
-			transform: translateX(4px);
-			color: $color-bright;
-		}
 
 	.category {
 		font-size: .9rem;
 	}
-}
-

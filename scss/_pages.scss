@@ -1,0 +1,89 @@
+/* PAGE SPECIFIC STYLES
+		using the class name on the pages body element
+		changes mostly effect <main> */
+
+
+
+/*=================================================================
+				ALL Portfolio Item Pages
+==================================================================*/
+
+.portfolio-item {
+	display: border-box;
+
+	.project-intro {
+		max-width: 50em;
+		width: 80%;
+		background-color: $color-light;
+		margin: 5% 10%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		@media only screen and (min-width: $breakpoint-md) {
+			margin: 5% auto;
+		}
+	}
+	.project-intro:active >  .btn .hvr-icon-forward, .project-intro:focus >  .btn .hvr-icon-forward, .project-intro:hover >  .btn .hvr-icon-forward, {
+		color: $color-highlight1;
+	}
+
+	.project-intro h2 {
+		width: 100%;
+		//text-align: center;
+		margin-bottom: .25em;
+		color: $color-primary;
+		position: relative;
+
+		&:before {
+			content:"";
+			background: $color-bright;
+			position: absolute;
+			top: -.5em;
+			left: 0;
+			height: 3px;
+			width: 1.5rem;
+		}
+	}
+
+	.project-intro .btn {
+		margin-bottom: 0;
+	}
+
+	.category {
+		display: block;
+		margin: 5% 10%;
+		text-align: center;
+	}
+
+	.portfolio-details {
+		width: 100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+
+		img.full-width {
+			margin: .5em 0;
+			width: 100%;
+			//width: 100vw;
+			//height: auto;
+		}
+		img.half-width {
+			margin: .5em 0;
+			width: 50%;
+		}
+	}
+}
+
+/*=================================================================
+				Emerald City
+==================================================================*/
+.emeraldcity {
+	.content-top {
+		background: url(http://placecage.com/c/600/600) no-repeat center center fixed;
+		background-size: cover;
+	}
+}
