@@ -64,3 +64,11 @@ fabric.properties
 /scss/.sass-cache/
 css/
 scss/main.css.map
+/.idea/
+/.htaccess
+/.editorconfig
+/.gitattributes
+.idea/deployment.xml
+.idea/jqdesign.iml
+.idea/watcherTasks.xml
+!/.gitignore

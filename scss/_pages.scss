@@ -10,7 +10,7 @@
 
 .portfolio-item {
 	display: border-box;
-
+	//.project-intro for text sections
 	.project-intro {
 		max-width: 50em;
 		width: 80%;
@@ -56,40 +56,66 @@
 		text-align: center;
 	}
 
-	.portfolio-details {
+	//.project-img for sections of images
+	.project-img {
 		width: 100%;
 		box-sizing: border-box;
 
-
-		.img-height {
+		.row {
 			width: 100%;
-			max-height: 33vh;
-			overflow: hidden;
-			margin: .5em 0;
+			margin: .25em auto;
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: center;
 			align-items: center;
-			@media only screen and (min-width: $breakpoint-md) {
-				max-height: 66vh;
+			@media only screen and (min-width: $breakpoint-giant) {
+				max-width: 1920px;
+				margin: .5em auto;
 			}
 		}
-		img.full-width {
+		img {
 			width: 100%;
+			margin: 0;
 		}
-		img.half-width {
 
-			width: 50%;
-		} //	use self-align to determine how img gets clipped in div
-	}
-}
+		img.half-width {
+			@media only screen and (max-width: $breakpoint-md){
+				&:first-of-type {
+					margin-bottom: .5em;
+				}
+
+			}
+			@media only screen and (min-width: $breakpoint-md) {
+				width: calc(48% - .75em);
+				margin: 0 .25em;
+			}
+		}
+
+		img.no-stretch {
+			width: auto;
+			@media only screen and (max-width: $breakpoint-md){
+				&:first-of-type {
+					margin-bottom: .5em;
+				}
+
+			}
+			@media only screen and (min-width: $breakpoint-md) {
+				margin: 0 .25em;
+			}
+		}
+
+	} //end .project-img
+} //end .portfolio-item
 
 /*=================================================================
 				Emerald City
 ==================================================================*/
 .emeraldcity {
 	.content-top {
-		background: url(http://placecage.com/c/600/600) no-repeat center center fixed;
+		background: url(../img/ec/ec-feature.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
 		background-size: cover;
 	}
 }

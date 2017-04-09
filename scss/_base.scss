@@ -18,15 +18,20 @@ body {
 	line-height: 1.2;
 	display: flex;
 	flex-direction: column; //flex for sticky footer
-//	background: linear-gradient(
-//		180deg,
-//		$color-primary 75%, $color-highlight1);
 }
 
 main, header, footer {
 	position: relative;
 	flex: 1;
 }
+
+hr {
+	border-top: 3px solid $color-bright;
+	width:33%;
+	margin: 0 auto 1em;
+	align-self: flex-end;
+}
+
 
 /*=================================================================
 				MAIN
@@ -38,6 +43,8 @@ main {
 }
 
 .plus { color: $color-bright; font-size: 1.1em;}
+
+
 
 /*=================================================================
 				.content-top  SECTION
@@ -61,17 +68,10 @@ section {
 	display: block;
 	font-family: $font-brand;
 	font-weight: normal;
-	text-transform: lowercase;
 	margin-top: 1em;
 	@media only screen and (min-width: $breakpoint-md) {
 		font-size: 4.5rem;
 	}
-}
-.content-top hr {
-	border-top: 3px solid $color-bright;
-	width:33%;
-	margin: 0 auto 1em;
-	align-self: flex-end;
 }
 
 /*=================================================================
@@ -147,7 +147,6 @@ a {
 h1 {
 	color: $color-light;
 	font-family: $font-display;
-	font-style: italic;
 	font-size: 3rem;
 	margin-bottom: .2em;
 	line-height: 1;

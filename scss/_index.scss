@@ -9,7 +9,11 @@
 ==================================================================*/
 
 .index {
-	background-color: $color-primary;
+	background-color: $color-highlight1;
+	.content-top h1 {
+		font-style: italic;
+		text-transform: lowercase;
+	}
 	}
 
 /*=================================================================
@@ -17,7 +21,7 @@
 ==================================================================*/
 
 
-	figure.portfolio-item {
+	.index figure.portfolio-item {
 		display: border-box;
 		background-color: $color-light;
 		width: 100%;
@@ -26,9 +30,7 @@
 		border-top: 3px solid $color-bright;
 		border-bottom: 3px solid $color-bright;
 
-		a{
-			display: block;
-		}
+		a{ display: block; }
 
 		@media only screen and (min-width: $breakpoint-md) {
 			margin: 1em 1rem;
@@ -38,7 +40,7 @@
 	}
 
 	//portfolio img styles
-	img {
+	.index img {
 		width: 100%;
 		margin: 0 auto;
 		transition: $hover-ease;
