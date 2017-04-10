@@ -19,7 +19,7 @@ svg.logo {
 	}
 
 	&:hover path.logo-dot, &:focus path.logo-dot, &:active path.logo-dot
-	{ fill: $color-highlight1; }  //hover just the dot
+	{ fill: $color-highlight2; }  //hover just the dot
 }
 
 nav {
@@ -58,10 +58,10 @@ nav {
 		li:hover, li:focus, li:active{
 			a:before {
 				width: 100%;
-				background: $color-highlight1;
+				background: $color-highlight2;
 			}
-			a { color: $color-highlight2;}
+			//a { color: $color-highlight2;}
 		}
 
-	.active a { color: $color-highlight1;}
+	.active a { color: $color-primary;}
 	}

@@ -49,6 +49,10 @@
 		}
 	}
 
+	.project-intro p {
+		width: 100%;
+	}
+
 	.project-intro .btn {
 		margin-bottom: 0;
 	}
@@ -57,6 +61,7 @@
 		display: block;
 		margin: 5% 10%;
 		text-align: center;
+		text-transform: lowercase;
 	}
 
 	//.project-img for sections of images
@@ -73,24 +78,37 @@
 			align-items: center;
 			@media only screen and (min-width: $breakpoint-giant) {
 				max-width: 1920px;
-				margin: .5em auto;
+				margin: .5rem auto;
 			}
 		}
 		img {
 			width: 100%;
 			margin: 0;
+			flex-grow: 1;
 		}
 
 		img.half-width {
+			//margin-bottom: .5em;
+			//margin-bottom: .25em;
+			//margin-top: .5em;
 			@media only screen and (max-width: $breakpoint-md){
 				&:first-of-type {
-					margin-bottom: .5em;
+					margin-bottom: .25rem;
+					//margin-top: .5em;
 				}
 
 			}
 			@media only screen and (min-width: $breakpoint-md) {
-				width: calc(48% - .75em);
-				margin: 0 .25em;
+				//width: calc(48% - .75em);
+				//display: block;
+				width: 49%;
+				//margin: 0 .25em;
+				&:first-of-type {
+					margin: 0 .125em 0 0;
+				}
+				&:last-of-type {
+					margin: 0 0 0 .125em;
+				}
 			}
 		}
 
@@ -128,7 +146,18 @@
 ==================================================================*/
 .coolcatpackage {
 	.content-top {
-		background: url(../img/ccc-pack/ccc-package-drafts-960.jpg) no-repeat center top fixed;
+		background: url(../img/ccc-pack/ccc-package-feature-1920.jpg) no-repeat center top fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+
+}
+
+.coolcatdigital {
+	.content-top {
+		background: url(../img/ccc-web/ccc-web-feature-1920.jpg) no-repeat 50% center fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;

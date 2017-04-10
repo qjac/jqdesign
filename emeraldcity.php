@@ -4,9 +4,6 @@
 
 <?php include ("header.php"); ?>
 
-
-
-
         <main class="content">
 	       <section class="content-top">
 <!--		       h1 is for project title-->

@@ -43,9 +43,7 @@ main {
 	flex: 1; //to make main content area expand as needed for sticky footer
 }
 
-.plus { color: $color-bright; font-size: 1.1em;}
-
-
+.plus { color: $color-bright;}
 
 /*=================================================================
 				.content-top  SECTION
@@ -152,6 +150,9 @@ h1 {
 	font-size: 3rem;
 	margin-bottom: .2em;
 	line-height: 1;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
 }
 
 h2 {
@@ -167,6 +168,7 @@ h2 {
 
 h3 {
 	@extend h2;
+	text-transform: none;
 }
 
 h4 {
