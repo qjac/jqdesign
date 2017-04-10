@@ -1,6 +1,6 @@
-<?php $title="Emerald City";
-		$pageClass="portfolio-item emeraldcity";
-		$socialPic="img/ec/ec-logo-960.jpg"?>
+<?php $title="Cool Cat Packaging";
+		$pageClass="portfolio-item coolcatpackage";
+		$socialPic=""?>
 
 <?php include ("header.php"); ?>
 
@@ -10,21 +10,25 @@
         <main class="content">
 	       <section class="content-top">
 <!--		       h1 is for project title-->
-		       <h1>Emerald City</h1>
+		       <h1>Cool Cat Crafts Packaging</h1>
 		       <hr>
 	       </section>
 
 	        <section class="project-intro">
 
-		        <h2>A Neighborhood Cafe with a Kick</h2>
-		        <p>Fresh, organic ingredients. Delicious, handmade treats. A bright, welcoming shop. Emerald City is your favorite neighborhood cafe...with a kick. As a full service medical and recreational marijuana dispensary specializing in enhanced baked goods, Emerald City could target the stoners or the Coachella-style marijuana chic aesthetic. But that’s not who they are. They’re your neighbors who love baking delightful treats with seasonal ingredients. And those treats just happen to pack a medicinal or recreational buzz. They'd love to share some with you, neighbor.</p>
+		        <h2>Great in the Sore. Better at Home.</h2>
+		        <p>Designed to go from retail to the home, this package keeps the coasters protected and looking good long after the sale. Featuring bold type to catch attention on busy shelves, the box really shines when it’s opened. That quirky cat greets us with an inner lining and the asymmetrical lid suddenly makes sense when you store it under the base, turning the entire package into a sturdy and attractive storage tray with a convenient thumb notch to keep your coasters at the ready. You never know when a party might spring up!</p>
 
-		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/" class="hvr-icon-forward">Visit Site </a></div>
+<!--		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/" class="hvr-icon-forward">Visit Site </a></div>-->
 	        </section>
 
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/ec/ec-logo-192.jpg 192w, img/ec/ec-logo-480.jpg 480w, img/ec/ec-logo-960.jpg 960w, img/ec/ec-logo-1920.jpg 1920w" src="img/ec/ec-logo-960.jpg" alt="Emerald City logo" class="full-width">
+			        <img sizes="100vw" srcset="img/ccc-pack/ccc-package-480.jpg 480w, img/ccc-pack/ccc-package-960.jpg 960w, img/ccc-pack/ccc-package-1920.jpg 1920w" src="img/ccc-pack/ccc-package-960.jpg" alt="package on display" class="full-width">
+		        </div>
+		        <div class="row">
+			        <img sizes="50vw" srcset="img/ccc-pack/view2-480.jpg 480w,img/ccc-pack/view2-960.jpg 960w, img/ccc-pack/view2-1920.jpg 1920w" src="img/ccc-pack/view2-960.jpg" alt="sketches of draft logos" class="half-width">
+			        <img sizes="50vw" srcset="img/ccc-pack/view1-480.png 480w, img/ccc-pack/view1-960.png 960w, img/ccc-pack/view1-1920.png 1920w" src="img/ccc-pack/view1-960.png" alt="moodboard" class="half-width">
 		        </div>
 	        </section>
 	        <section class="project-intro">
@@ -33,10 +37,7 @@
 	        </section>
 	        <section class="project-img">
 
-		        <div class="row">
-			        <img sizes="50vw" srcset="img/ec/ec-sketchbook-192.jpg 192w, img/ec/ec-sketchbook-480.jpg 480w,img/ec/ec-sketchbook-960.jpg 960w, img/ec/ec-sketchbook-1920.jpg 1920w" src="img/ec/ec-sketchbook-960.jpg" alt="sketches of draft logos" class="half-width">
-			        <img sizes="50vw" srcset="img/ec/ec-moodboard-192.png 192w, img/ec/ec-moodboard-480.png 480w, img/ec/ec-moodboard-960.png 960w, img/ec/ec-moodboard-1920.png 1920w" src="img/ec/ec-moodboard-960.png" alt="moodboard" class="half-width">
-		        </div>
+
 		        <div class="row">
 			        <img sizes="50vw" srcset="img/ec/ec-hoodie-close-192.jpg 192w, img/ec/ec-hoodie-close-480.jpg 480w, img/ec/ec-hoodie-close-960.jpg 960w, img/ec/ec-hoodie-close-1920.jpg 1920w" src="img/ec/ec-hoodie-close-960.jpg" alt="green zip-up sweatshirt" class="half-width">
 			        <img sizes="50vw" srcset="img/ec/ec-tee-192.jpg 192w, img/ec/ec-tee-480.jpg 480w, img/ec/ec-tee-960.jpg 960w, img/ec/ec-tee-1920.jpg 1920w" src="img/ec/ec-tee-960.jpg" alt="yellow t-shirt" class="half-width">
