@@ -9,6 +9,9 @@
 ==================================================================*/
 
 .portfolio-item {
+	.content-top {
+		background-color: $color-primary;
+	}
 	display: border-box;
 	//.project-intro for text sections
 	.project-intro {
@@ -125,10 +128,11 @@
 ==================================================================*/
 .coolcatpackage {
 	.content-top {
-		background: url(../img/ccc-pack/ccc-package-drafts-960.jpg) no-repeat center center fixed;
+		background: url(../img/ccc-pack/ccc-package-drafts-960.jpg) no-repeat center top fixed;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
 		background-size: cover;
 	}
+
 }

@@ -15,7 +15,7 @@
 	       </section>
 
 	        <section class="project-intro">
-		        <h2>Great in the Sore. Better at Home.</h2>
+		        <h2>Great in the Store. Better at Home.</h2>
 		        <p>Designed to go from retail to the home, this package keeps the coasters protected and looking good long after the sale. Featuring bold type to catch attention on busy shelves, the box really shines when it’s opened. That quirky cat greets us with an inner lining and the asymmetrical lid suddenly makes sense when you store it under the base, turning the entire package into a sturdy and attractive storage tray with a convenient thumb notch to keep your coasters at the ready. You never know when a party might spring up!</p>
 
 <!--		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/" class="hvr-icon-forward">Visit Site </a></div>-->
