@@ -21,7 +21,7 @@
 
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/ccc-web/ccc-web-480.jpg 480w, img/ccc-web/ccc-web-960.jpg 960w, img/ccc-web/ccc-web-1920.jpg 1920w" src="img/ccc-web/ccc-web-960.jpg" alt="package on display" class="full-width">
+			        <img sizes="100vw" srcset="img/ccc-web/ccc-web-480.jpg 480w, img/ccc-web/ccc-web-960.jpg 960w, img/ccc-web/ccc-web-1920.jpg 1920w" src="img/ccc-web/ccc-web-960.jpg" alt="website mockup on desktop" class="full-width">
 		        </div>
 	        </section>
 
@@ -59,13 +59,22 @@
 
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/ccc-web/ccc-social-480.jpg 480w, img/ccc-web/ccc-social-960.jpg 960w, img/ccc-web/ccc-social-1920.jpg 1920w" src="img/ccc-web/ccc-social-960.jpg" alt="closed package on display" class="full-width">
+			        <img sizes="100vw" srcset="img/ccc-web/ccc-social-480.jpg 480w, img/ccc-web/ccc-social-960.jpg 960w, img/ccc-web/ccc-social-1920.jpg 1920w" src="img/ccc-web/ccc-social-960.jpg" alt="facebook page on desktop and facebook ad on mobile device" class="full-width">
 		        </div>
 	        </section>
 
 	        <section class="project-intro">
+		        <h3>Like what you see? </h3>
+		        <p>Check out additional work done for Cool Cat Crafts.</p>
+		        <div class="btn"><a href="coolcatidentity.php" class="hvr-icon-forward">See identity + branding work</a></div>
+		        <div class="btn"><a href="coolcatpackage.php" class="hvr-icon-forward">See product packaging work</a></div>
+	        </section>
+
+	        <section class="project-intro">
+		        <hr>
 		        <p class="category">Web&nbsp;Design // Market&nbsp;Research // Axure&nbsp;Prototyping // Front&nbsp;End&nbsp;Development // Social&nbsp;Media&nbsp;Campaign // Advertising</p>
 <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
+		        <hr>
 	        </section>
         </main>
 

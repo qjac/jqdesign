@@ -60,8 +60,8 @@
 	        <section class="project-intro">
 		        <h3>Like what you see? </h3>
 		        <p>Check out additional work done for Cool Cat Crafts.</p>
-		        <div class="btn"><a href="#" class="hvr-icon-forward">See identity + branding work</a></div>
-		        <div class="btn"><a href="#" class="hvr-icon-forward">See web redesign + social media work</a></div>
+		        <div class="btn"><a href="coolcatidentity.php" class="hvr-icon-forward">See identity + branding work</a></div>
+		        <div class="btn"><a href="coolcatdigital.php" class="hvr-icon-forward">See web redesign + social media work</a></div>
 	        </section>
 
 	        <section class="project-img">
@@ -71,8 +71,10 @@
 	        </section>
 
 	        <section class="project-intro">
+		        <hr>
 		        <p class="category">package&nbsp;development //package&nbsp;design // art&nbsp;direction // photo&nbsp;editing</p>
 <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
+		        <hr>
 	        </section>
 
         </main>

@@ -35,8 +35,8 @@
 			        <img sizes="50vw" srcset="img/ec/ec-moodboard-192.png 192w, img/ec/ec-moodboard-480.png 480w, img/ec/ec-moodboard-960.png 960w, img/ec/ec-moodboard-1920.png 1920w" src="img/ec/ec-moodboard-960.png" alt="moodboard" class="half-width">
 		        </div>
 		        <div class="row">
-			        <img sizes="50vw" srcset="img/ec/ec-hoodie-close-192.jpg 192w, img/ec/ec-hoodie-close-480.jpg 480w, img/ec/ec-hoodie-close-960.jpg 960w, img/ec/ec-hoodie-close-1920.jpg 1920w" src="img/ec/ec-hoodie-close-960.jpg" alt="green zip-up sweatshirt" class="half-width">
-			        <img sizes="50vw" srcset="img/ec/ec-tee-192.jpg 192w, img/ec/ec-tee-480.jpg 480w, img/ec/ec-tee-960.jpg 960w, img/ec/ec-tee-1920.jpg 1920w" src="img/ec/ec-tee-960.jpg" alt="yellow t-shirt" class="half-width">
+			        <img sizes="50vw" srcset="img/ec/ec-hoodie-close-192.jpg 192w, img/ec/ec-hoodie-close-480.jpg 480w, img/ec/ec-hoodie-close-960.jpg 960w, img/ec/ec-hoodie-close-1920.jpg 1920w" src="img/ec/ec-hoodie-close-960.jpg" alt="green zip-up sweatshirt with icon" class="half-width">
+			        <img sizes="50vw" srcset="img/ec/ec-tee-192.jpg 192w, img/ec/ec-tee-480.jpg 480w, img/ec/ec-tee-960.jpg 960w, img/ec/ec-tee-1920.jpg 1920w" src="img/ec/ec-tee-960.jpg" alt="yellow t-shirt with logo on front and icon on sleeve" class="half-width">
 		        </div>
 		        <div class="row">
 			        <img sizes="100vw" srcset="img/ec/ec-web-192.jpg 192w, img/ec/ec-web-480.jpg 480w, img/ec/ec-web-960.jpg 960w, img/ec/ec-web-1920.jpg 1920w" src="img/ec/ec-web-960.jpg" alt="website displayed on desktop, tablet, and mobile devices" class="full-width">
@@ -52,8 +52,10 @@
 	        </section>
 
 	        <section class="project-intro">
+		        <hr>
 		        <p class="category">identity // digital&nbsp;advertising // WordPress&nbsp;development</p>
 <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
+		        <hr>
 	        </section>
 
 
