@@ -134,9 +134,7 @@ body {
 	font-family: $font-body;
 }
 
-p {
-	margin-top: 0;
-}
+p { margin-top: 0; }
 
 a {
 	color: $color-dark;
@@ -147,8 +145,7 @@ a {
 h1 {
 	color: $color-light;
 	font-family: $font-display;
-	font-size: 3rem;
-	margin-bottom: .2em;
+	margin-bottom: .5em;
 	line-height: 1;
 	width: 80%;
 	margin: 0 auto;
