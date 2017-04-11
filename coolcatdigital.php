@@ -17,6 +17,7 @@
 	        <section class="project-intro">
 		        <h2>Online tools for selling + connecting.</h2>
 		        <p>As a small shop, Cool Cat Crafts needed a way to sell products online and connect with customers. The solution is an Etsy integrated e-commerce website designed to boost sales. Beautiful, vivid images and oodles of white space keep the focus squarely on the content and drive folks to product pages. Built using WordPress for easy content management and integration with Etsy make it a breeze to update listings and add new items to grow the shop.</p>
+		        <div class="btn"><a href="http://www.coolcatcrafts.com" class="hvr-icon-forward">Site coming soon!</a></div>
 	        </section>
 
 	        <section class="project-img">

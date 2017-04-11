@@ -22,10 +22,16 @@
 
 
 	.index figure.portfolio-item {
-		display: border-box;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+		align-content: center;
 		background-color: $color-light;
 		width: 100%;
 		max-width: $breakpoint-md;
+		//margin: .5rem 1rem;
 		margin: 0;
 		border-top: 3px solid $color-bright;
 		border-bottom: 3px solid $color-bright;
@@ -33,7 +39,7 @@
 		a{ display: block; }
 
 		h3 {
-			text-transform: uppercase;
+			//text-transform: uppercase;
 		}
 		@media only screen and (min-width: $breakpoint-md) {
 			margin: 1em 1rem;
@@ -45,8 +51,9 @@
 	//portfolio img styles
 	.index img {
 		width: 100%;
-		margin: 0 auto;
+		margin: 0;
 		transition: $hover-ease;
+
 	}
 
 	/* Trim */
@@ -82,15 +89,15 @@
 	figcaption {
 		max-width: 50em;
 		margin: 0 auto;
-		padding: .5em 5%;
+		padding: .5em 10%;
 		position: relative;
 		display: flex;
 		flex-flow: column;
 		align-items: stretch;
 		}
-	figcaption h3 {
-		text-transform: none;
-		font-size: 2rem;
+	figcaption h2 {
+		//text-transform: none;
+		//font-size: 2rem;
 		margin-bottom: 0;
 		position: relative;
 

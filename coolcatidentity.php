@@ -58,7 +58,7 @@
 
 	        <section class="project-intro">
 		        <hr>
-		        <p class="category">identity&nbsp;development //brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>
+		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>
 <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
 		        <hr>
 	        </section>

@@ -10,73 +10,50 @@
 	       </section>
 
         <section class="portfolio">
-		        <figure class="portfolio-item">
-			        <a href="emeraldcity.php" class="hvr-trim">
-				        <img  src="http://placecage.com/c/600/600" alt="desc" class="featureimg">
-			        </a>
-			        <figcaption>
-				        <h3>Title</h3>
-				        <p class="category">identity // packaging // advertising // web design // front end development</p>
-				        <p>Why do we use it?
-				           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-				        <div class="btn "><a href="emeraldcity.php" class="hvr-icon-forward">Take a closer look! </a></div>
-			        </figcaption>
-		        </figure>
-
 
 	        <figure class="portfolio-item">
-		        <a href="#" class="hvr-trim">
-			        <img  src="http://placecage.com/c/600/600" alt="desc" class="featureimg">
+		        <a href="coolcatidentity.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ccc-meow-square-250.jpg 250w, img/ccc-meow-square-500.jpg 500w, img/ccc-meow-square-750.jpg 7500w img/ccc-meow-square-1000.jpg 1000w" src="img/ccc-meow-square-750.jpg" alt="meow" class="featureimg">
 		        </a>
 		        <figcaption>
-			        <h3>Title</h3>
-			        <p class="category">identity // packaging // advertising // web design // front end development</p>
-			        <p>Why do we use it?
-			           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-			        <div class="btn "><a href="#" class="hvr-icon-forward">Take a closer look! </a></div>
-		        </figcaption>
+
+			        <h3>High-energy identity with an offbeat sensibility.</h3>
+			        <div class="btn "><a href="coolcatidentity.php" class="hvr-icon-forward">Take a closer look! </a></div>
+<!--		        </figcaption>-->
+<!--		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>-->
 	        </figure>
 
-
 	        <figure class="portfolio-item">
-		        <a href="#" class="hvr-trim">
-			        <img  src="http://placecage.com/c/600/600" alt="desc" class="featureimg">
+		        <a href="coolcatdigital.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ccc-web-square-250.jpg 250w, img/ccc-web-square-500.jpg 500w, img/ccc-web-square-750.jpg 7500w img/ccc-web-square-1000.jpg 1000w" src="img/ccc-web-square-750.jpg" alt="website" class="featureimg">
 		        </a>
 		        <figcaption>
-			        <h3>Title</h3>
-			        <p class="category">identity // packaging // advertising // web design // front end development</p>
-			        <p>Why do we use it?
-			           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-			        <div class="btn "><a href="#" class="hvr-icon-forward">Take a closer look! </a></div>
-		        </figcaption>
+			        <h3>Online tools for selling + connecting.</h3>
+			        <div class="btn "><a href="coolcatdigital.php" class="hvr-icon-forward">Take a closer look! </a></div>
+			        <!--		        </figcaption>-->
+			        <!--		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>-->
 	        </figure>
 
-
 	        <figure class="portfolio-item">
-		        <a href="#" class="hvr-trim">
-			        <img  src="http://placecage.com/c/600/600" alt="desc" class="featureimg">
+		        <a href="coolcatpackage.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ccc-package-square-250.jpg 250w, img/ccc-package-square-500.jpg 500w, img/ccc-package-square-750.jpg 7500w img/ccc-package-square-1000.jpg 1000w" src="img/ccc-package-square-750.jpg" alt="package with coasters" class="featureimg">
 		        </a>
 		        <figcaption>
-			        <h3>Title</h3>
-			        <p class="category">identity // packaging // advertising // web design // front end development</p>
-			        <p>Why do we use it?
-			           It is a long established fact that a reader will be distracted by the readable content of a page when looking at itlved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
-			        <div class="btn "><a href="#" class="hvr-icon-forward">Take a closer look! </a></div>
-		        </figcaption>
+			        <h3>A box that's great in the store and better at home.</h3>
+			        <div class="btn "><a href="coolcatpackage.php" class="hvr-icon-forward">Take a closer look! </a></div>
+			        <!--		        </figcaption>-->
+			        <!--		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>-->
 	        </figure>
 
-
 	        <figure class="portfolio-item">
-		        <a href="#" class="hvr-trim">
-			        <img  src="http://placecage.com/c/600/600" alt="desc" class="featureimg">
+		        <a href="emeraldcity.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ec-e-square-250.png 250w, img/ec-e-square-500.png 500w, img/ec-e-square-750.png 7500w img/ec-e-square-1000.png 1000w" src="img/ec-e-square-750.png" alt="Emerald City icon" class="featureimg">
 		        </a>
 		        <figcaption>
-			        <h3>Title</h3>
-			        <p class="category">identity // packaging // advertising // web design // front end development</p>
-			        <p>Why do we use it?
-			           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. T.</p>
-			        <div class="btn"><a href="#" class="hvr-icon-forward">Take a closer look!</a></div>
-		        </figcaption>
+			        <h3>The neighborhood cafe with a kick gets a welcoming identity.</h3>
+			        <div class="btn "><a href="emeraldcity.php" class="hvr-icon-forward">Take a closer look! </a></div>
+			        <!--		        </figcaption>-->
+			        <!--		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>-->
 	        </figure>
 
 
