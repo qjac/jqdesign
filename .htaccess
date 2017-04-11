@@ -329,7 +329,7 @@ AddDefaultCharset utf-8
     # Options +SymLinksIfOwnerMatch
 
     # (4)
-    # RewriteBase /
+     RewriteBase /
 
     # (5)
     # RewriteOptions <options>
@@ -339,6 +339,39 @@ AddDefaultCharset utf-8
     RewriteRule ^ - [env=proto:https]
     RewriteCond %{HTTPS} !=on
     RewriteRule ^ - [env=proto:http]
+
+    #Added by JQ
+
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteRule ^([^/]+)/$ $1.php
+#    RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteCond %{REQUEST_FILENAME} !-d
+#    RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+#    RewriteRule (.*)$ /$1/ [R=301,L]
+#
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteRule ^([^/]+)/$ $1.html
+#    RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.html
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteCond %{REQUEST_FILENAME} !-d
+#    RewriteCond %{REQUEST_URI} !(\.[a-zA-Z0-9]{1,5}|/)$
+#    RewriteRule (.*)$ /$1/ [R=301,L]
+#    RewriteCond %{REQUEST_FILENAME} !-f
+#    RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+#    RewriteRule ^([a-zA-Z0-9]+)$ index.php?page=$1
+#    RewriteRule ^([a-zA-Z0-9]+)/$ index.php?page=$1
+#
+#    RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s/+movie\.php\?name=([^\s&]+) [NC]
+#    RewriteRule ^ movie/%1? [R=301,L]
+#
+#    RewriteRule ^movie/([^/]+)/?$ movie.php?name=$1 [L,QSA]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
 </IfModule>
 
