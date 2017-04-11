@@ -54,7 +54,7 @@
 	        </section>
 
 	        <section class="project-intro">
-		        <p>In addition to the website, Etsy, and retail presence, Cool Cat Crafts will connect with customers and fans through Facebook, Instagram, and Pinterest. While most of the social media presence will focus on behind-the-scenes peeks, shop previews for followers, and sharing related content, this campaign also includes targeted paid Facebook promotions to reach new buyers. Keeping with the cheeky brand and prominently tying-in to the striking main image on the website, the viewers will immediately get a feel for the brand—and they’ll know just where to go for fresh, modern coasters.</p>
+		        <p>In addition to the website, Etsy, and retail presence, Cool Cat Crafts will connect with customers and fans through Facebook, Instagram, and Pinterest. While most of the social media presence will focus on behind-the-scenes peeks, shop previews for followers, and sharing related content, this campaign also includes targeted paid Facebook promotions to reach new buyers. Keeping with the cheeky brand and prominently tying in to the striking main image on the website, the viewers will immediately get a feel for the brand—and they’ll know just where to go for fresh, modern coasters.</p>
 		        <hr>
 	        </section>
 
