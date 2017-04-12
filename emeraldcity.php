@@ -1,6 +1,9 @@
 <?php $title="Emerald City";
 		$pageClass="portfolio-item emeraldcity";
-		$socialPic="img/ec/ec-logo-960.jpg"?>
+		$pageDesc="The neighborhood cafe with a kick gets a welcoming identity.";
+		$socialPic="img/ec/ec-logo-960.jpg";
+		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
 
 <?php include ("header.php"); ?>
 

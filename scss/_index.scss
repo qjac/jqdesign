@@ -10,10 +10,16 @@
 
 .index {
 	background-color: $color-highlight1;
+
+	svg.logo {
+		max-width: 20%;
+		width: 20%;
+	}
 	.content-top h1 {
 		font-style: italic;
 		text-transform: lowercase;
 	}
+
 	}
 
 /*=================================================================

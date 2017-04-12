@@ -4,13 +4,14 @@ header {
 	z-index: 10;
 }
 
-.logo, .logo-j, .logo-q, .logo-dot {transition: $hover-ease;}
+.logo, .logo-j, .logo-q, .logo-dot {transition: $hover-ease; }
 
 svg.logo {
 	min-width: 6rem;
+	max-width: 12rem;
 	margin: 0;
 	padding: 1.5rem .25rem .25rem;
-	width: 20%;
+	width: 15%;
 	transform: translate(20vw, 0);
 
 	a {

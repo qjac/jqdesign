@@ -187,6 +187,11 @@ h4 {
 	align-self: flex-end;
 	transition: $hover-ease;
 
+	a {
+		position: relative;
+		z-index: 100;
+	}
+
 }
 
 /* Icon Forward */

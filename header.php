@@ -1,5 +1,6 @@
 <!doctype html>
-<html class="no-js" lang="en">
+<html class="no-js" lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -17,6 +18,14 @@
 	<meta name="application-name" content="JQ Design">
 	<meta name="theme-color" content="#e2088b">
 	<!-- Place favicon.ico in the root directory -->
+
+<!--	open graph for facebook preview image-->
+	<meta property="og:site_name" content="JQ Design Co."/>
+	<meta property="og:title" content="<?php echo $title;?>"/>
+	<meta property="og:description" content="<?php echo $pageDesc;?>"/>
+	<meta property="og:image" content="<?php echo $socialPic;?>">
+	<meta property="og:url" content="<?php echo $pageLink;?>">
+	<meta property="og:type" content="website"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i|Source+Sans+Pro:400,600|Yantramanav:300" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">

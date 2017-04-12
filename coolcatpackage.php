@@ -1,6 +1,9 @@
 <?php $title="Cool Cat Packaging";
 		$pageClass="portfolio-item coolcatpackage";
-		$socialPic=""?>
+		$pageDesc="A box that's great in the store and better at home.";
+		$socialPic="mg/ccc-pack/ccc-package-wood-960.jpg";
+		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
 
 <?php include ("header.php"); ?>
 

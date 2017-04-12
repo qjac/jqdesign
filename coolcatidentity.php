@@ -1,6 +1,9 @@
 <?php $title="Cool Cat Identity";
 		$pageClass="portfolio-item coolcatid";
-		$socialPic=""?>
+		$pageDesc="High-energy identity with an offbeat sensibility.";
+		$socialPic="img/ccc-id/ccc-meow-960.jpg";
+		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
 
 <?php include ("header.php"); ?>
 
