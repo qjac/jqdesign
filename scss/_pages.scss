@@ -56,6 +56,10 @@
 
 	.project-intro .btn {
 		margin-bottom: 0;
+
+		a, a::before {
+			cursor: pointer;
+		}
 	}
 
 	.category {

@@ -27,7 +27,7 @@
 	<meta property="og:url" content="<?php echo $pageLink;?>">
 	<meta property="og:type" content="website"/>
 
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:900i|Source+Sans+Pro:400,600|Yantramanav:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sanchez|Yantramanav:300|Playfair+Display:900i" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://use.fontawesome.com/5d7a631154.js"></script>
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>

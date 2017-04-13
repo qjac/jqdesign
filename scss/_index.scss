@@ -14,6 +14,7 @@
 	svg.logo {
 		max-width: 20%;
 		width: 20%;
+		cursor: pointer;
 	}
 	.content-top h1 {
 		font-style: italic;
@@ -48,7 +49,7 @@
 		border-top: 3px solid $color-bright;
 		border-bottom: 3px solid $color-bright;
 
-		a{ display: block; }
+		a{ display: block; cursor: pointer; }
 
 		h3 {
 			//text-transform: uppercase;
@@ -77,6 +78,7 @@
 		//box-shadow: 0 0 1px transparent;
 		position: relative;
 		transition: $hover-ease;
+		cursor: pointer;
 
 		&:before {
 			content: '';
