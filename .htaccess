@@ -321,6 +321,7 @@ AddDefaultCharset utf-8
 
     # (1)
     RewriteEngine On
+    RewriteOptions Inherit
 
     # (2)
     Options +FollowSymlinks
@@ -368,10 +369,17 @@ AddDefaultCharset utf-8
 #
 #    RewriteRule ^movie/([^/]+)/?$ movie.php?name=$1 [L,QSA]
 
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^([^\.]+)$ $1.php [NC,L]
+#
+#RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteCond %{REQUEST_URI} !^/(payment|admin|provider|partner)/
+RewriteCond %{REQUEST_FILENAME} !\.(gif|jpe?g|png|js|css|swf|php|ico)$
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^(.*)$ dispatcher.php [L]
 
 </IfModule>
 
