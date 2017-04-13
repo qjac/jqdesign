@@ -321,10 +321,11 @@ AddDefaultCharset utf-8
 
     # (1)
     RewriteEngine On
-    RewriteOptions Inherit
-
+#    RewriteOptions Inherit
+#
     # (2)
-    Options +FollowSymlinks
+#    Options +FollowSymlinks
+    Options +FollowSymLinks -MultiViews
 
     # (3)
     # Options +SymLinksIfOwnerMatch
@@ -343,6 +344,15 @@ AddDefaultCharset utf-8
 
     #Added by JQ
 
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule !.*\.php$ %{REQUEST_FILENAME}.php [QSA,L]
+
+#RewriteRule ^about$ about.php [L]
+#RewriteRule ^index$ index.php [L]
+#RewriteRule ^coolcatidentity$ coolcatidentity.php [L]
+#RewriteRule ^coolcatpackage$ coolcatpackage.php [L]
+#RewriteRule ^coolcatdigital$ coolcatdigital.php [L]
+#RewriteRule ^emeraldcity$ emeraldcity.php [L]
 #    RewriteCond %{REQUEST_FILENAME} !-f
 #    RewriteRule ^([^/]+)/$ $1.php
 #    RewriteRule ^([^/]+)/([^/]+)/$ /$1/$2.php
@@ -374,12 +384,37 @@ AddDefaultCharset utf-8
 #
 #RewriteRule ^([^\.]+)$ $1.html [NC,L]
 
-RewriteCond %{REQUEST_URI} !^/(payment|admin|provider|partner)/
-RewriteCond %{REQUEST_FILENAME} !\.(gif|jpe?g|png|js|css|swf|php|ico)$
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME} !-l
-RewriteRule ^(.*)$ dispatcher.php [L]
+#RewriteCond %{REQUEST_URI} !^/(payment|admin|provider|partner)/
+#RewriteCond %{REQUEST_FILENAME} !\.(gif|jpe?g|png|js|css|swf|php|ico)$
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteRule ^(.*)$ dispatcher.php [L]
+
+## Redirect .php URLs to rewritten URLs
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.+)\.php$ $1 [L,QSA,R=301]
+#
+## Rewrite URLs for processing by router (index.php)
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^(.+)$ index.php?url=$1 [QSA,L,NC]
+
+
+## For LocalHost !.php
+#RewriteCond %{HTTP_HOST} !=localhost
+#RewriteCond %{HTTP_HOST} !=127.0.0.1
+#RewriteCond %{REMOTE_ADDR} !=127.0.0.1
+#RewriteCond %{REMOTE_ADDR} !=::1
+#
+### hide .php extension
+## To externally redirect /dir/foo.php to /dir/foo
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,}\s([^.]+)\.php [NC]
+#RewriteRule ^ %1 [R=302,L]
+#
+## To internally forward /dir/foo to /dir/foo.php
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}.php -f
+#RewriteRule ^(.*?)/?$ $1.php [L]
 
 </IfModule>
 

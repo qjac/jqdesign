@@ -1,7 +1,7 @@
 <?php $title="Cool Cat Packaging";
 		$pageClass="portfolio-item coolcatpackage";
 		$pageDesc="A box that's great in the store and better at home.";
-		$socialPic="mg/ccc-pack/ccc-package-wood-960.jpg";
+		$socialPic="img/ccc-pack/ccc-package-wood-960.jpg";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 
@@ -60,8 +60,8 @@
 	        <section class="project-intro">
 		        <h3>Like what you see? </h3>
 		        <p>Check out additional work done for Cool Cat Crafts.</p>
-		        <div class="btn"><a href="coolcatidentity.php" class="hvr-icon-forward">See identity + branding work</a></div>
-		        <div class="btn"><a href="coolcatdigital.php" class="hvr-icon-forward">See web redesign + social media work</a></div>
+		        <div class="btn"><a href="/jqdesign/coolcatidentity" class="hvr-icon-forward">See identity + branding work</a></div>
+		        <div class="btn"><a href="/jqdesign/coolcatdigital" class="hvr-icon-forward">See web redesign + social media work</a></div>
 	        </section>
 
 	        <section class="project-img">
