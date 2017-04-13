@@ -48,12 +48,28 @@ main {
 .plus { color: $color-bright;}
 
 /*=================================================================
-				.content-top  SECTION
+	SECTION
 ===================================================================*/
 section {
 	flex: 1;
 	width: 100%;
 }
+
+section.project-intro	{
+	max-width: 50em;
+	width: 80%;
+	margin: 5% 10%;
+
+	@media only screen and (min-width: $breakpoint-md) {
+		margin: 5% auto;
+	}
+
+}
+
+/*=================================================================
+				.content-top  SECTION
+===================================================================*/
+
 .content-top {
 	padding-top: 12rem;
 	padding-bottom: 1.5rem;

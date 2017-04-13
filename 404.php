@@ -1,8 +1,21 @@
+<?php $title="Design + Web Development";
+$pageClass="info";
+$socialPic="img/jq-fbpreview.gif";
+$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+?>
+
 <?php include ("header.php"); ?>
 
-<main>
-    <h1>Oops!</h1>
-    <p>This page doesn't exist.</p>
+<main class="content">
+    <section class="content-top">
+        <h1>Oops!</h1>
+        <hr>
+    </section>
+    <section class="project-intro">
+        <h2>This page doesn't exist.</h2>
+        <div class="btn"><a href="/index" class="hvr-icon-forward">But there's plenty more to see...</a></div>
+    </section>
+
 </main>
 <?php include ("footer.php"); ?>
 <!--    body closes in footer.php-->
