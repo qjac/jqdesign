@@ -10,7 +10,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-	cursor: crosshair;
 }
 
 body {
@@ -132,7 +131,6 @@ footer {
 		color: $color-bright;
 		padding: .25em .5rem;
 		transition: $hover-ease;
-		cursor: pointer;
 
 		&:hover, &:focus, &:active {
 			color: $color-highlight2;
@@ -143,10 +141,6 @@ footer {
 		font-size: .75rem;
 		padding-top: 2em;
 		text-align: center;
-	}
-
-	i, i::before {
-		cursor: pointer;
 	}
 
 } //end footer
@@ -164,7 +158,6 @@ p { margin-top: 0; }
 a {
 	color: $color-dark;
 	text-decoration: dashed;
-	cursor: pointer;
 }
 
 h1 {
