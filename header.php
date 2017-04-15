@@ -4,9 +4,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>JQ Design Co. // <?php echo $title;?></title>
 	<meta name="description" content="Straightforward, strategic design and web development based in Minneapolis, MN for the movers, shakers, and do-gooders. Let's make a mark, together.">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="canonical" href="http://jqdesign.co/">
 
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -20,12 +22,21 @@
 	<!-- Place favicon.ico in the root directory -->
 
 <!--	open graph for facebook preview image-->
-	<meta property="og:site_name" content="JQ Design Co."/>
-	<meta property="og:title" content="<?php echo $title;?>"/>
-	<meta property="og:description" content="<?php echo $pageDesc;?>"/>
-	<meta property="og:image" content="<?php echo $socialPic;?>">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="<?php echo $title;?>">
+	<meta property="og:description" content="<?php echo $pageDesc;?>">
 	<meta property="og:url" content="<?php echo $pageLink;?>">
-	<meta property="og:type" content="website"/>
+	<meta property="og:site_name" content="JQ Design Co.">
+	<meta property="og:image" content="http://jqdesign.co/img/social/jq-preview-fb.png">
+	<meta property="og:image" content="<?php echo $fbPic;?>">
+
+<!--	twitter card-->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:description" content="<?php echo $pageDesc;?>">
+	<meta name="twitter:title" content="<?php echo $title;?>">
+	<meta name="twitter:url" content="<?php echo $pageLink;?>">
+	<meta name="twitter:image" content="<?php echo $twitterPic;?>">
 
 	<link href="https://fonts.googleapis.com/css?family=Sanchez|Yantramanav:300|Playfair+Display:900i" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">

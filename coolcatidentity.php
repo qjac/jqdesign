@@ -1,7 +1,8 @@
 <?php $title="Cool Cat Identity";
 		$pageClass="portfolio-item coolcatid";
 		$pageDesc="High-energy identity with an offbeat sensibility.";
-		$socialPic="img/ccc-id/ccc-meow-960.jpg";
+$fbPic="http://jqdesign.co/img/ccc-id/ccc-meow-1920.jpg";
+$twitterPic="http://jqdesign.co/img/ccc-id/ccc-meow-1920.jpg";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 

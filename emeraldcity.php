@@ -1,6 +1,8 @@
 <?php $title="Emerald City";
 		$pageClass="portfolio-item emeraldcity";
 		$pageDesc="The neighborhood cafe with a kick gets a welcoming identity.";
+$fbPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
+$twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 		$socialPic="img/ec/ec-logo-960.jpg";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>

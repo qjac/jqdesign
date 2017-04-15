@@ -2,18 +2,17 @@
 		using the class name on the pages body element
 		changes mostly effect <main> */
 
-
-
 /*=================================================================
 				ALL Portfolio Item Pages
 ==================================================================*/
 
 .portfolio-item {
+	display: border-box;
+
 	.content-top {
 		background-color: $color-primary;
 		padding-top: 8rem;
 	}
-	display: border-box;
 	//.project-intro for text sections
 	.project-intro {
 		background-color: $color-light;
@@ -110,13 +109,11 @@
 				&:first-of-type {
 					margin-bottom: .5em;
 				}
-
 			}
 			@media only screen and (min-width: $breakpoint-md) {
 				margin: 0 .25em;
 			}
 		}
-
 	} //end .project-img
 } //end .portfolio-item
 
@@ -144,7 +141,6 @@
 		//-o-background-size: cover;
 		//background-size: cover;
 	}
-
 }
 
 .coolcatdigital {
@@ -155,7 +151,6 @@
 		//-o-background-size: cover;
 		//background-size: cover;
 	}
-
 }
 
 .coolcatid {
@@ -166,7 +161,6 @@
 		//-o-background-size: cover;
 		//background-size: cover;
 	}
-
 }
 
 
@@ -182,6 +176,4 @@
 	.project-intro {
 		text-align: center;
 	}
-
-
 }

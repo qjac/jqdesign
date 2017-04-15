@@ -1,7 +1,8 @@
 <?php $title="Design + Web Development";
 $pageClass="index";
 $pageDesc="A straightforward, strategic designer and web developer who loves working with the movers, shakers, and do-gooders.";
-$socialPic="img/jq-fbpreview-960.jpg";
+$fbPic="http://jqdesign.co/img/social/jq-preview-fb.png";
+$twitterPic="http://jqdesign.co/img/social/jq-preview-twitter.png";
 $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 
