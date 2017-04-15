@@ -89,7 +89,7 @@
 			opacity: 1;
 		}
 
-		&:hover img {filter:contrast(150%) brightness(120%);}
+		&:hover img {filter:contrast(150%) brightness(150%);}
 }
 
 	//portfolio caption styles
@@ -117,7 +117,7 @@
 			}
 		}
 
-	.portfolio-item:active >  figcaption .hvr-icon-forward, .portfolio-item:focus >  figcaption .hvr-icon-forward, .portfolio-item:hover >  figcaption .hvr-icon-forward, {
+	.index .portfolio-item:active >  figcaption .hvr-icon-forward, .index .portfolio-item:focus >  figcaption .hvr-icon-forward, .index .portfolio-item:hover >  figcaption .hvr-icon-forward, {
 		color: $color-highlight1;
 	}
 

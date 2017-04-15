@@ -21,14 +21,10 @@
 		justify-content: center;
 		align-items: center;
 	}
-	.project-intro:active >  .btn .hvr-icon-forward, .project-intro:focus >  .btn .hvr-icon-forward, .project-intro:hover >  .btn .hvr-icon-forward, {
-		color: $color-highlight1;
-	}
 
 	.project-intro h2 {
 		width: 100%;
 		margin-bottom: .25em;
-		//color: $color-primary;
 		position: relative;
 
 		&:before {

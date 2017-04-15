@@ -10,6 +10,7 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
+	cursor: default;
 }
 
 body {
@@ -32,6 +33,12 @@ hr {
 	//margin: 0 auto 1em;
 	margin: 0 auto;
 	align-self: flex-end;
+}
+
+img, svg {
+	&:focus {
+		outline: 0;
+	}
 }
 
 
@@ -158,6 +165,9 @@ p { margin-top: 0; }
 a {
 	color: $color-dark;
 	text-decoration: dashed;
+	&:focus {
+		outline:0;
+	}
 }
 
 h1 {
@@ -214,7 +224,7 @@ h4 {
 }
 
 /* Icon Forward */
-.hvr-icon-forward {
+a.hvr-icon-forward {
 	display: inline-block;
 	text-decoration: none;
 	padding: 1em 1rem .75em;
@@ -224,6 +234,16 @@ h4 {
 	box-shadow: 0 0 1px transparent;
 	position: relative;
 	padding-right: 2.2em;
+	transition: $hover-ease;
+	&:active, &:hover, &:focus {
+		color: $color-highlight1;
+	}
+
+	&:active:before {
+		-webkit-transform: translateX(4px);
+		transform: translateX(4px);
+		color: $color-bright;
+	}
 }
 .hvr-icon-forward:before {
 	content: "\f054";
@@ -235,9 +255,4 @@ h4 {
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
 	transition: $hover-ease;
-}
-.hvr-icon-forward:hover:before, .hvr-icon-forward:focus:before, .hvr-icon-forward:active:before {
-	-webkit-transform: translateX(4px);
-	transform: translateX(4px);
-	color: $color-bright;
 }
