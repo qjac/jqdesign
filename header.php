@@ -8,7 +8,7 @@
 	<title>JQ Design Co. // <?php echo $title;?></title>
 	<meta name="description" content="Straightforward, strategic design and web development based in Minneapolis, MN for the movers, shakers, and do-gooders. Let's make a mark, together.">
 
-	<link rel="canonical" href="http://jqdesign.co/">
+	<link rel="canonical" href="<?php echo $pageLink;?>">
 
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico"/>
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -28,7 +28,7 @@
 	<meta property="og:description" content="<?php echo $pageDesc;?>">
 	<meta property="og:url" content="<?php echo $pageLink;?>">
 	<meta property="og:site_name" content="JQ Design Co.">
-	<meta property="og:image" content="http://jqdesign.co/img/social/jq-preview-fb.png">
+	<meta property="fb:app_id" content="1806520683001482" />
 	<meta property="og:image" content="<?php echo $fbPic;?>">
 
 <!--	twitter card-->
@@ -45,6 +45,28 @@
 </head>
 
 <body class="<?php echo $pageClass;?>">
+
+<!--fb app analytics script-->
+<script>
+	window.fbAsyncInit = function() {
+		FB.init({
+			appId      : '1806520683001482',
+			xfbml      : true,
+			version    : 'v2.8'
+		});
+		FB.AppEvents.logPageView();
+	};
+
+	(function(d, s, id){
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) {return;}
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/sdk.js";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
