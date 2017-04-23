@@ -287,6 +287,7 @@
 
 /*learn page*/
 
+
 #learn {
   h1 {
 	@extend h2;
@@ -297,9 +298,10 @@
   }
   .learn-intro {
 	@media screen and (min-width: $breakpoint_md) {
-	  background-size: contain;
+		min-height: 500px;
 	  background: url("../img/vr_learn.png") no-repeat left 20% bottom 0;
-	  min-height: 500px;
+		background-size: contain;
+
 	  display: flex;
 	  justify-content: flex-end;
 	  align-items: flex-end;
