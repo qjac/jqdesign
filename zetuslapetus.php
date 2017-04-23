@@ -50,8 +50,8 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 			        <h3>/  Alternate Direction  <i class="fa fa-level-down" aria-hidden="true"></i></h3>
 		        </div>
 		        <div class="row">
-			        <img sizes="50vw" srcset="img/zl/zl-research-competitors-480.png 480w, img/zl/zl-research-competitors-960.png 960w, img/zl/zl-research-competitors-1920.png 1920w" src="img/zl/zl-research-competitors-960.png" alt="Cool Cat Crafts logo" class="half-width">
-			        <img sizes="50vw" srcset="img/zl/zl-research-moodboard-480.png 480w, img/zl/zl-research-moodboard-960.png 960w, img/zl/zl-research-moodboard-1920.png 1920w" src="img/zl/zl-research-moodboard-960.png" alt="Cool Cat Crafts logo" class="half-width">
+			        <img sizes="50vw" srcset="img/zl/zl-research-competitors-480.png 480w, img/zl/zl-research-competitors-960.png 960w, img/zl/zl-research-competitors-1920.png 1920w" src="img/zl/zl-research-competitors-960.png" alt="competitor research" class="half-width">
+			        <img sizes="50vw" srcset="img/zl/zl-research-moodboard-480.png 480w, img/zl/zl-research-moodboard-960.png 960w, img/zl/zl-research-moodboard-1920.png 1920w" src="img/zl/zl-research-moodboard-960.png" alt="alternate moodboard direction" class="half-width">
 		        </div>
 	        </section>
 
@@ -61,7 +61,7 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/zl/zl-elements-480.png 480w, imgzl/zl-elements-960.png 960w, img/zl/zl-elements-1920.png 1920w" src="img/zl/zl-elements-960.png" alt="Meow!" class="full-width">
+			        <img sizes="100vw" srcset="img/zl/zl-elements-480.png 480w, img/zl/zl-elements-960.png 960w, img/zl/zl-elements-1920.png 1920w" src="img/zl/zl-elements-960.png" alt="brand elements" class="full-width">
 		        </div>
 	        </section>
 
@@ -80,7 +80,7 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/zl/zl-logo-480.png 480w, imgzl/zl-logo--960.png 960w, img/zl/zl-logo-1920.png 1920w" src="img/zl/zl-logo-960.png" alt="Meow!" class="full-width">
+			        <img sizes="100vw" srcset="img/zl/zl-logo-480.png 480w, img/zl/zl-logo-960.png 960w, img/zl/zl-logo-1920.png 1920w" src="img/zl/zl-logo-960.png" alt="logo" class="full-width">
 		        </div>
 	        </section>
 

@@ -62,6 +62,17 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			        <!--		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>-->
 	        </figure>
 
+	        <figure class="portfolio-item">
+		        <a href="/zetuslapetus" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/zl-icon-square-250.jpg 250w, img/zl-icon-square-500.jpg 500w, img/zl-icon-square-750.jpg 7500w img/zl-icon-square-1000.jpg 1000w" src="img/zl-icon-square-750.jpg" alt="zetus lapetus" class="featureimg">
+		        </a>
+		        <figcaption>
+
+			        <h3>Virtual reality for everyone.</h3>
+			        <div class="btn "><a href="/zetuslapetus" class="hvr-icon-forward">Take a closer look!
+				        </a></div>
+	        </figure>
+
 
 	        </section>
 
