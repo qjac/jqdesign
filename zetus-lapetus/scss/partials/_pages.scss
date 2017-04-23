@@ -164,7 +164,7 @@
   }
   .section:first-child {
     @media screen and (min-width: $breakpoint_md) {
-      background: url('../img/headsetphone.png') no-repeat 225% center;
+      background: url('../img/headsetphone.png') no-repeat 50vw center;
     }
     h3 {
       line-height: 3rem;
@@ -191,7 +191,12 @@
       font-weight: 300;
     }
   }
+	.button-big {
+		margin-top: 1.5rem;
+	}
 }
+
+
 /*shop page*/
 .shop-hero {
   min-height: 300px;
@@ -209,6 +214,8 @@
 	top: 150px;
   }
 }
+
+
 #shop {
   h2 {
 	text-align: center;
@@ -285,8 +292,8 @@
   }
 }
 
-/*learn page*/
 
+/*learn page*/
 
 #learn {
   h1 {

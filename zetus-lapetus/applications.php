@@ -7,8 +7,9 @@ require_once('inc/header.php'); ?>
 		<div class="container" style="position: relative; top: 25%;">
 			<div class="row">
 			   <div class="col s12 m12 l5">
-					<h2><strong>FREE DOWNLOAD</strong></h2>
-					<h4 style="font-size: 1.35rem; line-height: 1.75rem; margin-top: 10px;">Unlimited exploration within the Zetus Lapetus App for both Apple and Android Devices.</h4>
+					<h2>Free Download</h2>
+					<h4 >Unlimited exploration within the Zetus Lapetus App for both Apple and Android Devices.</h4>
+				   <h4 class="text-center button-big"><a href="#" style="color: white; cursor: pointer;">Download Now</a></h4>
 			   </div>
 			</div>
 		</div><!-- .container -->
@@ -103,11 +104,11 @@ require_once('inc/header.php'); ?>
 			</div><!-- .row -->
 		</div><!-- .container -->
 	</section><!-- #section3 .section .page4 -->
-	<section class="section application-bottom">
-		<div class="container" style="text-align: center;">
-			<h4 class="text-center app-button"><a href="#" style="color: white; cursor: pointer;">Download the App Now</a></h4>
-		</div>
-	</section>
+<!--	<section class="section application-bottom">-->
+<!--		<div class="container" style="text-align: center;">-->
+<!--			-->
+<!--		</div>-->
+<!--	</section>-->
 </main>
 <?php require_once('inc/footer.php'); ?>
 <!-- <script type="text/javascript" src="js/jquery.scrollify.min.js"></script> -->
