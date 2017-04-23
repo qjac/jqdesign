@@ -46,21 +46,48 @@ require_once('inc/header.php'); ?>
 	<section id="devices" class="scroll section">
 		<div class="container">
             <div class="row">
-                <div class="col s12">
+<!--                <div class="col s12">-->
                     <h2 class="text-center">built for Apple IOS + Android</h2>
-                    <h3 class="text-center"> shop for the accessories you’ll need to get started at Zetus Lapetus retail shop</h3>
-                </div>
+                    <p class="text-center"><a class="button-big button-big-tertiary" href="applications.php">Get the App</a></p>
+<!--                </div>-->
                 <div class="device-container col s12 m6 l6">
                     <p class="text-center"><i class="fa fa-apple device-icon" aria-hidden="true"></i></p>
-                    <p class="text-center"><a class="button-big button-big-tertiary" href="shop.php">Check the shop</a></p>
                 </div>
                 <div class="device-container col s12 m6 l6">
                     <p class="text-center"><i class="fa fa-android device-icon" aria-hidden="true"></i></p>
-                    <p class="text-center"><a class="button-big button-big-tertiary" href="applications.php">Application</a></p>
                 </div>
             </div>
-		</div><!-- .container -->
 	</section><!-- #section3 .section .page4 -->
+
+
+    <svg version="1.1" id="Layer_1" class="dash" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 551 3" style="enable-background:new 0 0 551 3;" xml:space="preserve">
+						<style type="text/css">
+                            .st0{fill:none;stroke:#D4E2E3;stroke-miterlimit:10;}
+                            .st1{fill:none;stroke:#D4E2E3;stroke-miterlimit:10;stroke-dasharray:11.8977,11.8977;}
+                        </style>
+        <g>
+            <g>
+                <line class="st0" x1="1.8" y1="1.5" x2="7.8" y2="1.5"/>
+                <line class="st1" x1="19.7" y1="1.5" x2="537.2" y2="1.5"/>
+                <line class="st0" x1="543.2" y1="1.5" x2="549.2" y2="1.5"/>
+            </g>
+        </g>
+					</svg>
+
+
+    <section id="devices" class="scroll section">
+        <div class="container">
+            <div class="row">
+                <!--                <div class="col s12">-->
+                <h2 class="text-center">Zetus Lapetus retail shop</h2>
+                <h3 class="text-center"> shop for the accessories you’ll need to get started </h3>
+                <p class="text-center"><a class="button-big button-big-tertiary" href="shop.php">Check Out the Shop</a></p>
+                <!--                    </div>-->
+            </div><!-- .container -->
+    </section><!-- #section3 .section .page4 -->
+
+
     <section class="section" id="where-to-buy">
         <div class="container">
             <div class="col s12 m6 l3">
