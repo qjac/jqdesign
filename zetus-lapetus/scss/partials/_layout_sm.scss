@@ -1,0 +1,64 @@
+section, .section {
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.container {
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+.row {
+  margin: 0 auto;
+  clear: both;
+  overflow: hidden;
+}
+.col {
+  float: left;
+  padding: 0 15px;
+}
+@media screen and (max-width: $breakpoint_sm) {
+  .s0 {
+    width: 0;
+  }
+  .s1 {
+    width: $col;
+  }
+  .s2 {
+    width: $col * 2;
+  }
+  .s3 {
+    width: $col * 3;
+  }
+  .s4 {
+    width: $col * 4;
+  }
+  .s5 {
+    width: $col * 5;
+  }
+  .s6 {
+    width: $col * 6;
+  }
+  .s7 {
+    width: $col * 7;
+  }
+  .s8 {
+    width: $col * 8;
+  }
+  .s9 {
+    width: $col * 9;
+  }
+  .s10 {
+    width: $col * 10;
+  }
+  .s11 {
+    width: $col * 11;
+  }
+  .s12 {
+    width: $col * 12;
+  }
+  .off-mobile {
+    display: none;
+  }
+}

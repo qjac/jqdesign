@@ -1,0 +1,57 @@
+.footer {
+  background: #0a1f25;
+}
+.footer ul {
+  padding: 0;
+  list-style-type: none;
+}
+.footer a {
+  -webkit-transition: color .15s linear;
+  -moz-transition: color .15s linear;
+  -o-transition: color .15s linear;
+  transition: color .15s linear;
+}
+.footer a:hover {
+  color: $light !important;
+}
+.footer .footer-menu {
+  @media screen and (min-width: $breakpoint_md) {
+    padding: 0;
+  }
+  h2 {
+    background: url('../img/teal-dash.png') repeat-x bottom;
+    padding-bottom: 20px;
+  }
+  a,
+  h2 {
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 2.5rem;
+    color: $light;
+  }
+  li {
+    margin-bottom: 25px;
+  }
+  a {
+    font-size: 1.75rem;
+    color: $lightteal;
+  }
+}
+.footer .social-menu {
+  .social-menu-item a {
+    color: $lightteal;
+  }
+  @media screen and (max-width: $breakpoint_md) {
+    .social-menu-item a {
+      font-size: .6rem;
+    }
+    .social-menu-item {
+      display: inline-block;
+      margin: 0 2%;
+    }
+  }
+}
+
+
+
