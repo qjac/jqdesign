@@ -73,6 +73,16 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				        </a></div>
 	        </figure>
 
+	        <figure class="portfolio-item">
+		        <a href="/tart" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/tart-square-250.jpg 250w, img/tart-square-500.jpg 500w, img/tart-square-750.jpg 7500w img/tart-square-1000.jpg 1000w" src="img/tart-square-750.jpg" alt="tart" class="featureimg">
+		        </a>
+		        <figcaption>
+
+			        <h3>An in-your-face identity and website for eyewear with attitude.</h3>
+			        <div class="btn "><a href="/tart" class="hvr-icon-forward">Take a closer look!
+				        </a></div>
+	        </figure>
 
 	        </section>
 
