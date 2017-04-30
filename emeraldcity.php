@@ -47,8 +47,8 @@ $twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 			        <img sizes="100vw" srcset="img/ec/ec-web-192.jpg 192w, img/ec/ec-web-480.jpg 480w, img/ec/ec-web-960.jpg 960w, img/ec/ec-web-1920.jpg 1920w" src="img/ec/ec-web-960.jpg" alt="website displayed on desktop, tablet, and mobile devices" class="full-width">
 		        </div>
 		        <div class="row">
-			        <img src="img/ec/ec-ad1.jpg" alt="digital ad" class="no-stretch">
-			        <img src="img/ec/ec-ad2.jpg" alt="digital ad" class="no-stretch">
+			        <img src="img/ec/ec-large.jpg" alt="digital campaign" class="no-stretch">
+			        <img src="img/ec/ec-banner.jpg" alt="digital campaign" class="no-stretch">
 		        </div>
 		        <div class="row">
 			        <img sizes="100vw" srcset="img/ec/ec-icon-480.png 480w, img/ec/ec-icon-960.png 960w, img/ec/ec-icon-1920.png 1920w" src="img/ec/ec-icon-960.png" alt="E icon" class="full-width">

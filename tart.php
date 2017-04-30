@@ -39,13 +39,13 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 
 	        <section class="project-img">
 <!--		        <div class="row">-->
-<!--			        <img src="img/tart/animate-leaderboard.gif" alt="digital ad" class="no-stretch">-->
+<!--			        <img src="img/tart/animate-leaderboard.gif" alt="digital campaign" class="no-stretch">-->
 <!--		        </div>-->
 		        <div class="row">
 			        <div class="masonry">
-				        <img src="img/tart/tart-ad-mobilebanner.png" alt="digital ad" class="no-stretch">
-				        <img src="img/tart/tart-ad-large.png" alt="digital ad" class="no-stretch">
-				        <img src="img/tart/tart-ad-halfpage.png" alt="digital ad" class="no-stretch">
+				        <img src="img/tart/tart-banner.png" alt="digital campaign" class="no-stretch">
+				        <img src="img/tart/tart-large.png" alt="digital campaign" class="no-stretch">
+				        <img src="img/tart/tart-halfpage.png" alt="digital campaign" class="no-stretch">
 			        </div>
 		        </div>  <!--		        end row-->
 	        </section>
