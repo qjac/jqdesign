@@ -64,14 +64,14 @@
 
 		.row {
 			width: 100%;
-			margin: .25em auto;
+			margin: .25rem auto;
 			display: flex;
 			flex-flow: row wrap;
 			justify-content: center;
 			align-items: center;
 			@media only screen and (min-width: $breakpoint-giant) {
 				max-width: 1920px;
-				margin: .5rem auto;
+				//margin: .5rem auto;
 			}
 		}
 		img {
@@ -82,33 +82,51 @@
 		}
 		img.half-width {
 			width:100%;
+			margin-bottom: .25rem;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 			@media only screen and (max-width: $breakpoint-md){
 				&:first-of-type {
-					margin-bottom: .25rem;
+					//margin: .25rem auto;
 				}
-
 			}
 			@media only screen and (min-width: $breakpoint-md) {
 				width: 49%;
+				margin: 0 .125rem;
 				&:first-of-type {
-					margin: 0 .125em 0 0;
+					//margin: 0 .25rem 0 0;
 				}
 				&:last-of-type {
-					margin: 0 0 0 .125em;
+					//margin: 0 0 0 .25rem;
 				}
 			}
 		}
 
 		img.no-stretch {
 			max-width: 100%;
-			@media only screen and (max-width: $breakpoint-md){
-				&:first-of-type {
-					margin-bottom: .5em;
-				}
+			margin-bottom: .25rem;
+			&:last-of-type {
+				margin-bottom: 0;
 			}
 			@media only screen and (min-width: $breakpoint-md) {
-				margin: 0 .25em;
+				margin: .125rem;
 			}
+		}
+
+		.masonry {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			align-content: center;
+
+			@media only screen and (min-width: $breakpoint-md) {
+				max-height: 800px;
+				align-items: flex-end;
+			}
+
 		}
 	} //end .project-img
 } //end .portfolio-item
