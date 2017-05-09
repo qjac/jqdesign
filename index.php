@@ -18,7 +18,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 	        <figure class="portfolio-item">
 		        <a href="/coolcatidentity" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/ccc-meow-square-250.jpg 250w, img/ccc-meow-square-500.jpg 500w, img/ccc-meow-square-750.jpg 7500w img/ccc-meow-square-1000.jpg 1000w" src="img/ccc-meow-square-750.jpg" alt="meow" class="featureimg">
+			        <img sizes="100vw" srcset="img/ccc-meow-square-250.jpg 250w, img/ccc-meow-square-500.jpg 500w, img/ccc-meow-square-750.jpg 750w, img/ccc-meow-square-1000.jpg 1000w" src="img/ccc-meow-square-750.jpg" alt="meow" class="featureimg">
 		        </a>
 		        <figcaption>
 
@@ -31,7 +31,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 	        <figure class="portfolio-item">
 		        <a href="/coolcatdigital" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/ccc-web-square-250.jpg 250w, img/ccc-web-square-500.jpg 500w, img/ccc-web-square-750.jpg 7500w img/ccc-web-square-1000.jpg 1000w" src="img/ccc-web-square-750.jpg" alt="website" class="featureimg">
+			        <img sizes="100vw" srcset="img/ccc-web-square-250.jpg 250w, img/ccc-web-square-500.jpg 500w, img/ccc-web-square-750.jpg 750w, img/ccc-web-square-1000.jpg 1000w" src="img/ccc-web-square-750.jpg" alt="website" class="featureimg">
 		        </a>
 		        <figcaption>
 			        <h3>Online tools for selling + connecting.</h3>
@@ -42,7 +42,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 	        <figure class="portfolio-item">
 		        <a href="/coolcatpackage" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/ccc-package-square-250.jpg 250w, img/ccc-package-square-500.jpg 500w, img/ccc-package-square-750.jpg 7500w img/ccc-package-square-1000.jpg 1000w" src="img/ccc-package-square-750.jpg" alt="package with coasters" class="featureimg">
+			        <img sizes="100vw" srcset="img/ccc-package-square-250.jpg 250w, img/ccc-package-square-500.jpg 500w, img/ccc-package-square-750.jpg 750w, img/ccc-package-square-1000.jpg 1000w" src="img/ccc-package-square-750.jpg" alt="package with coasters" class="featureimg">
 		        </a>
 		        <figcaption>
 			        <h3>A box that's great in the store and better at home.</h3>
@@ -53,7 +53,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 	        <figure class="portfolio-item">
 		        <a href="/emeraldcity" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/ec-e-square-250.png 250w, img/ec-e-square-500.png 500w, img/ec-e-square-750.png 7500w img/ec-e-square-1000.png 1000w" src="img/ec-e-square-750.png" alt="Emerald City icon" class="featureimg">
+			        <img sizes="100vw" srcset="img/ec-e-square-250.png 250w, img/ec-e-square-500.png 500w, img/ec-e-square-750.png 750w, img/ec-e-square-1000.png 1000w" src="img/ec-e-square-750.png" alt="Emerald City icon" class="featureimg">
 		        </a>
 		        <figcaption>
 			        <h3>The neighborhood cafe with a kick gets a welcoming identity.</h3>
@@ -64,7 +64,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 	        <figure class="portfolio-item">
 		        <a href="/zetuslapetus" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/zl-icon-square-250.jpg 250w, img/zl-icon-square-500.jpg 500w, img/zl-icon-square-750.jpg 7500w img/zl-icon-square-1000.jpg 1000w" src="img/zl-icon-square-750.jpg" alt="zetus lapetus" class="featureimg">
+			        <img sizes="100vw" srcset="img/zl-icon-square-250.jpg 250w, img/zl-icon-square-500.jpg 500w, img/zl-icon-square-750.jpg 750w, img/zl-icon-square-1000.jpg 1000w" src="img/zl-icon-square-750.jpg" alt="zetus lapetus" class="featureimg">
 		        </a>
 		        <figcaption>
 
@@ -75,7 +75,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 	        <figure class="portfolio-item">
 		        <a href="/tart" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/tart-square-250.jpg 250w, img/tart-square-500.jpg 500w, img/tart-square-750.jpg 7500w img/tart-square-1000.jpg 1000w" src="img/tart-square-750.jpg" alt="tart" class="featureimg">
+			        <img sizes="100vw" srcset="img/tart-square-250.jpg 250w, img/tart-square-500.jpg 500w, img/tart-square-750.jpg 750w, img/tart-square-1000.jpg 1000w" src="img/tart-square-750.jpg" alt="tart" class="featureimg">
 		        </a>
 		        <figcaption>
 

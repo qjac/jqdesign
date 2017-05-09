@@ -32,25 +32,25 @@
 		<loc>http://jqdesign.co/emeraldcity</loc>
 		<lastmod>2017-04-30T19:28:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
-		<priority>0.48</priority>
+		<priority>0.54</priority>
 	</url>
 	<url>
 		<loc>http://jqdesign.co/zetuslapetus</loc>
 		<lastmod>2017-04-30T19:28:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
-		<priority>0.48</priority>
+		<priority>0.54</priority>
 	</url>
 	<url>
 		<loc>http://jqdesign.co/tart</loc>
 		<lastmod>2017-04-30T19:28:13+00:00</lastmod>
 		<changefreq>daily</changefreq>
-		<priority>0.48</priority>
+		<priority>0.54</priority>
 	</url>
 	<url>
 		<loc>http://jqdesign.co/zetus-lapetus/index.php</loc>
 		<lastmod>2017-04-30T19:28:13+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.24</priority>
+		<priority>0.48</priority>
 	</url>
 	<url>
 		<loc>http://jqdesign.co/zetus-lapetus/learn.php</loc>
@@ -86,7 +86,7 @@
 		<loc>http://jqdesign.co/zetus-lapetus</loc>
 		<lastmod>2017-04-30T19:28:13+00:00</lastmod>
 		<changefreq>weekly</changefreq>
-		<priority>0.23</priority>
+		<priority>0.48</priority>
 	</url>
 	<url>
 		<loc>http://jqdesign.co/img/zl/zl-styleguide.pdf</loc>
