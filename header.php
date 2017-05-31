@@ -37,7 +37,7 @@
 	<meta name="twitter:url" content="<?php echo $pageLink;?>">
 	<meta name="twitter:image" content="<?php echo $twitterPic;?>">
 
-	<link href="https://fonts.googleapis.com/css?family=Sanchez|Yantramanav:300|Playfair+Display:900i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sanchez|Yantramanav:300,500|Playfair+Display:900i" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css">
 	<script src="https://use.fontawesome.com/5d7a631154.js"></script>
 	<script src="js/vendor/modernizr-2.8.3.min.js"></script>

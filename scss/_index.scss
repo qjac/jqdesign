@@ -68,6 +68,21 @@
 
 	}
 
+	.index .hvr-trim .category {
+		display: none;
+		margin: 0;
+		position: absolute;
+		left: 50%;                        /* horizontal alignment */
+		top: 50%;                         /* vertical alignment */
+		transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;*/
+		font-size: 1.25em;
+		font-weight: 500;
+		color: $color-dark;
+		text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.7);
+		z-index: 10;
+		transition: $hover-ease;
+	}
+
 	/* Trim */
 	.hvr-trim {
 		position: relative;
@@ -89,7 +104,11 @@
 			opacity: 1;
 		}
 
-		&:hover img {filter:contrast(150%) brightness(150%);}
+		&:hover img {filter:hue-rotate(180deg) brightness(200%) opacity(20%);}
+
+		&:hover .category {
+			display: block;
+		}
 }
 
 	//portfolio caption styles

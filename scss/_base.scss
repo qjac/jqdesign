@@ -17,6 +17,7 @@ body {
 	font-family: $font-body;
 	font-size: 1.1rem;
 	line-height: 1.2;
+	font-weight: 300;
 	display: flex;
 	flex-direction: column; //flex for sticky footer
 }
@@ -184,10 +185,6 @@ h2 {
 	font-family: $font-brand;
 	font-weight: normal;
 	text-transform: uppercase;
-
-	//&::selection {
-	//	color: $color-primary;
-	//}
 }
 
 h3 {
@@ -211,6 +208,7 @@ h4 {
 	text-align: right;
 	margin-bottom: 1.6rem;
 	font-family: $font-brand;
+	font-weight: normal;
 	align-self: flex-end;
 	transition: $hover-ease;
 
