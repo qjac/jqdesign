@@ -2,15 +2,16 @@ header {
 	width: 100%;
 	position: fixed;
 	z-index: 10;
+	padding-top: .25rem;
 }
 
 .logo, .logo-j, .logo-q, .logo-dot {transition: $hover-ease; }
 
-svg.logo {
+.logo {
 	min-width: 6rem;
 	max-width: 12rem;
 	margin: 0;
-	padding: 1.5rem .25rem .25rem;
+	padding: 2.5rem .25rem .25rem;
 	width: 15%;
 	transform: translate(20vw, 0);
 
