@@ -69,8 +69,8 @@ $twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
 	        <section class="project-intro">
 		        <h3>Like what you see? </h3>
 		        <p>Check out additional work done for Cool Cat Crafts.</p>
-		        <div class="btn"><a href="/coolcatidentity" class="hvr-icon-forward">See identity + branding work</a></div>
-		        <div class="btn"><a href="/coolcatpackage" class="hvr-icon-forward">See product packaging work</a></div>
+		        <div class="btn"><a href="/coolcatidentity.php" class="hvr-icon-forward">See identity + branding work</a></div>
+		        <div class="btn"><a href="/coolcatpackage.php" class="hvr-icon-forward">See product packaging work</a></div>
 	        </section>
 
 	        <section class="project-intro">
