@@ -1,11 +1,10 @@
 /*=================================================================
-				BIG BLOCKS
+				BIG BLOCKS (I like BIG BLOCKS and I cannot lie)
 ===================================================================*/
 
 html {
 	height: 100%;
 	box-sizing: border-box;
-
 }
 
 *, *:before, *:after {
@@ -30,7 +29,6 @@ main, header, footer {
 hr {
 	border-top: 3px solid $color-bright;
 	width:33%;
-	//margin: 0 auto 1em;
 	margin: 0 auto;
 	align-self: flex-end;
 }
@@ -69,7 +67,6 @@ section.project-intro	{
 	@media only screen and (min-width: $breakpoint-md) {
 		margin: 5% auto;
 	}
-
 }
 
 /*=================================================================
@@ -148,7 +145,6 @@ footer {
 		padding-top: 2em;
 		text-align: center;
 	}
-
 } //end footer
 
 /*=================================================================
@@ -216,10 +212,9 @@ h4 {
 		position: relative;
 		z-index: 100;
 	}
+} //end .btn
 
-}
-
-/* Icon Forward */
+/* Icon Forward—button hover pushes arrow forward */
 a.hvr-icon-forward {
 	display: inline-block;
 	text-decoration: none;
@@ -241,6 +236,8 @@ a.hvr-icon-forward {
 		color: $color-bright;
 	}
 }
+
+//this is the arrow
 .hvr-icon-forward:before {
 	content: "\f054";
 	position: absolute;

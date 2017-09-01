@@ -20,7 +20,7 @@
 		text-transform: lowercase;
 	}
 
-	}
+}
 
 /*=================================================================
 				portfolio section
@@ -43,16 +43,12 @@
 		background-color: $color-light;
 		width: 100%;
 		max-width: $breakpoint-md;
-		//margin: .5rem 1rem;
 		margin: 0;
 		border-top: 3px solid $color-bright;
 		border-bottom: 3px solid $color-bright;
 
 		a{ display: block; }
 
-		h3 {
-			//text-transform: uppercase;
-		}
 		@media only screen and (min-width: $breakpoint-md) {
 			margin: .5rem .5rem;
 			min-width: 20rem;
@@ -65,7 +61,6 @@
 		width: 100%;
 		margin: 0;
 		transition: $hover-ease;
-
 	}
 
 	.index .hvr-trim .category {
@@ -83,7 +78,7 @@
 		transition: $hover-ease;
 	}
 
-	/* Trim */
+	/* Trim— for hover flair*/
 	.hvr-trim {
 		position: relative;
 		transition: $hover-ease;
