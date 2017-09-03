@@ -13,7 +13,7 @@ require_once('inc/header.php'); ?>
 				<div class="col s12 m12 l12">
 					<img src="img/set.png" alt="zetus lapetus headset">
 					<h3>Virtual Reality Headset</h3>
-					<p>VR games are mostly controlled in-app and are therefore no controller is required.</p>
+					<p>VR games are mostly controlled in-app and therefore no controller is required.</p>
 					<form id="form-buyheadset">
 						<label>Quantity</label>
 						<input type="number" id="qty" placeholder="Qty"/>
