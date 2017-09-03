@@ -19,11 +19,13 @@ require_once('inc/header.php'); ?>
 			<div class="row container">
 				<div class="col s12 m12 l12">
 					<h2>Compatible with
-						<i class="fa fa-apple" aria-hidden="true" title="Apple"></i>
-						<span class="sr-only">Apple</span>
-						&amp;
-						<i class="fa fa-android" aria-hidden="true" title="Apple"></i>
-						<span class="sr-only">Apple</span>
+						<span class="icons">
+							<i class="fa fa-apple" aria-hidden="true" title="Apple"></i>
+							<span class="sr-only">Apple</span>
+						    &amp;
+							<i class="fa fa-android" aria-hidden="true" title="Apple"></i>
+							<span class="sr-only">Apple</span>
+						</span>
 					</h2>
 					<svg version="1.1" id="Layer_1" class="dash" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 							 viewBox="0 0 551 3" style="enable-background:new 0 0 551 3;" xml:space="preserve">

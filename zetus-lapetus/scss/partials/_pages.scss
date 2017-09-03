@@ -259,12 +259,12 @@
 		max-width: 200px;
 	}
   img {
-	width: 70%;
+	width: 100%;
 	height: auto;
 	  display: block;
 	  margin: auto;
-	  @media screen and (max-width: $breakpoint_md) {
-		  width: 100%;
+	  @media screen and (min-width: $breakpoint_md) {
+		  width: 70%;
 	  }
   }
   .accessories {
@@ -313,6 +313,14 @@
 #learn {
   h1 {
 	@extend h2;
+	  overflow-wrap: break-word;
+	  word-wrap: break-word;
+	  -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
+	  //word-break: normal;
+	  //font-size: 1.75rem;
+	  @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
+
+	  }
   }
   img {
 	width: 100%;
@@ -337,6 +345,9 @@
   .learn-diagram h2 {
 	text-align: center;
 	margin-bottom: 0;
+	  .icons {
+		  display: inline-block;
+	  }
   }
 
   svg {
