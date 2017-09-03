@@ -6,38 +6,39 @@
 #applications .button-big,
 #devices .button-big,
 #core-features .button-big {
-  padding: 20px 15px;
+//  padding: 20px 15px;
   margin: 25px auto;
-  @media screen and (max-width: $breakpoint_md) {
-    margin-top: 25px;
-    font-size: 1rem;
+//  @media screen and (max-width: $breakpoint_md) {
+//    margin-top: 25px;
+//    font-size: 1rem;
   }
-    display: block;
-}
-#core-features .button-big,
-#applications .button-big {
-  margin-top: 100px;
-  @media screen and (max-width: $breakpoint_md) {
-    margin-top: 25px;
-  }
-}
+//    display: block;
+//}
+//#core-features .button-big,
+//#applications .button-big {
+//  margin-top: 100px;
+////  @media screen and (max-width: $breakpoint_md) {
+////    margin-top: 25px;
+////  }
+//}
+
 #Home {
-  height: 700px;
-  h1 {
-    margin: 14% 0 11% 0;
-  }
-  @media screen and (max-width: $breakpoint_md ) {
-    h1 {
-      margin: 12% 0 0 11.15%;
-    }
-  }
-  @media screen and (max-width: $breakpoint_sm) {
-    h1 {
-      margin: 7.5rem 0 0 0;
-      font-size: 1.75rem;
-      line-height: 3.5rem;
-    }
-  }
+//  height: 700px;
+//  h1 {
+//    margin: 14% 0 11% 0;
+//  }
+//  @media screen and (max-width: $breakpoint_md ) {
+//    h1 {
+//      margin: 12% 0 0 11.15%;
+//    }
+//  }
+//  @media screen and (max-width: $breakpoint_sm) {
+//    h1 {
+//      margin: 7.5rem 0 0 0;
+//      font-size: 1.75rem;
+//      line-height: 3.5rem;
+//    }
+ // }
   svg {
     z-index: 10;
     left: 10px;
@@ -73,7 +74,7 @@
 #devices {
   padding: 75px 0;
   .device-icon {
-    font-size: 20rem !important;
+    font-size: 20rem;
     color: $lightgray;
     margin: 25px 0;
   }
@@ -224,6 +225,9 @@
 	text-align: center;
 	padding-top: 30px;
   }
+	p {
+		margin: auto;
+	}
   form {
 	display: flex;
 	flex-direction: row;
@@ -248,10 +252,19 @@
   }
   input[type=submit] {
 	text-align: center;
+
   }
+	.button {
+		max-width: 200px;
+	}
   img {
-	width: 100%;
+	width: 60%;
 	height: auto;
+	  display: block;
+	  margin: auto;
+	  @media screen and (max-width: $breakpoint_md) {
+		  width: 100%;
+	  }
   }
   .accessories {
 	background-color: $background-alternate;
@@ -262,7 +275,8 @@
 	position: relative;
 	left: -20%;
 	bottom: -.5rem;
-	margin-top: -3rem;
+	margin-top: -2rem;
+	  
   }
 }
 
