@@ -1,57 +1,94 @@
 .footer {
   background: #0a1f25;
-}
-.footer ul {
-  padding: 0;
-  list-style-type: none;
-}
-.footer a {
-  -webkit-transition: color .15s linear;
-  -moz-transition: color .15s linear;
-  -o-transition: color .15s linear;
-  transition: color .15s linear;
-}
-.footer a:hover {
-  color: $light !important;
-}
-.footer .footer-menu {
-  @media screen and (min-width: $breakpoint_md) {
-    padding: 0;
+  .menu {
+    text-align: center;
   }
-  h2 {
-    background: url('../img/teal-dash.png') repeat-x bottom;
-    padding-bottom: 20px;
+  .product {
+    float: right;
+    text-align: right;
   }
-  a,
-  h2 {
-    font-weight: 400;
+
+  .company {
+    float: left;
+    text-align: left;
   }
-  h2 {
-    font-size: 2.5rem;
+  h4 {
     color: $light;
+    padding-bottom: .25em;
+    border-bottom: 2px dashed $yellow;
+  }
+
+  ul {
+    padding: 0;
+    margin-top: .25em;
+    list-style-type: none;
+  }
+  ul a {
+    color: $lightteal;
   }
   li {
-    margin-bottom: 25px;
+    padding: .25em .25rem;
   }
-  a {
-    font-size: 1.75rem;
-    color: $lightteal;
+  li:hover a {
+    color: $light;
+    -webkit-transition: color .15s linear;
+    -moz-transition: color .15s linear;
+    -o-transition: color .15s linear;
+    transition: color .15s linear;
   }
-}
-.footer .social-menu {
-  .social-menu-item a {
-    color: $lightteal;
+
+  .social-menu li{
+    clear: both;
+    display: inline-block;
+    padding: .25em .5rem;
   }
-  @media screen and (max-width: $breakpoint_md) {
-    .social-menu-item a {
-      font-size: .6rem;
-    }
-    .social-menu-item {
-      display: inline-block;
-      margin: 0 2%;
-    }
-  }
-}
+ p  {
+   clear: both;
+   color: $teal;
+   font-size: .75rem;
+ }
+} //end .footer
+
+//.footer a {
+//
+//}
+//.footer a:hover {
+//  color: $light !important;
+//}
+//.footer .footer-menu {
+//
+//  h2 {
+//    //background: url('../img/teal-dash.png') repeat-x bottom;
+//    font-size: 1.75rem;
+//    color: $light;
+//    padding-bottom: 20px;
+//  }
+//  a,
+//  h2 {
+//    font-weight: 400;
+//  }
+//  li {
+//    margin-bottom: .75em;
+//  }
+//  a {
+//    font-size: 1.25rem;
+//    color: $lightteal;
+//  }
+//}
+//.footer .social-menu {
+//  .social-menu-item a {
+//    color: $lightteal;
+//  }
+//  @media screen and (max-width: $breakpoint_md) {
+//    .social-menu-item a {
+//      //font-size: .6rem;
+//    }
+//    .social-menu-item {
+//      display: inline-block;
+//      margin: .5em 2%;
+//    }
+//  }
+//}
 
 
 

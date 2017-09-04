@@ -315,11 +315,9 @@
 	@extend h2;
 	  overflow-wrap: break-word;
 	  word-wrap: break-word;
-	  -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto; hyphens: auto;
-	  //word-break: normal;
-	  //font-size: 1.75rem;
+	  -webkit-hyphens: auto; -moz-hyphens: auto; -ms-hyphens: auto;
+	  hyphens: auto;
 	  @media screen and (min-width: $breakpoint_sm) and (max-width: $breakpoint_md) {
-
 	  }
   }
   img {
