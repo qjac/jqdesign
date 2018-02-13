@@ -13,23 +13,20 @@ $twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Emerald City</h1>
-		  <hr>
 		       <div class="category-box">
-		       <div class="highlight">
-
+		       <div>
 		        <p class="category">identity</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
-
-		        <p class="category">digital&nbsp;advertising</p>
-	        </div>
-	      <div class="highlight">
-
+	      <div>
 		        <p class="category">WordPress&nbsp;development</p>
-
+		        <hr>
 	        </div>
-	      <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>--></div>
-	        <hr>
+	        <div>
+		        <p class="category">digital&nbsp;advertising</p>
+		        <hr>
+	        </div>
+	      </div>
 	       </section>
 
 	        <section class="project-intro">

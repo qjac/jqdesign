@@ -12,19 +12,20 @@ $twitterPic="http://jqdesign.co/img/ccc-id/ccc-meow-1920.jpg";
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Cool Cat Crafts Identity</h1>
-		       <hr>
 		       <div class="category-box">
-		       <div class="highlight">
+		       <div>
 		        <p class="category">identity&nbsp;development</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">brand&nbsp;strategy</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">business&nbsp;collateral&nbsp;design</p>
+		        <hr>
 	        </div>
 	      </div>
-	        <hr>
 	       </section>
 
 	        <section class="project-intro">

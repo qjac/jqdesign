@@ -2,8 +2,6 @@
 		using the class name on the pages body element
 		changes mostly effect <main> */
 
-
-
 /*=================================================================
 				Index Page
 ==================================================================*/
@@ -18,123 +16,131 @@
 	.content-top h1 {
 		font-style: italic;
 		text-transform: lowercase;
+		font-size: 3.5em;
 	}
-
 }
 
 /*=================================================================
 				portfolio section
 ==================================================================*/
-	.index .portfolio {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: stretch;
-		align-content: center;
-	}
-
-	.index figure.portfolio-item {
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-items: center;
-		align-content: center;
-		background-color: $color-light;
-		width: 100%;
-		max-width: $breakpoint-md;
-		margin: 0;
-		border-top: 3px solid $color-bright;
-		border-bottom: 3px solid $color-bright;
-
-		a{ display: block; }
-
-		@media only screen and (min-width: $breakpoint-md) {
-			margin: .5rem .5rem;
-			min-width: 20rem;
-			width: 23%; //to leave a good amount of
-		}
-	}
-
-	//portfolio img styles
-	.index img {
-		width: 100%;
-		margin: 0;
-		transition: $hover-ease;
-	}
-
-	.index .hvr-trim .category {
-		display: none;
-		margin: 0;
-		position: absolute;
-		left: 50%;                        /* horizontal alignment */
-		top: 50%;                         /* vertical alignment */
-		transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;*/
-		font-size: 1.25em;
-		font-weight: 500;
-		color: $color-dark;
-		text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.7);
-		z-index: 10;
-		transition: $hover-ease;
-	}
-
-	/* Trim— for hover flair*/
-	.hvr-trim {
-		position: relative;
-		transition: $hover-ease;
-
-		&:before {
-			content: '';
-			position: absolute;
-			border: $color-bright solid 12px;
-			top: 24px;
-			left: 24px;
-			right: 24px;
-			bottom: 24px;
-			opacity: 0;
-			z-index: 1;
-			transition: $hover-ease;
-		}
-		&:focus:before, &:hover:before, &:active:before {
-			opacity: 1;
-		}
-
-		&:hover img {filter:hue-rotate(180deg) brightness(200%) opacity(20%);}
-
-		&:hover .category {
-			display: block;
-		}
+.index .portfolio {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: center;
 }
 
-	//portfolio caption styles
-	figcaption {
-		max-width: 50em;
-		margin: 0 auto;
-		padding: .5em 10%;
-		position: relative;
-		display: flex;
-		flex-flow: column;
-		align-items: stretch;
-		}
-	figcaption h2 {
-		margin-bottom: 0;
-		position: relative;
+.index figure.portfolio-item {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: center;
+	background-color: $color-light;
+	width: 100%;
+	max-width: $breakpoint-md;
+	margin: 0;
+	border-top: 3px solid $color-bright;
+	border-bottom: 3px solid $color-bright;
 
-		&:before {
-			content:"";
-			background: $color-bright;
-			position: absolute;
-			top: -.5em;
-			left: 0;
-			height: 3px;
-			width: 1.5rem;
-			}
-		}
-
-	.index .portfolio-item:active >  figcaption .hvr-icon-forward, .index .portfolio-item:focus >  figcaption .hvr-icon-forward, .index .portfolio-item:hover >  figcaption .hvr-icon-forward, {
-		color: $color-highlight1;
+	a {
+		display: block;
 	}
 
-	.category {
-		font-size: .9rem;
+	@media only screen and (min-width: $breakpoint-md) {
+		margin: 0.5rem 0.5rem;
+		min-width: 20rem;
+		width: 23%; //to leave a good amount of
 	}
+}
+
+//portfolio img styles
+.index img {
+	width: 100%;
+	margin: 0;
+	transition: $hover-ease;
+}
+
+.index .hvr-trim .category {
+	display: none;
+	margin: 0;
+	position: absolute;
+	left: 50%; /* horizontal alignment */
+	top: 50%; /* vertical alignment */
+	transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;*/
+	font-size: 1.25em;
+	font-weight: 500;
+	color: $color-dark;
+	text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.7);
+	z-index: 10;
+	transition: $hover-ease;
+}
+
+/* Trim— for hover flair*/
+.hvr-trim {
+	position: relative;
+	transition: $hover-ease;
+
+	&:before {
+		content: '';
+		position: absolute;
+		border: $color-bright solid 12px;
+		top: 24px;
+		left: 24px;
+		right: 24px;
+		bottom: 24px;
+		opacity: 0;
+		z-index: 1;
+		transition: $hover-ease;
+	}
+	&:focus:before,
+	&:hover:before,
+	&:active:before {
+		opacity: 1;
+	}
+
+	&:hover img {
+		filter: hue-rotate(180deg) brightness(200%) opacity(20%);
+	}
+
+	&:hover .category {
+		display: block;
+	}
+}
+
+//portfolio caption styles
+figcaption {
+	max-width: 50em;
+	margin: 0 auto;
+	padding: 0.5em 10%;
+	position: relative;
+	display: flex;
+	flex-flow: column;
+	align-items: stretch;
+}
+figcaption h2 {
+	margin-bottom: 0;
+	position: relative;
+
+	&:before {
+		content: '';
+		background: $color-bright;
+		position: absolute;
+		top: -0.5em;
+		left: 0;
+		height: 3px;
+		width: 1.5rem;
+	}
+}
+
+.index .portfolio-item:active > figcaption .hvr-icon-forward,
+.index .portfolio-item:focus > figcaption .hvr-icon-forward,
+.index .portfolio-item:hover > figcaption .hvr-icon-forward {
+	color: $color-highlight1;
+}
+
+.category {
+	font-size: 0.9rem;
+}

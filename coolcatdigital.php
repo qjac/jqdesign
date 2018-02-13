@@ -13,28 +13,32 @@ $twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Cool Cat Crafts Online</h1>
-		       <hr>
 		       <div class="category-box">
-		       <div class="highlight">
+		       <div>
 		        <p class="category">Web&nbsp;Design</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">Axure&nbsp;Prototyping</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">WordPress&nbsp;development</p>
+		        <hr>
 	        </div>
-	        <div class="highlight">
+	        <div>
 		        <p class="category">Front&nbsp;End&nbsp;Development</p>
+		        <hr>
 	        </div>
-	        <div class="highlight">
+	        <div>
 		        <p class="category">Social&nbsp;Media&nbsp;Campaign</p>
-	        </div>
-	        <div class="highlight">
-		        <p class="category">Advertising</p>
-	        </div>
-	      <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>--></div>
 	        <hr>
+	      </div>
+	        <div>
+		        <p class="category">Advertising</p>
+		        <hr>
+	        </div>
+	      </div>
 	       </section>
 
 	        <section class="project-intro">
@@ -52,7 +56,6 @@ $twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
 	        <section class="project-intro">
 		        <h3>Out with the old.</h3>
 		        <p>The previous website needed a little TLC. It had strong points—like the simple, shop-focused navigation and bright photos. The previous branding had been more serious with desaturated teal and only a pop of bright red, but the new palette is bolder and brighter. Since the branding had been updated, the site needed a fresh new look and this proved to be a good time to revisit the overall design and add some cheekiness.</p>
-		        <hr>
 	        </section>
 
 	        <section class="project-img">

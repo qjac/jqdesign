@@ -1,5 +1,5 @@
-<?php $title="Zetus Lapetus";
-		$pageClass="portfolio-item zetus";
+<?php $title="JQ Design Co.";
+		$pageClass="portfolio-item jqdesign";
 		$pageDesc="VR for Everyone";
 $fbPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
@@ -11,26 +11,30 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
         <main class="content">
 	       <section class="content-top">
 <!--		       h1 is for project title-->
-		       <h1>Zetus Lapetus</h1>
+		       <h1>JQ Design Co.</h1>
 		       <div class="category-box">
-		       <div>
-		        <p class="category">Market Research</p>
+	      <div>
+		        <p class="category">identity development</p> 
 		        <hr>
 	        </div>
 	      <div>
-		        <p class="category">identity development</p>
-		        <hr>
-	        </div>
-	      <div>
-		        <p class="category">Web Design</p>
+		        <p class="category">Web Design</p> 
 		        <hr>
 	        </div>
 	        <div>
-		        <p class="category">Front End Development</p>
+		        <p class="category">Front End Development</p> 
+		        <hr>
+	        </div>
+	        <div>
+		        <p class="category">Art Direction</p>
+		        <hr>
+	        </div>
+	        <div>
+		        <p class="category">Business Collateral Design</p>
 		        <hr>
 	        </div>
 	    </div>
-	  </section>
+	       </section>
 
 	        <section class="project-intro">
 		        <h2>A future to envision.</h2>
@@ -58,7 +62,7 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 		        <p>The other option is brighter with a palette that diverges boldly from the competitors. This brighter palette was paired with type that has subtle tech geometrics to ground the social party vibe in the futurism of VR and technology. The vibrant, edgier option was chosen to reach a slightly younger, slightly wilder audience.</p>
 		        <div class="btn"><a href="img/zl/zl-styleguide.pdf" class="hvr-icon-forward">See the research, planning, and wireframes</a></div>
 	        </section>
-<hr>
+
 	        <section class="project-img">
 		        <div class="row">
 			        <h3 class=""><i class="fa fa-level-down fa-flip-horizontal" aria-hidden="true"></i>  Competitor Study  /</h3>

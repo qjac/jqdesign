@@ -13,19 +13,20 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Eyewear with Attitude</h1>
-		       <hr>
 		       <div class="category-box">
-		       <div class="highlight">
+		       <div>
 		        <p class="category">identity</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">digital&nbsp;advertising</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">web development</p>
+		        <hr>
 	        </div>
 	   </div>
-	        <hr>
 	       </section>
 
 	        <section class="project-intro">

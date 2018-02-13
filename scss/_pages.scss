@@ -10,15 +10,42 @@
 	display: border-box;
 
 	.content {
-		background: linear-gradient($color-highlight1, $color-light);
+		background: linear-gradient($color-primary, $color-highlight2, $color-light);
 		background-attachment: top;
-		background-size: 100% 12%;
+		// background-size: 100% 12%;
+		background-size: 100% 38vh;
 		background-repeat: no-repeat;
+
+		@media only screen and (min-width: $breakpoint-md) {
+			background-size: 100% 36vh;
+			// background-size: 100% 8%;
+		}
+		@media only screen and (min-width: $breakpoint-lg) {
+			background-size: 100% 32vh;
+		}
+	}
+	.content-top {
+		//default .content-top. for custom backgrounds, keep scrolling
 	}
 
-	.content-top {
-		// background: linear-gradient($color-primary,  $color-light);
-		//default .content-top. for custom backgrounds, keep scrolling
+	// category section. now moved to top of page.
+	.category-box {
+		margin: 0 1rem;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+	}
+	.category {
+		margin: 0;
+		text-align: center;
+		text-transform: lowercase;
+		padding: 0.25rem 0.75em;
+		font-size: 1em;
+	}
+	.category + hr {
+		border-top-color: $color-highlight2;
 	}
 
 	//.project-intro for text sections
@@ -28,7 +55,6 @@
 		justify-content: center;
 		align-items: center;
 	}
-
 	.project-intro h2 {
 		width: 100%;
 		margin-bottom: 0.25em;
@@ -44,48 +70,17 @@
 			width: 1.5rem;
 		}
 	}
-
 	.project-intro p {
 		width: 100%;
 	}
-
 	.project-intro .btn {
 		margin-bottom: 0;
-	}
-
-	// category section. now moved to top of page.
-	.category-box {
-		margin: 1rem;
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: center;
-		align-items: baseline;
-		align-content: center;
-	}
-	.highlight {
-		margin: 0.75em;
-		height: 0.35em;
-		display: flex;
-		flex-flow: column no-wrap;
-		justify-content: center;
-		align-items: center;
-		background-color: rgba($color-highlight1, 0.25);
-	}
-	.category {
-		// color: $color-bright;
-		// color: white;
-		margin: 0;
-		text-align: center;
-		text-transform: lowercase;
-		padding: 0.25rem 0.75em;
-		font-size: 1em;
 	}
 
 	//.project-img for sections of images
 	.project-img {
 		width: 100%;
 		box-sizing: border-box;
-
 		.row {
 			width: 100%;
 			margin: 0.25rem auto;
@@ -114,7 +109,6 @@
 				margin: 0 0.125rem;
 			}
 		}
-
 		img.no-stretch {
 			max-width: 100%;
 			margin-bottom: 0.25rem;

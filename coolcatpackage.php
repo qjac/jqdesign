@@ -12,22 +12,24 @@ $twitterPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Cool Cat Crafts Packaging</h1>
-		       <hr>
 		       <div class="category-box">
-		       <div class="highlight">
+		       <div>
 		        <p class="category">package&nbsp;development</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">package&nbsp;design</p>
+		        <hr>
 	        </div>
-	      <div class="highlight">
+	      <div>
 		        <p class="category">art&nbsp;direction</p>
+		        <hr>
 	        </div>
-	        <div class="highlight">
+	        <div>
 		        <p class="category">photo&nbsp;editing</p>
+		        <hr>
 	        </div>
 	      </div>
-	        <hr>
 	       </section>
 
 	        <section class="project-intro">

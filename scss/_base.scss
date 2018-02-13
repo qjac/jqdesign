@@ -1,7 +1,6 @@
 /*=================================================================
 				BIG BLOCKS (I like BIG BLOCKS and I cannot lie)
 ===================================================================*/
-
 html {
 	height: 100%;
 	box-sizing: border-box;
@@ -53,7 +52,6 @@ main {
 	min-height: 80vh;
 	flex: 1; //to make main content area expand as needed for sticky footer
 }
-
 .plus {
 	color: $color-bright;
 }
@@ -65,7 +63,6 @@ section {
 	flex: 1;
 	width: 100%;
 }
-
 section.project-intro {
 	max-width: 50em;
 	width: 80%;
@@ -79,7 +76,6 @@ section.project-intro {
 /*=================================================================
 				.content-top  SECTION
 ===================================================================*/
-
 .content-top {
 	padding-top: 8rem;
 	padding-bottom: 1.5rem;
@@ -96,7 +92,7 @@ section.project-intro {
 	font-family: $font-brand;
 	font-style: unset;
 	font-weight: normal;
-	margin-top: 1em;
+	margin-top: 1.5em;
 	@media only screen and (min-width: $breakpoint-md) {
 		font-size: 2.5rem;
 	}
@@ -260,5 +256,4 @@ a.hvr-icon-forward {
 	font-family: FontAwesome;
 	-webkit-transform: translateZ(0);
 	transform: translateZ(0);
-	transition: $hover-ease;
 }
