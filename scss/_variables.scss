@@ -9,13 +9,13 @@ $color-dark: #0d1c48;
 $color-light: #fff;
 
 /* fonts */
-$font-brand: 'Rockwell Std', Rockwell, 'Sanchez', Serifa, 'Serifa Std', Glypha, 'Glypha Std', Memphis, 'Memphis Std', serif;
+$font-brand: 'Rockwell Std', Rockwell, 'Sanchez', Serifa, 'Serifa Std', Glypha, 'Glypha Std', Memphis, 'Memphis Std',
+	serif;
 $font-display: 'Playfair Display', $font-brand;
 $font-body: 'Yantramanav', sans-serif;
 
 /*animations*/
 $hover-ease: all 1s cubic-bezier(0.21, 0.61, 0.35, 1);
-
 
 /*breakpoints*/
 $breakpoint-md: 40em;

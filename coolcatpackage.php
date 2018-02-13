@@ -13,6 +13,21 @@ $twitterPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
 <!--		       h1 is for project title-->
 		       <h1>Cool Cat Crafts Packaging</h1>
 		       <hr>
+		       <div class="category-box">
+		       <div class="highlight">
+		        <p class="category">package&nbsp;development</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">package&nbsp;design</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">art&nbsp;direction</p>
+	        </div>
+	        <div class="highlight">
+		        <p class="category">photo&nbsp;editing</p>
+	        </div>
+	      </div>
+	        <hr>
 	       </section>
 
 	        <section class="project-intro">
@@ -44,12 +59,6 @@ $twitterPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
 			        <img sizes="100vw" srcset="img/ccc-pack/ccc-package-cut-480.jpg 480w, img/ccc-pack/ccc-package-cut-960.jpg 960w, img/ccc-pack/ccc-package-cut-1920.jpg 1920w" src="img/ccc-pack/ccc-package-cut-960.jpg" alt="assembled first round prototype with alterations marked" class="full-width">
 		        </div>
 	        </section>
-
-<!--	        <section class="project-intro">-->
-<!--		        <p>The asymmetrical package required engineering and prototyping to perfect. The thumb notch needed to be large enough to be useful and the lid needed to cover the notch completely while on store shelves, but not get in the way while in use as a tray at home.</p>-->
-<!--		        <hr>-->
-<!--	        </section>-->
-
 	        <section class="project-img">
 		        <div class="row">
 			        <img sizes="50vw" srcset="img/ccc-pack/ccc-package-digitalroughs-480.jpg 480w, img/ccc-pack/ccc-package-digitalroughs-960.jpg 960w, img/ccc-pack/ccc-package-digitalroughs-1920.jpg 1920w" src="img/ccc-pack/ccc-package-digitalroughs-960.jpg" alt="digital roughs of package front" class="half-width">
@@ -70,14 +79,9 @@ $twitterPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
 			        <img sizes="100vw" srcset="img/ccc-pack/ccc-package-wood-480.jpg 480w, img/ccc-pack/ccc-package-wood-960.jpg 960w, img/ccc-pack/ccc-package-wood-1920.jpg 1920w" src="img/ccc-pack/ccc-package-wood-960.jpg" alt="closed package on display" class="full-width">
 		        </div>
 	        </section>
-
 	        <section class="project-intro">
 		        <hr>
-		        <p class="category">package&nbsp;development //package&nbsp;design // art&nbsp;direction // photo&nbsp;editing</p>
-<!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
-		        <hr>
 	        </section>
-
         </main>
 
         <?php include ("footer.php"); ?>

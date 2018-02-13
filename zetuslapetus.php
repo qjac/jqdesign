@@ -13,6 +13,21 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 <!--		       h1 is for project title-->
 		       <h1>Zetus Lapetus</h1>
 		       <hr>
+		       <div class="category-box">
+		       <div class="highlight">
+		        <p class="category">Market Research</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">identity development</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">Web Design</p>
+	        </div>
+	        <div class="highlight">
+		        <p class="category">Front End Development</p>
+	        </div>
+	    </div>
+	        <hr>
 	       </section>
 
 	        <section class="project-intro">
@@ -23,7 +38,6 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 
 	        <section class="project-img">
 		        <div class="row">
-
 			        <img sizes="100vw" srcset="img/zl/zl-web-480.png 480w, img/zl/zl-web-960.png 960w, img/zl/zl-web-1920.png 1920w" src="img/zl/zl-web-960.png" alt="Zetus Lapetus website on laptop" class="full-width">
 		        </div>
 	        </section>
@@ -44,7 +58,6 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 	        </section>
 
 	        <section class="project-img">
-
 		        <div class="row">
 			        <h3 class=""><i class="fa fa-level-down fa-flip-horizontal" aria-hidden="true"></i>  Competitor Study  /</h3>
 			        <h3>/  Alternate Direction  <i class="fa fa-level-down" aria-hidden="true"></i></h3>
@@ -68,13 +81,10 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 	        <section class="project-intro">
 		        <p>
 			        Designed and developed in collaboration with:       </p>
-
 			        <p><i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="http://www.erikacrea.com">Erika Herrera</a></p>
 			        <p><i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="http://kalavisual.com">Kelsey Roenau</a></p>
 			        <p><i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="http://www.tomsolerportfolio.com">Tom Soler</a></p>
 			        <p><i class="fa fa-chevron-right" aria-hidden="true"></i> <a href="http://www.jessewollin.com">Jesse Wollin</a></p>
-
-
 		        <p>My role: market research, moodboard exploration, type and color palette selection, and web development.</p>
 	        </section>
 
@@ -83,14 +93,9 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 			        <img sizes="100vw" srcset="img/zl/zl-logo-480.png 480w, img/zl/zl-logo-960.png 960w, img/zl/zl-logo-1920.png 1920w" src="img/zl/zl-logo-960.png" alt="logo" class="full-width">
 		        </div>
 	        </section>
-
 	        <section class="project-intro">
 		        <hr>
-		        <p class="category">Market Research // identity development // Web Design // Front End Development</p>
-<!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
-		        <hr>
 	        </section>
-
         </main>
 
         <?php include ("footer.php"); ?>

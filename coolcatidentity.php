@@ -13,6 +13,18 @@ $twitterPic="http://jqdesign.co/img/ccc-id/ccc-meow-1920.jpg";
 <!--		       h1 is for project title-->
 		       <h1>Cool Cat Crafts Identity</h1>
 		       <hr>
+		       <div class="category-box">
+		       <div class="highlight">
+		        <p class="category">identity&nbsp;development</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">brand&nbsp;strategy</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">business&nbsp;collateral&nbsp;design</p>
+	        </div>
+	      </div>
+	        <hr>
 	       </section>
 
 	        <section class="project-intro">
@@ -61,9 +73,6 @@ $twitterPic="http://jqdesign.co/img/ccc-id/ccc-meow-1920.jpg";
 	        </section>
 
 	        <section class="project-intro">
-		        <hr>
-		        <p class="category">identity&nbsp;development // brand&nbsp;strategy // business&nbsp;collateral&nbsp;design</p>
-<!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
 		        <hr>
 	        </section>
 

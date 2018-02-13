@@ -14,10 +14,21 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 <!--		       h1 is for project title-->
 		       <h1>Eyewear with Attitude</h1>
 		       <hr>
+		       <div class="category-box">
+		       <div class="highlight">
+		        <p class="category">identity</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">digital&nbsp;advertising</p>
+	        </div>
+	      <div class="highlight">
+		        <p class="category">web development</p>
+	        </div>
+	   </div>
+	        <hr>
 	       </section>
 
 	        <section class="project-intro">
-
 		        <h2>Pucker up!</h2>
 		        <p>Tart is an online shop that specializes in eyewear for the unique, the stylish, and the rebellious. It needed a website that packed a punch while getting customers quickly to their perfect frame. Using a previously built custom content management system, the website was built using PHP and MySQL to organize Tart’s extensive collection of fierce frames.</p>
 
@@ -27,12 +38,10 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 	        <section class="project-img">
 		        <div class="row">
 			        <img sizes="100vw" srcset="img/tart/tart-web-192.png 192w, img/tart/tart-web-480.png 480w, img/ec/ec-logo-960.png 960w, img/tart/tart-web-1920.png 1920w" src="img/tart/tart-web-960.png" alt="Emerald City logo" class="full-width">
-		        </div>
-<!--		        end row-->
+		        </div> <!--		        end row-->
 	        </section>
 
 	        <section class="project-intro">
-
 		        <h3>Digital Ads</h3>
 		        <p>Sized just right for Google.</p>
 	        </section>
@@ -65,15 +74,9 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 			        <img sizes="100vw" srcset="img/tart/tart-moodboard-480.png 480w, img/tart/tart-moodboard-960.png 960w, img/tart/tart-moodboard-1920.png 1920w" src="img/tart/tart-moodboard-960.png" alt="moodboard" class="full-width">
 		        </div> <!--		        end row-->
 	        </section>
-
 	        <section class="project-intro">
 		        <hr>
-		        <p class="category">identity // digital&nbsp;advertising // web development</p>
-<!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
-		        <hr>
 	        </section>
-
-
         </main>
 
         <?php include ("footer.php"); ?>

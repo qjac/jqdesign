@@ -13,7 +13,23 @@ $twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Emerald City</h1>
-		       <hr>
+		  <hr>
+		       <div class="category-box">
+		       <div class="highlight">
+
+		        <p class="category">identity</p>
+	        </div>
+	      <div class="highlight">
+
+		        <p class="category">digital&nbsp;advertising</p>
+	        </div>
+	      <div class="highlight">
+
+		        <p class="category">WordPress&nbsp;development</p>
+
+	        </div>
+	      <!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>--></div>
+	        <hr>
 	       </section>
 
 	        <section class="project-intro">
@@ -53,17 +69,10 @@ $twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 		        <div class="row">
 			        <img sizes="100vw" srcset="img/ec/ec-icon-480.png 480w, img/ec/ec-icon-960.png 960w, img/ec/ec-icon-1920.png 1920w" src="img/ec/ec-icon-960.png" alt="E icon" class="full-width">
 		        </div>
-
 	        </section>
-
 	        <section class="project-intro">
 		        <hr>
-		        <p class="category">identity // digital&nbsp;advertising // WordPress&nbsp;development</p>
-<!--		        <p>Tools used: Adobe Illustrator + Adobe Animate + WordPress</p>-->
-		        <hr>
 	        </section>
-
-
         </main>
 
         <?php include ("footer.php"); ?>

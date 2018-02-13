@@ -7,8 +7,10 @@ html {
 	box-sizing: border-box;
 }
 
-*, *:before, *:after {
-  box-sizing: inherit;
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
 }
 
 body {
@@ -21,24 +23,27 @@ body {
 	flex-direction: column; //flex for sticky footer
 }
 
-main, header, footer {
+main,
+header,
+footer {
 	position: relative;
 	flex: 1;
 }
 
 hr {
 	border-top: 3px solid $color-bright;
-	width:33%;
+	width: 12%;
+	min-width: 3rem;
 	margin: 0 auto;
 	align-self: flex-end;
 }
 
-img, svg {
+img,
+svg {
 	&:focus {
 		outline: 0;
 	}
 }
-
 
 /*=================================================================
 				MAIN
@@ -49,7 +54,9 @@ main {
 	flex: 1; //to make main content area expand as needed for sticky footer
 }
 
-.plus { color: $color-bright;}
+.plus {
+	color: $color-bright;
+}
 
 /*=================================================================
 	SECTION
@@ -59,7 +66,7 @@ section {
 	width: 100%;
 }
 
-section.project-intro	{
+section.project-intro {
 	max-width: 50em;
 	width: 80%;
 	margin: 5% 10%;
@@ -87,10 +94,11 @@ section.project-intro	{
 .content-top h1 {
 	display: block;
 	font-family: $font-brand;
+	font-style: unset;
 	font-weight: normal;
 	margin-top: 1em;
 	@media only screen and (min-width: $breakpoint-md) {
-		font-size: 4.5rem;
+		font-size: 2.5rem;
 	}
 }
 
@@ -107,7 +115,6 @@ section.project-intro	{
 	align-content: stretch;
 }
 
-
 /*=================================================================
 				FOOTER
 ===================================================================*/
@@ -115,10 +122,10 @@ section.project-intro	{
 footer {
 	background-color: $color-highlight1;
 	padding-top: 1.25em;
-	padding-bottom: .25em;
+	padding-bottom: 0.25em;
 
 	h4 {
-		padding: 0 2rem .5em;
+		padding: 0 2rem 0.5em;
 		font-family: $font-display;
 		font-style: italic;
 		text-align: center;
@@ -132,16 +139,18 @@ footer {
 	div a {
 		text-decoration: none;
 		color: $color-bright;
-		padding: .25em .5rem;
+		padding: 0.25em 0.5rem;
 		transition: $hover-ease;
 
-		&:hover, &:focus, &:active {
+		&:hover,
+		&:focus,
+		&:active {
 			color: $color-highlight2;
 		}
 	}
 
 	p {
-		font-size: .75rem;
+		font-size: 0.75rem;
 		padding-top: 2em;
 		text-align: center;
 	}
@@ -155,13 +164,15 @@ body {
 	font-family: $font-body;
 }
 
-p { margin-top: 0; }
+p {
+	margin-top: 0;
+}
 
 a {
 	color: $color-dark;
 	text-decoration: dashed;
 	&:focus {
-		outline:0;
+		outline: 0;
 	}
 }
 
@@ -169,7 +180,7 @@ h1 {
 	color: $color-light;
 	font-family: $font-display;
 	font-style: italic;
-	margin-bottom: .5em;
+	margin-bottom: 0.5em;
 	line-height: 1;
 	width: 80%;
 	margin: 0 auto;
@@ -218,7 +229,7 @@ h4 {
 a.hvr-icon-forward {
 	display: inline-block;
 	text-decoration: none;
-	padding: 1em 1rem .75em;
+	padding: 1em 1rem 0.75em;
 	vertical-align: middle;
 	-webkit-transform: perspective(1px) translateZ(0);
 	transform: perspective(1px) translateZ(0);
@@ -226,7 +237,9 @@ a.hvr-icon-forward {
 	position: relative;
 	padding-right: 2.2em;
 	transition: $hover-ease;
-	&:active, &:hover, &:focus {
+	&:active,
+	&:hover,
+	&:focus {
 		color: $color-highlight1;
 	}
 
@@ -239,7 +252,7 @@ a.hvr-icon-forward {
 
 //this is the arrow
 .hvr-icon-forward:before {
-	content: "\f054";
+	content: '\f054';
 	position: absolute;
 	right: 1rem;
 	top: 32%;
