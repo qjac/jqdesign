@@ -37,53 +37,77 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 	       </section>
 
 	        <section class="project-intro">
-		        <h2>A future to envision.</h2>
-		        <p>Virtual Reality technology is moving fast and Zetus Lapetus wants to get you in the game. By offering a more affordable VR headset that works with both Android and iOS, Zetus Lapetus brings virtual reality to everyday life.</p>
-		        <div class="btn"><a href="/zetus-lapetus" class="hvr-icon-forward">Visit Site</a></div>
+		        <h2>Whoa. Who's that?!</h2>
+		        <p>On the crowded floor of the portfolio showcase. At a busy AIGA event. On the screen of a harried hiring manager. In the overflowing win-a-free-burrito bowl. That's what I wanted to hear.</p>
+		        <p>As a new designer hitting the Twin Citie's scene, I needed to grab attention and keep it. All while being authentic to who I am. So here we are. A bold palette. Humble type with a hint of the dramatic. And a punch of sass.</p>
 	        </section>
 
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/zl/zl-web-480.png 480w, img/zl/zl-web-960.png 960w, img/zl/zl-web-1920.png 1920w" src="img/zl/zl-web-960.png" alt="Zetus Lapetus website on laptop" class="full-width">
-		        </div>
-	        </section>
-
-	        <section class="project-img">
-		        <div class="row">
-			        <img sizes="100vw" srcset="img/zl/zl-moodboard-480.png 480w, img/zl/zl-moodboard-960.png 960w, img/zl/zl-moodboard-1920.png 1920w" src="img/zl/zl-moodboard-960.png" alt="moodboard" class="full-width">
+			        <img sizes="100vw" srcset="img/jq/jqbrand-sticker-480.png 480w, img/jq/jqbrand-sticker-960.png 960w, img/jq/jqbrand-sticker-1920.png 1920w" src="img/jq/jqbrand-sticker-960.png" alt="stickers with logo" class="full-width">
 		        </div>
 	        </section>
 
 	        <section class="project-intro">
-		        <h3>VR for everyone.</h3>
-		        <p>After diving into market research and analyzing competing product branding (below left), a few key ideas emerged. As a product aimed at opening the world of VR to everyone for more than just games, inclusivity was vital. Two directions were moodboarded (below and above). Both aimed to take VR away from the sterility of tech and make it feel more comfortable, familiar, and social while still evoking the cutting edge nature of the technology.
-		        </p>
-		        <p>One kept close to the color palette common amongst competitors, but warmed it up a bit and paired it with elegant and inviting sans serif typefaces for a chic and modern vibe.</p>
-		        <p>The other option is brighter with a palette that diverges boldly from the competitors. This brighter palette was paired with type that has subtle tech geometrics to ground the social party vibe in the futurism of VR and technology. The vibrant, edgier option was chosen to reach a slightly younger, slightly wilder audience.</p>
-		        <div class="btn"><a href="img/zl/zl-styleguide.pdf" class="hvr-icon-forward">See the research, planning, and wireframes</a></div>
+		        <h3>Sass it up.</h3>
+		        <p>In researching and rethinking the previous brand, one thing was certain. It needed more sass.</p>
+		        <p>The familiar slab serif from the previous identity is still in play, but in a more nuanced way. The palette moved from intriguing, but demure and serious, to bright and audacious with enough navy to keep it professional. The logo moved from delicate to solid. And that swash on the Q is a thing of beauty—full stop.</p>
 	        </section>
 
 	        <section class="project-img">
 		        <div class="row">
-			        <h3 class=""><i class="fa fa-level-down fa-flip-horizontal" aria-hidden="true"></i>  Competitor Study  /</h3>
-			        <h3>/  Alternate Direction  <i class="fa fa-level-down" aria-hidden="true"></i></h3>
+			        <img sizes="100vw" srcset="img/jq/jqbrand-moodboard-480.png 480w, img/jq/jqbrand-moodboard-960.png 960w, img/jq/jqbrand-moodboard-1920.png 1920w" src="img/jq/jqbrand-moodboard-960.png" alt="moodboard and initial brand direction" class="full-width">
 		        </div>
 		        <div class="row">
-			        <img sizes="50vw" srcset="img/zl/zl-research-competitors-480.png 480w, img/zl/zl-research-competitors-960.png 960w, img/zl/zl-research-competitors-1920.png 1920w" src="img/zl/zl-research-competitors-960.png" alt="competitor research" class="half-width">
-			        <img sizes="50vw" srcset="img/zl/zl-research-moodboard-480.png 480w, img/zl/zl-research-moodboard-960.png 960w, img/zl/zl-research-moodboard-1920.png 1920w" src="img/zl/zl-research-moodboard-960.png" alt="alternate moodboard direction" class="half-width">
+		        	<img sizes="50vw" srcset="img/jq/jqbrand-sketch1-480.png 480w, img/jq/jqbrand-sketch1-960.png 960w, img/jq/jqbrand-sketch1-1920.png 1920w" src="img/jq/jqbrand-sketch1-960.png" alt="preliminary logo sketches and notes" class="half-width">
+			        <img sizes="50vw" srcset="img/jq/jqbrand-sketch2-480.png 480w, img/jq/jqbrand-sketch2-960.png 960w, img/jq/jqbrand-sketch2-1920.png 1920w" src="img/jq/jqbrand-oldbizcard-960.png" alt="preliminary logo sketches and notes" class="half-width">
+		        </div>
+</section>
+		        <section class="project-intro">
+		        <hr>
+	        
+		     
+		        <div class="row">
+			        <h3 class=""><i class="fa fa-level-down fa-flip-horizontal" aria-hidden="true"></i>&nbsp; Prior Branding  &nbsp;/<h3>
+			        <h3>/&nbsp;  New Direction &nbsp;<i class="fa fa-level-down" aria-hidden="true"></i></h3>
+		        </div>
+		        <div class="row">
+			        <img sizes="50vw" srcset="img/jq/jqbrand-oldbizcard-480.png 480w, img/jq/jqbrand-oldbizcard-960.png 960w, img/jq/jqbrand-oldbizcard-1920.png 1920w" src="img/jq/jqbrand-oldbizcard-960.png" alt="competitor research" class="half-width">
+			        
+			        <img sizes="50vw" srcset="img/jq/jqbrand-oldbizcard-480.png 480w, img/jq/jqbrand-oldbizcard-960.png 960w, img/jq/jqbrand-oldbizcard-1920.png 1920w" src="img/jq/jqbrand-oldbizcard-960.png" alt="competitor research" class="half-width">
 		        </div>
 	        </section>
-
 	        <section class="project-intro">
 		        <h3>Final Brand Elements</h3>
 	        </section>
-
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/zl/zl-elements-480.png 480w, img/zl/zl-elements-960.png 960w, img/zl/zl-elements-1920.png 1920w" src="img/zl/zl-elements-960.png" alt="brand elements" class="full-width">
+			        <img sizes="100vw" srcset="img/jq/jqbrand-moodboard-480.png 480w, img/jq/jqbrand-moodboard-960.png 960w, img/jq/jqbrand-moodboard-1920.png 1920w" src="img/jq/jqbrand-moodboard-960.png" alt="final brand elements" class="full-width">
 		        </div>
-	        </section>
+		      </section>
 
+		      <section class="project-intro">
+	        <h3></h3>
+	        <p>In today's digital world, a killer website is key. </p>
+	        <p></p>
+	        <div class="btn"><a href="/" class="hvr-icon-forward">You're already here...Check out more of my work</a></div>
+		      
+<!-- ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????? -->
+
+<section class="project-intro">
+		        <p>Spreading glitter and glee is central to Cool Cat Crafts’ mission. As an independent, handmade shop, sharing joy with supporters and customers is the best way to meet that mission. To that end, package inserts that delight and colorful business cards to spread the word are a must.</p>
+		        <hr>
+	        </section>
+	        <div class="row">
+			        <img sizes="100vw" srcset="img/jq/jqbrand-bizcard-480.png 480w, img/jq/jqbrand-bizcard-960.png 960w, img/jq/jqbrand-bizcard-1920.png 1920w" src="img/jq/jqbrand-bizcard-960.png" alt="JQ Design Co. business cards" class="full-width">
+		        </div>
+
+	        <section class="project-intro">
+		        <h3>text</h3>
+		        <p>more text
+		        </p>
+		        <div class="btn"><a href="img/zl/zl-styleguide.pdf" class="hvr-icon-forward">See the research, planning, and wireframes</a></div>
+	        </section>
 	        <section class="project-intro">
 		        <p>
 			        Designed and developed in collaboration with:       </p>
@@ -94,11 +118,7 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 		        <p>My role: market research, moodboard exploration, type and color palette selection, and web development.</p>
 	        </section>
 
-	        <section class="project-img">
-		        <div class="row">
-			        <img sizes="100vw" srcset="img/zl/zl-logo-480.png 480w, img/zl/zl-logo-960.png 960w, img/zl/zl-logo-1920.png 1920w" src="img/zl/zl-logo-960.png" alt="logo" class="full-width">
-		        </div>
-	        </section>
+	       <!-- keep the rest -->
 	        <section class="project-intro">
 		        <hr>
 	        </section>
