@@ -79,17 +79,12 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 	        </section>
 	        <section class="project-img">
 		        <div class="row">
-			        <img sizes="100vw" srcset="img/jq/jqbrand-moodard-480.png 480w, img/jq/jqbrand-moooard-960.png 960w, img/jq/jqbrand-odboard-1920.png 1920w" src="img/jq/jqbrand-moboard-960.png" alt="final brand elements" class="full-width">
+			        <img sizes="100vw" srcset="img/jq/jqbrand-guide-480.png 480w, img/jq/jqbrand-guide-960.png 960w, img/jq/jqbrand-guide-1920.png 1920w" src="img/jq/jqbrand-guide-960.png" alt="final brand elements" class="full-width">
 		        </div>
 		      <div class="row">
 		      	<img sizes="50vw" srcset="img/jq/jqbrand-bizcard-480.png 480w, img/jq/jqbrand-bizcard-960.png 960w, img/jq/jqbrand-bizcard-1920.png 1920w" src="img/jq/jqbrand-bizcard-960.png" alt="final business card" class="half-width">
-			        <!-- <img sizes="50vw" srcset="img/jq/jqbrand-boothmockup-480.png 480w, img/jq/jqbrand-boothmockup-960.png 960w, img/jq/jqbrand-boothmockup-1920.png 1920w" src="img/jq/jqbrand-boothmockup-960.png" alt="mockup for portfolio show booth" class="half-width"> -->
 			        <img sizes="50vw" srcset="img/jq/jqbrand-banner-480.png 480w, img/jq/jqbrand-banner-960.png 960w, img/jq/jqbrand-banner-1920.png 1920w" src="img/jq/jqbrand-banner-960.png" alt="JQ banner" class="half-width">
-			        <!-- <img sizes="50vw" srcset="img/jq/jqbrand-print-480.png 480w, img/jq/jqbrand-print-960.png 960w, img/jq/jqbrand-print-1920.png 1920w" src="img/jq/jqbrand-print-960.png" alt="printing portfolio show items" class="half-width"> -->
 		        </div>
-		        <!-- <div class="row">
-			        <img sizes="100vw" srcset="img/jq/jqbrand-bizcard-480.png 480w, img/jq/jqbrand-bizcard-960.png 960w, img/jq/jqbrand-bizcard-1920.png 1920w" src="img/jq/jqbrand-bizcard-960.png" alt="final business card" class="full-width">
-		        </div> -->
 	        </section>
 
 		      <section class="project-intro">
@@ -104,11 +99,6 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 		        </div>
 	        </section>
 
-	        	<!-- <div class="row">
-	        		<img sizes="50vw" srcset="img/jq/jqbrand-sketch3-480.png 480w, img/jq/jqbrand-sketch3-960.png 960w, img/jq/jqbrand-sketch3-1920.png 1920w" src="img/jq/jqbrand-sketch3-960.png" alt="website design sketches" class="half-width">
-			        
-		        </div>
- -->
 	        <section class="project-intro">
 		        <hr>
 	        </section>
