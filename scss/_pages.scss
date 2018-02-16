@@ -9,6 +9,10 @@
 .portfolio-item {
 	display: border-box;
 
+	hr {
+		margin-top: 0;
+	}
+
 	.content {
 		background: linear-gradient($color-primary, $color-highlight2, $color-light);
 		background-attachment: top;

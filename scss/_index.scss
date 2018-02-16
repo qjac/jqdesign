@@ -16,7 +16,7 @@
 	.content-top h1 {
 		font-style: italic;
 		text-transform: lowercase;
-		font-size: 3.5em;
+		font-size: 3em;
 	}
 }
 
@@ -39,7 +39,9 @@
 	align-items: center;
 	align-content: center;
 	background-color: $color-light;
-	width: 100%;
+	// width: 100%;
+	// flex-basis: 1;
+	flex: 0 1 1;
 	max-width: $breakpoint-md;
 	margin: 0;
 	border-top: 3px solid $color-bright;
@@ -51,8 +53,10 @@
 
 	@media only screen and (min-width: $breakpoint-md) {
 		margin: 0.5rem 0.5rem;
-		min-width: 20rem;
-		width: 23%; //to leave a good amount of
+		flex-basis: 46%;
+	}
+	@media only screen and (min-width: $breakpoint-lg) {
+		flex-basis: 23%;
 	}
 }
 

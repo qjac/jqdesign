@@ -11,10 +11,24 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
         <main class="content">
 	       <section class="content-top">
 		       <h1>&nbsp;Design&nbsp;<span class="plus">+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> Web Development</h1>
-		       <hr>
 	       </section>
 
         <section class="portfolio">
+        	<figure class="portfolio-item">
+		        <a href="/jqdesignbrand.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/jqdesign-square-250.png 250w, img/jqdesign-square-500.png 500w, img/jqdesign-square-750.png 750w, img/jqdesign-square-1000.png 1000w" src="img/jqdesign-square-750.png" alt="biz cards" class="featureimg">
+			        <p class="category">identity&nbsp;development<br>
+			                            web&nbsp;design <br> 
+			                            front&nbsp;end&nbsp;development <br>
+			                          business&nbsp;collateral&nbsp;design</p>
+		        </a>
+		        	<figcaption>
+
+			        <h3>A portfolio with a punch.</h3>
+			        <div class="btn "><a href="/jqdesignbrand.php" class="hvr-icon-forward">Take a closer look!</a></div>
+		        </figcaption>
+	        </figure>
+
 
 	        <figure class="portfolio-item">
 		        <a href="/coolcatidentity.php" class="hvr-trim">
@@ -105,8 +119,11 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	        </figure>
 
 	        </section>
-
+<section>
+		<hr>
+</section>
         </main>
+
 
         <?php include ("footer.php"); ?>
 
