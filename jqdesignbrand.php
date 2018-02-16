@@ -26,10 +26,6 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 		        <hr>
 	        </div>
 	        <div>
-		        <p class="category">Art Direction</p>
-		        <hr>
-	        </div>
-	        <div>
 		        <p class="category">Business Collateral Design</p>
 		        <hr>
 	        </div>
@@ -91,7 +87,7 @@ $twitterPic="http://jqdesign.co/img/zl/zl-logo-1920.png";
 	        <h3></h3>
 	        <p>In today's digital world, a killer website is key. The home page blasts you with in-your-face color and leads you right to the work. The interior pages are calmer with a soothing blue gradient that fades into a white background allowing you to focus on the what's important&mdash;the content.</p>
 	        <p></p>
-	        <div class="btn"><a href="/" class="hvr-icon-forward">You're already here…Check out more of my work</a></div>
+	        <div class="btn"><a href="/" class="hvr-icon-forward">You're already here…Check&nbsp;out&nbsp;more&nbsp;of&nbsp;my&nbsp;work</a></div>
 	      </section>
 	        <section class="project-img">
 	        	<div class="row">
