@@ -9,7 +9,7 @@
 			<i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
 		<a href="https://www.instagram.com/qjac" target="">
 			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
-		<a href="https://www.twitter.com/Q_Quesadilla" target="">
+		<a href="https://www.twitter.com/_qjac" target="">
 			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
 		<a href="https://www.linkedin.com/in/jacquintanilla/" target="">
 			<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
