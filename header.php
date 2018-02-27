@@ -66,11 +66,11 @@
 </script>
 
 <!-- picture fill for backwards compatibility for responsive images -->
-	<script>
+<!-- 	<script>
 		// Picture element HTML5 shiv
 		document.createElement( "picture" );
-	</script>
-	<script src="picturefill.min.js"></script>
+	</script> -->
+	<!-- <script src="picturefill.min.js"></script> -->
 
 <!--[if lt IE 8]>
 <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
