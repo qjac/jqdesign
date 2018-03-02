@@ -1,4 +1,4 @@
-<?php $title="JQ Design Co.";
+<?php $title="JQ Design Co. Branding";
 		$pageClass="portfolio-item jqdesign";
 		$pageDesc="A portfolio with punch.";
 $fbPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
@@ -61,8 +61,9 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 
 	        <section class="project-img">
 		        <div class="row">
-			        <h3 class=""><i class="fa fa-level-down fa-flip-horizontal" aria-hidden="true"></i>  Prior Branding  /</h3>
-			        <h3>/  Preliminary Drafts  <i class="fa fa-level-down" aria-hidden="true"></i></h3>
+			        <h3 class=""><i class="fas fa-level-down-alt" data-fa-transform="flip-h down-6" aria-hidden="true"></i>  Prior Branding  </h3>
+			        <h3>&nbsp;&nbsp;//&nbsp;&nbsp;</h3>
+			        <h3>  Preliminary Drafts  <i class="fas fa-level-down-alt" data-fa-transform="down-6" aria-hidden="true"></i></h3>
 		        </div>
 		        <div class="row">
 			        <img sizes="50vw" srcset="img/jq/jqbrand-oldbizcard-480.png 480w, img/jq/jqbrand-oldbizcard-960.png 960w, img/jq/jqbrand-oldbizcard-1920.png 1920w" src="img/jq/jqbrand-oldbizcard-960.png" alt="competitor research" class="half-width">
@@ -87,7 +88,7 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 	        <h3></h3>
 	        <p>In today's digital world, a killer website is key. The home page blasts you with in-your-face color and leads you right to the work. The interior pages are calmer with a soothing blue gradient that fades into a white background allowing you to focus on the what's important&mdash;the content.</p>
 	        <p></p>
-	        <div class="btn"><a href="/" class="hvr-icon-forward">You're already here…Check&nbsp;out&nbsp;more&nbsp;of&nbsp;my&nbsp;work</a></div>
+	        <div class="btn"><a href="/" class="hvr-icon-forward">You're already here…Check&nbsp;out&nbsp;more&nbsp;of&nbsp;my&nbsp;work <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	      </section>
 	        <section class="project-img">
 	        	<div class="row">

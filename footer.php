@@ -4,15 +4,17 @@
 
 	<div>
 		<a href="mailto:hello@jqdesign.co" target="_blank">
-			<i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+			<i class="far fa-envelope fa-2x" aria-hidden="true"></i></a>
 		<a href="https://github.com/qjac" target="">
-			<i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+			<i class="fab fa-github fa-2x" aria-hidden="true"></i></a>
+			<a href="https://codepen.io/qjac" target="">
+			<i class="fab fa-codepen fa-2x" aria-hidden="true"></i></a>
 		<a href="https://www.instagram.com/qjac" target="">
-			<i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
+			<i class="fab fa-instagram fa-2x" aria-hidden="true"></i></a>
 		<a href="https://www.twitter.com/_qjac" target="">
-			<i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+			<i class="fab fa-twitter fa-2x" aria-hidden="true"></i></a>
 		<a href="https://www.linkedin.com/in/jacquintanilla/" target="">
-			<i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+			<i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i></a>
 	</div>
 
 	<p>Website designed and coded by Jacqueline Quintanilla. &copy; <?php echo date("Y"); ?>

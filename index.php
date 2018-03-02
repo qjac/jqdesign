@@ -25,7 +25,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        	<figcaption>
 
 			        <h3>A portfolio with a punch.</h3>
-			        <div class="btn "><a href="/jqdesignbrand.php" class="hvr-icon-forward">Take a closer look!</a></div>
+			        <div class="btn "><a href="/jqdesignbrand.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 		        </figcaption>
 	        </figure>
 
@@ -40,7 +40,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 			        <h3>High-energy identity with an offbeat sensibility.</h3>
 			        <div class="btn "><a href="/coolcatidentity.php" class="hvr-icon-forward">Take a closer look!
-				        </a></div>
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 		        </figcaption>
 	        </figure>
 
@@ -56,7 +56,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </a>
 		        <figcaption>
 			        <h3>Online tools for selling + connecting.</h3>
-			        <div class="btn "><a href="/coolcatdigital.php" class="hvr-icon-forward">Take a closer look! </a></div>
+			        <div class="btn "><a href="/coolcatdigital.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 		        </figcaption>
 	        </figure>
 
@@ -71,7 +71,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </a>
 		        <figcaption>
 			        <h3>A box that's great in the store and better at home.</h3>
-			        <div class="btn "><a href="/coolcatpackage.php" class="hvr-icon-forward">Take a closer look! </a></div>
+			        <div class="btn "><a href="/coolcatpackage.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 		        </figcaption>
 	        </figure>
 
@@ -85,7 +85,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </a>
 		        <figcaption>
 			        <h3>The neighborhood cafe with a kick gets a welcoming identity.</h3>
-			        <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! </a></div>			                        </figcaption>
+			        <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>			                        </figcaption>
 	        </figure>
 
 	        <figure class="portfolio-item">
@@ -100,7 +100,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 			        <h3>Virtual reality for everyone.</h3>
 			        <div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Take a closer look!
-				        </a></div>
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 			        </figcaption>
 	        </figure>
 
@@ -114,7 +114,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        <figcaption>
 			        <h3>An in-your-face identity and website for eyewear with attitude.</h3>
 			        <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Take a closer look!
-				        </a></div>
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 			        </figcaption>
 	        </figure>
 

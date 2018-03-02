@@ -72,8 +72,8 @@ $twitterPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
 	        <section class="project-intro">
 		        <h3>Like what you see? </h3>
 		        <p>Check out additional work done for Cool Cat Crafts.</p>
-		        <div class="btn"><a href="/coolcatidentity.php" class="hvr-icon-forward">See identity + branding work</a></div>
-		        <div class="btn"><a href="/coolcatdigital.php" class="hvr-icon-forward">See web redesign + social media work</a></div>
+		        <div class="btn"><a href="/coolcatidentity.php" class="hvr-icon-forward">See identity + branding work <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+		        <div class="btn"><a href="/coolcatdigital.php" class="hvr-icon-forward">See web redesign + social media work <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	        </section>
 
 	        <section class="project-img">

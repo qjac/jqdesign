@@ -44,7 +44,7 @@ $twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
 	        <section class="project-intro">
 		        <h2>Online tools for selling + connecting.</h2>
 		        <p>As a small shop, Cool Cat Crafts needed a way to sell products online and connect with customers. The solution is an Etsy integrated e-commerce website designed to boost sales. Beautiful, vivid images and oodles of white space keep the focus squarely on the content and drive folks to product pages. Built using WordPress for easy content management and integration with Etsy make it a breeze to update listings and add new items to grow the shop.</p>
-		        <div class="btn"><a href="http://www.coolcatcrafts.com" class="hvr-icon-forward">Site coming soon!</a></div>
+		        <div class="btn"><a href="http://www.coolcatcrafts.com" class="hvr-icon-forward">Site coming soon! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	        </section>
 
 	        <section class="project-img">
@@ -69,8 +69,8 @@ $twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
 	        <h3>In with the new.</h3>
 	        <p>Cute. Fun. Bold. Festive.</p>
 	        <p>Check out the market research, wireframes, and Axure prototype to see the evolution of the project.</p>
-	        <div class="btn"><a href="img/ccc-web/CoolCatCrafts-styleguide.pdf" class="hvr-icon-forward">See the research, planning, and wireframes</a></div>
-	        <div class="btn"><a href="http://8sgf62.axshare.com/#g=1&p=home" class="hvr-icon-forward">See the interactive Axure prototype</a></div>
+	        <div class="btn"><a href="img/ccc-web/CoolCatCrafts-styleguide.pdf" class="hvr-icon-forward">See the research, planning, and wireframes <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+	        <div class="btn"><a href="http://8sgf62.axshare.com/#g=1&p=home" class="hvr-icon-forward">See the interactive Axure prototype <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	        </section>
 
 	        <section class="project-img">
@@ -93,8 +93,8 @@ $twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
 	        <section class="project-intro">
 		        <h3>Like what you see? </h3>
 		        <p>Check out additional work done for Cool Cat Crafts.</p>
-		        <div class="btn"><a href="/coolcatidentity.php" class="hvr-icon-forward">See identity + branding work</a></div>
-		        <div class="btn"><a href="/coolcatpackage.php" class="hvr-icon-forward">See product packaging work</a></div>
+		        <div class="btn"><a href="/coolcatidentity.php" class="hvr-icon-forward">See identity + branding work <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+		        <div class="btn"><a href="/coolcatpackage.php" class="hvr-icon-forward">See product packaging work <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	        </section>
 
 	        <section class="project-intro">

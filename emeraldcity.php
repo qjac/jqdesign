@@ -34,7 +34,7 @@ $twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 		        <h2>A Neighborhood Cafe with a Kick</h2>
 		        <p>Fresh, organic ingredients. Delicious, handmade treats. A bright, welcoming shop. Emerald City is your favorite neighborhood cafe...with a kick. As a full service medical and recreational marijuana dispensary specializing in enhanced baked goods, Emerald City could target the stoners or the Coachella-style marijuana chic aesthetic. But that’s not who they are. They’re your neighbors who love baking delightful treats with seasonal ingredients. And those treats just happen to pack a medicinal or recreational buzz. They'd love to share some with you, neighbor.</p>
 
-		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/" class="hvr-icon-forward">Visit Site </a></div>
+		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/" class="hvr-icon-forward">Visit Site <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	        </section>
 
 	        <section class="project-img">

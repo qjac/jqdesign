@@ -4,6 +4,7 @@
 html {
 	height: 100%;
 	box-sizing: border-box;
+	// background-color: $color-highlight1;
 }
 
 *,
@@ -109,6 +110,28 @@ section.project-intro {
 	justify-content: center;
 	align-items: stretch;
 	align-content: stretch;
+}
+
+.project-intro h2 {
+	width: 100%;
+	margin-bottom: 0.25em;
+	position: relative;
+
+	&:before {
+		content: '';
+		background: $color-bright;
+		position: absolute;
+		top: -0.5em;
+		left: 0;
+		height: 3px;
+		width: 1.5rem;
+	}
+}
+.project-intro p {
+	width: 100%;
+}
+.project-intro .btn {
+	margin-bottom: 0;
 }
 
 /*=================================================================
@@ -222,38 +245,20 @@ h4 {
 } //end .btn
 
 /* Icon Forward—button hover pushes arrow forward */
+.fa-angle-double-right {
+	transition: transform 1s cubic-bezier(0.21, 0.61, 0.35, 1);
+}
 a.hvr-icon-forward {
 	display: inline-block;
 	text-decoration: none;
-	padding: 1em 1rem 0.75em;
-	vertical-align: middle;
-	-webkit-transform: perspective(1px) translateZ(0);
-	transform: perspective(1px) translateZ(0);
 	box-shadow: 0 0 1px transparent;
-	position: relative;
-	padding-right: 2.2em;
 	transition: $hover-ease;
 	&:active,
 	&:hover,
 	&:focus {
 		color: $color-highlight1;
-	}
-
-	&:active:before {
-		-webkit-transform: translateX(4px);
-		transform: translateX(4px);
-		color: $color-bright;
-	}
-}
-
-//this is the arrow
-.hvr-icon-forward:before {
-	content: '\f054';
-	position: absolute;
-	right: 1rem;
-	top: 32%;
-	padding: 0 1px;
-	font-family: FontAwesome;
-	-webkit-transform: translateZ(0);
-	transform: translateZ(0);
-}
+		> .fa-angle-double-right {
+			transform: translateX(0.25em);
+		}
+	} // end hover
+} // end a.hvr-icon-forward

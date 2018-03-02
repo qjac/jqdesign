@@ -33,7 +33,7 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 		        <h2>Pucker up!</h2>
 		        <p>Tart is an online shop that specializes in eyewear for the unique, the stylish, and the rebellious. It needed a website that packed a punch while getting customers quickly to their perfect frame. Using a previously built custom content management system, the website was built using PHP and MySQL to organize Tart’s extensive collection of fierce frames.</p>
 
-		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2012/final/" class="hvr-icon-forward">Visit Site </a></div>
+		        <div class="btn"><a href="http://jacquelinequintanilla.com/webi2012/final/" class="hvr-icon-forward">Visit Site <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	        </section>
 
 	        <section class="project-img">

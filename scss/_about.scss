@@ -1,0 +1,27 @@
+// about page styles...probably good for other pages except for portfolio display pages and index, but those don't exist yet, so...
+.about {
+	// h2,
+	// h3,
+	// h4,
+	// h5,
+	// h6,
+	// p {
+	// 	color: #ffffff;
+	// }
+
+	background: linear-gradient($color-primary, $color-highlight1, $color-light);
+	background-attachment: top;
+	background-size: 100% 38vh;
+	background-repeat: no-repeat;
+
+	@media only screen and (min-width: $breakpoint-md) {
+		background-size: 100% 36vh;
+	}
+	@media only screen and (min-width: $breakpoint-lg) {
+		background-size: 100% 32vh;
+	}
+
+	.content h4 {
+		color: $color-primary;
+	}
+} // end .about (about page styles)
