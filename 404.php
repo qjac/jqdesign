@@ -13,7 +13,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
     </section>
     <section class="project-intro">
         <h2>This page doesn't exist.</h2>
-        <div class="btn"><a href="./" class="hvr-icon-forward">But there's plenty more to see...</a></div>
+        <div class="btn"><a href="./" class="hvr-icon-forward">But there's plenty more to see! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
     </section>
 
 </main>
