@@ -1,4 +1,24 @@
-// about page styles...probably good for other pages except for portfolio display pages and index, but those don't exist yet, so...
+// info page styles...non- index and non-portfolio pages
+/*=================================================================
+			info pages (about, 404, etc)
+==================================================================*/
+
+.info {
+	main {
+		background-color: $color-highlight1;
+	}
+	.project-intro {
+		max-width: 30em;
+	}
+	.btn a {
+		color: $color-primary;
+		&:hover,
+		&:focus,
+		&:active {
+			color: #ffffff;
+		}
+	}
+} //  end info
 .about {
 	// h2,
 	// h3,

@@ -9,13 +9,12 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 <main class="content">
     <section class="content-top">
         <h1>Oops!</h1>
-        <hr>
     </section>
     <section class="project-intro">
-        <h2>This page doesn't exist.</h2>
-        <div class="btn"><a href="./" class="hvr-icon-forward">But there's plenty more to see! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+        <h3>This page doesn't exist. But there's plenty more to see!</h3>
+        <div class="btn"><a href="./" class="hvr-icon-forward">Head back to the home page <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
     </section>
-
+<hr>
 </main>
 <?php include ("footer.php"); ?>
 <!--    body closes in footer.php-->
