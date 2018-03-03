@@ -93,13 +93,8 @@
 	<nav>
 		<ul>
 			<li <?php if($pageClass == 'index') {echo 'class="active"';} ?>><a href="./">Work</a></li>
-
-<!--			Add back in once about page is built -->
-<!--		<li -->
-			<?php
-//			if($pageClass == 'about') {echo 'class="active"';} ?>
-<!-- ><a href="/about">About me</a></li>-->
-			<li <?php if($pageClass == 'resume'){echo 'class="active"';} ?>><a href="quintanilla-resume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
+			<li <?php if($pageClass == 'about') {echo 'class="active"';} ?>><a href="about.php">About</a></li>
+			<li <?php if($pageClass == 'resume') {echo 'class="active"';} ?>><a href="quintanilla-resume.pdf" target="_blank">R&eacute;sum&eacute;</a></li>
 		</ul>
 	</nav>
 </header>

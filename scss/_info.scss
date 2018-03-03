@@ -2,7 +2,6 @@
 /*=================================================================
 			info pages (about, 404, etc)
 ==================================================================*/
-
 .info {
 	main {
 		background-color: $color-highlight1;
@@ -19,16 +18,8 @@
 		}
 	}
 } //  end info
-.about {
-	// h2,
-	// h3,
-	// h4,
-	// h5,
-	// h6,
-	// p {
-	// 	color: #ffffff;
-	// }
 
+.about {
 	background: linear-gradient($color-primary, $color-highlight1, $color-light);
 	background-attachment: top;
 	background-size: 100% 38vh;
@@ -42,6 +33,34 @@
 	}
 
 	.content h4 {
-		color: $color-primary;
+		color: $color-bright;
+		margin-top: -0.5em;
+		font-size: 1.5em;
+	}
+
+	.topten {
+		position: relative;
+		margin: 4rem 0;
+		text-align: center;
+	}
+	.topten h3 {
+		&:before {
+			content: none;
+		}
+	}
+	.topten .number {
+		position: absolute;
+		top: -0.33em;
+		font-family: $font-display;
+		font-size: 5em;
+		color: $color-bright;
+		z-index: -1;
+		opacity: 0.5;
+	}
+	.topten.odd .number {
+		left: 5%;
+	}
+	.topten.even .number {
+		right: 5%;
 	}
 } // end .about (about page styles)

@@ -2,40 +2,48 @@ header {
 	width: 100%;
 	position: fixed;
 	z-index: 10;
-	padding-top: .25rem;
+	padding-top: 0.25rem;
 }
 
 //.logo is inline svg
-.logo, .logo-j, .logo-q, .logo-dot {transition: $hover-ease; }
+.logo,
+.logo-j,
+.logo-q,
+.logo-dot {
+	transition: $hover-ease;
+}
 
 .logo {
 	min-width: 6rem;
 	max-width: 12rem;
 	margin: 0;
-	padding: 2.5rem .25rem .25rem;
+	padding: 2.5rem 0.25rem 0.25rem;
 	width: 15%;
 	transform: translate(20vw, 0);
 
 	a {
 		fill: $color-bright;
-		padding-top: 2rem .25rem .25rem;
+		padding-top: 2rem 0.25rem 0.25rem;
 	}
 
-	&:hover path.logo-dot, &:focus path.logo-dot, &:active path.logo-dot
-	{ fill: $color-highlight2; }  //hover just the dot
+	&:hover path.logo-dot,
+	&:focus path.logo-dot,
+	&:active path.logo-dot {
+		fill: $color-highlight2;
+	} //hover just the dot
 }
 
 nav {
+	text-align: right;
 	float: right;
 	padding-right: 5%;
-	padding-top: 1.5rem;
+	padding-top: 1rem;
 	ul {
 		list-style-type: none;
 		margin-top: 1em;
-
 	}
 	li {
-		padding: .5em 5% 1em;
+		padding: 0.5em 5% 1em;
 		text-align: right;
 		position: relative;
 	}
@@ -49,22 +57,26 @@ nav {
 	}
 
 	a:before {
-		content:"";
+		content: '';
 		background: $color-bright;
 		position: absolute;
-		top: -.75em;
+		top: -0.75em;
 		right: 0;
 		height: 3px;
 		width: 1.5rem;
 		transition: $hover-ease;
 	}
 
-	li:hover, li:focus, li:active{
+	li:hover,
+	li:focus,
+	li:active {
 		a:before {
 			width: 100%;
 			background: $color-highlight2;
 		}
 	}
 
-	.active a { color: $color-primary;}
+	.active a {
+		color: $color-primary;
+	}
 } // end nav
