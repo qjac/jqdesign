@@ -1,4 +1,5 @@
-// info page styles...non- index and non-portfolio pages
+// info page styles...non-index and non-portfolio pages
+// And other specific styles for non-index and non-portfolio pages
 /*=================================================================
 			info pages (about, 404, etc)
 ==================================================================*/
@@ -31,7 +32,6 @@
 	@media only screen and (min-width: $breakpoint-lg) {
 		background-size: 100% 32vh;
 	}
-
 	.content h4 {
 		color: $color-bright;
 		margin-top: -0.5em;
@@ -50,17 +50,31 @@
 	}
 	.topten .number {
 		position: absolute;
-		top: -0.33em;
+		top: -0.25em;
 		font-family: $font-display;
 		font-size: 5em;
 		color: $color-bright;
 		z-index: -1;
 		opacity: 0.5;
-	}
+	} // end .topten .number
 	.topten.odd .number {
 		left: 5%;
-	}
+		@media only screen and (min-width: $breakpoint-md) {
+			left: 10%;
+			top: -0.33em;
+		}
+		@media only screen and (min-width: $breakpoint-lg) {
+			left: 15%;
+		}
+	} // end .topten.odd .number
 	.topten.even .number {
 		right: 5%;
-	}
+		@media only screen and (min-width: $breakpoint-md) {
+			right: 10%;
+			top: -0.33em;
+		}
+		@media only screen and (min-width: $breakpoint-lg) {
+			right: 15%;
+		}
+	} // end .topten.even .number
 } // end .about (about page styles)

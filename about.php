@@ -19,13 +19,13 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		<p>I am a straightforward, strategic designer and web developer who loves working with the movers, shakers, and do-gooders. You know, people don’t live in bubbles&mdash;and neither should design. With a background in non-profits and education and a future in design and web development, I try to solve tough problems to build powerful brands, stronger communities, and a more equitable and sustainable world.</p>
 		<h4>~ Jacqueline Quintanilla ~</h4>
 		<hr>
-</section>
+	</section>
 
   <section class="project-intro">	
   	<h2>Fun. Facts.</h2>
   	<div class="topten odd">
   		<span class="number">one</span>
-  		<h3>Pucker up! 🍋</h3>
+  		<h3>🍋 Pucker up! 🍋</h3>
   		<p>Lemons are my favorite fruit. As a kid I would eat bring them as a snack with a little salt. Yum!</p>
   	</div>
   	<div class="topten even">
@@ -76,13 +76,10 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
   	</div>
   </section>
 
+	<section class="project-intro">
+			<hr>
+	</section>
+</main>	
 
-<section>
-		<hr>
-</section>
-        </main>
-
-
-        <?php include ("footer.php"); ?>
-
+<?php include ("footer.php"); ?>
 <!--    body closes in footer.php-->
