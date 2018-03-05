@@ -1,7 +1,5 @@
 header {
 	width: 100%;
-	position: fixed;
-	// z-index: 10;
 	padding-top: 0.25rem;
 }
 
@@ -14,6 +12,8 @@ header {
 }
 
 .logo {
+	position: fixed;
+	z-index: 10;
 	min-width: 6rem;
 	max-width: 12rem;
 	margin: 0;
@@ -24,7 +24,6 @@ header {
 	a {
 		fill: $color-bright;
 		padding-top: 2rem 0.25rem 0.25rem;
-		z-index: 10;
 	}
 
 	&:hover path.logo-dot,
@@ -35,11 +34,11 @@ header {
 }
 
 nav {
-	text-align: right;
-	float: right;
-	padding-right: 5%;
-	padding-top: 1rem;
+	position: fixed;
 	z-index: 10;
+	text-align: right;
+	right: 5%;
+	padding-top: 1rem;
 	ul {
 		list-style-type: none;
 		margin-top: 1em;
