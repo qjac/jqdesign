@@ -71,11 +71,22 @@
 	.topten img {
 		max-width: 200px;
 	}
+	.topten a {
+		text-decoration: underline;
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color-highlight1;
+		}
+	}
 	.topten > ul {
 		margin: 0;
 		padding: 0;
 		text-align: center;
 		list-style: none;
+	}
+	.topten > ul > li a {
+		text-decoration: none;
 	}
 	.topten > ul > li {
 		display: inline-block;
