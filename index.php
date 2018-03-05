@@ -104,7 +104,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			        </figcaption>
 	        </figure>
 
-	        <figure class="portfolio-item">
+	        <!-- <figure class="portfolio-item">
 		        <a href="/tart.php" class="hvr-trim">
 			        <img sizes="100vw" srcset="img/tart-square-250.jpg 250w, img/tart-square-500.jpg 500w, img/tart-square-750.jpg 750w, img/tart-square-1000.jpg 1000w" src="img/tart-square-750.jpg" alt="tart" class="featureimg">
 			        <p class="category">identity <br>
@@ -116,7 +116,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			        <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Take a closer look!
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 			        </figcaption>
-	        </figure>
+	        </figure> -->
 
 	        </section>
 <section>
