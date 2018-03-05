@@ -39,9 +39,13 @@
 	}
 
 	.topten {
+		max-width: 40em;
 		position: relative;
-		margin: 4rem 0;
+		margin: 4rem auto;
 		text-align: center;
+	}
+	.topten:first-of-type {
+		margin-top: 0;
 	}
 	.topten h3 {
 		&:before {
@@ -58,23 +62,45 @@
 		opacity: 0.5;
 	} // end .topten .number
 	.topten.odd .number {
-		left: 5%;
-		@media only screen and (min-width: $breakpoint-md) {
-			left: 10%;
-			top: -0.33em;
-		}
-		@media only screen and (min-width: $breakpoint-lg) {
-			left: 15%;
-		}
+		left: -5%;
 	} // end .topten.odd .number
 	.topten.even .number {
-		right: 5%;
-		@media only screen and (min-width: $breakpoint-md) {
-			right: 10%;
-			top: -0.33em;
-		}
-		@media only screen and (min-width: $breakpoint-lg) {
-			right: 15%;
-		}
+		right: -5%;
 	} // end .topten.even .number
+
+	.topten img {
+		max-width: 200px;
+	}
+	.topten > ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		list-style: none;
+	}
+	.topten > ul > li {
+		display: inline-block;
+		padding: 0.25rem 0.75em;
+
+		&:hover,
+		&:focus,
+		&:active {
+			a {
+				color: $color-highlight2;
+			}
+			> hr {
+				width: 100%;
+				border-top-color: $color-highlight2;
+			}
+		}
+	}
+	.topten > ul > li > hr {
+		border-top-color: $color-bright;
+		margin-top: 0;
+		min-width: 50%;
+		width: 50%;
+		transition: $hover-ease;
+	}
+	.topten #fair-countdown {
+		font-family: $font-display;
+	}
 } // end .about (about page styles)
