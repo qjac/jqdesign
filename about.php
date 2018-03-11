@@ -31,7 +31,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
   	<div class="topten even">
   		<span class="number">two</span>
   		<h3>The Great Minnesota Get-Together</h3>
-  		<p>There's nothing as ridiculous, as earnest, as chaotic, nor as fun as the Minnesota State Fair. And I eat. it. Up. Every year, I go more than once—it’s just not possible to sample all of the foods-on-a-stick, try all of the wacky beers, see all of the art and tractors and animals in only one go. It’s a twelve-day feast of the senses coming<span id="fair-countdown"></span>! Get your walking shoes ready.</p>
+  		<p>There's nothing as ridiculous, as earnest, as chaotic, nor as fun as the Minnesota State Fair. And I eat. it. up. Every year, I go more than once—it’s just not possible to sample all of the foods-on-a-stick, try all of the wacky beers, see all of the art and tractors and animals in only one go. It’s a twelve-day feast of the senses coming<span id="fair-countdown"></span>! Get your walking shoes ready.</p>
   	</div>
   	<div class="topten odd">
   		<span class="number">three</span>
