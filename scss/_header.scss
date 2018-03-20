@@ -1,6 +1,7 @@
 header {
 	width: 100%;
 	padding-top: 0.25rem;
+	// color: $color-bright;
 }
 
 //.logo is inline svg
@@ -11,9 +12,10 @@ header {
 	transition: $hover-ease;
 	position: fixed;
 	z-index: 100;
+	fill: $color-bright;
 }
 
-a .logo {
+.logo {
 	position: fixed;
 	min-width: 6rem;
 	max-width: 12rem;
@@ -22,7 +24,6 @@ a .logo {
 	padding: 0.25rem 0.25em;
 	width: 15%;
 	transform: translate(20vw, 0);
-	fill: $color-bright;
 
 	&:hover path.logo-dot,
 	&:focus path.logo-dot,
