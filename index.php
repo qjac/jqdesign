@@ -8,7 +8,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 <?php include ("header.php"); ?>
 
-        <main class="content">
+        <main id="content" class="content">
 	       <section class="content-top">
 		       <h1>&nbsp;Design&nbsp;<span class="plus">+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> Web Development</h1>
 	       </section>

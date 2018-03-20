@@ -8,7 +8,7 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 
 <?php include ("header.php"); ?>
 
-        <main class="content">
+        <main id="content" class="content">
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>JQ Design Co.</h1>

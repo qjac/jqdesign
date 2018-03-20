@@ -8,7 +8,7 @@ $twitterPic="http://jqdesign.co/img/ccc-id/ccc-meow-1920.jpg";
 
 <?php include ("header.php"); ?>
 
-        <main class="content">
+        <main id="content" class="content">
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Cool Cat Crafts Identity</h1>

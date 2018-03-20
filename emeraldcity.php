@@ -9,7 +9,7 @@ $twitterPic="http://jqdesign.co/img/ec/ec-logo-1920.jpg";
 
 <?php include ("header.php"); ?>
 
-        <main class="content">
+        <main id="content" class="content">
 	       <section class="content-top">
 <!--		       h1 is for project title-->
 		       <h1>Emerald City</h1>
