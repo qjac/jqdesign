@@ -13,9 +13,14 @@
 		padding-top: 3rem;
 	}
 	.content-top h1 {
-		font-style: italic;
+		// font-family: $font-display;
+		// font-style: italic;
 		text-transform: lowercase;
-		font-size: 3em;
+		font-size: 2em;
+
+		@media only screen and (min-width: $breakpoint-md) {
+			font-size: 3em;
+		}
 	}
 }
 
