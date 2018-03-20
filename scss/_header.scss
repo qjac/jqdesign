@@ -9,11 +9,11 @@ header {
 .logo-q,
 .logo-dot {
 	transition: $hover-ease;
+	z-index: 100;
 }
 
 .logo {
 	position: fixed;
-	z-index: 10;
 	min-width: 6rem;
 	max-width: 12rem;
 	margin: 0;
@@ -35,7 +35,7 @@ header {
 
 nav {
 	position: fixed;
-	z-index: 10;
+	z-index: 100;
 	text-align: right;
 	right: 5%;
 	padding-top: 1rem;
