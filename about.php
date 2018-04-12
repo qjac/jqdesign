@@ -16,7 +16,9 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	<section class="project-intro">
 		<h2></h2>
 		<!-- <h3>I'm so glad you're here! Let me tell you a bit about myself.</h3> -->
-		<p>I am a straightforward, strategic designer and web developer who loves working with the movers, shakers, and do-gooders. You know, people don’t live in bubbles&mdash;and neither should design. With a background in non-profits and education and a future in design and web development, I try to solve tough problems to build powerful brands, stronger communities, and a more equitable and sustainable world.</p>
+    <p>I like making things. <em>A lot.</em> I enjoy thinking about how things are made, who they are made for, what the best method to make them might be, and, most of all, <em>why</em>. Finessing the small details that make a whole experience sing is electrifying.</p>
+    <p>Mostly, I love working with the movers, shakers, and do-gooders&mdash;the people making stuff happen! You know, people don’t live in bubbles&mdash;and neither does design and technology. Knowing the work I do can amplify a vital message or be a key tool to solve a tough problem is so gratifying.</p>
+    <p>I am straightforward, strategic, and <em>just a bit</em> sassy. And I'm here to use my design and technical skills to build powerful connections, stronger communities, and a more equitable and sustainable world. So, let's get to work. Let's make something that matters.</p>
 		<h4>~ Jacqueline Quintanilla ~</h4>
 		<hr>
 	</section>
