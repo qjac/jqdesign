@@ -10,7 +10,8 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
         <main id="content" class="content">
 	       <section class="content-top">
-		       <h1>&nbsp;Design&nbsp;<span class="plus">+</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br> Web Development</h1>
+		       <h1>Design<span class="plus"> + </span>
+		       	<br> Front End Development</h1>
 	       </section>
 
         <section class="portfolio">
