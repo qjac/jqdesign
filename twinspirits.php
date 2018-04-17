@@ -1,8 +1,8 @@
 <?php $title="Twin Spirits Website Redevelopment";
 		$pageClass="portfolio-item twinspirits";
 		$pageDesc="Fresh site for finding fresh drinks.";
-$fbPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
-$twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
+$fbPic="http://jqdesign.co/img/tsd/tsd-booze-1920.png";
+$twitterPic="http://jqdesign.co/img/tsd/tsd-booze-1920.png";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 
@@ -32,7 +32,8 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 	        </section>
 
 	        <section class="project-img">
-	        	<div class="row">
+	        	
+		        <div class="row">
 			        <img sizes="100vw" srcset="img/tsd/tsd-booze-480.png 480w, img/tsd/tsd-booze-960.png 960w, img/tsd/tsd-booze-1920.png 1920w" src="img/tsd/tsd-booze-960.png" alt="product page (rum)" class="full-width">
 		        </div>
 		        
@@ -41,9 +42,10 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 			        <img sizes="50vw" srcset="img/tsd/tsd-spread-480.png 480w, img/tsd/tsd-spread-960.png 960w, img/tsd/tsd-spread-1920.png 1920w" src="img/jq/tsd/tsd-spread-960.png" alt="multiple webpages" class="half-width">
 		        </div>
 
-		        <div class="row">
+						<div class="row">
 			        <img sizes="100vw" srcset="img/tsd/tsd-mobile-480.png 480w, img/tsd/tsd-mobile-960.png 960w, img/tsd/tsd-mobile-1920.png 1920w" src="img/tsd/tsd-mobile-960.png" alt="homepage on mobile device" class="full-width">
 		        </div>
+		        
 		      </section>
 					<section class="project-intro">
 		        <p>Updated web design by <a href="http://janinahartleydesigns.com/">Janina Hartley</a>. <br>

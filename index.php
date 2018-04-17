@@ -17,7 +17,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
         <section class="portfolio">
         	<figure class="portfolio-item">
 		        <a href="/twinspirits.php" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/jqdesign-square-250.png 250w, img/jqdesign-square-500.png 500w, img/jqdesign-square-750.png 750w, img/jqdesign-square-1000.png 1000w" src="img/jqdesign-square-750.png" alt="biz cards" class="featureimg">
+			        <img sizes="100vw" srcset="img/tsd-square-250.png 250w, img/tsd-square-500.png 500w, img/tsd-square-750.png 750w, img/tsd-square-1000.png 1000w" src="img/tsd-square-750.png" alt="Twin Spirits Distillery website" class="featureimg">
 			        <p class="category">WordPress&nbsp;development<br>
 			                            front&nbsp;end&nbsp;development </p>
 		        </a>
@@ -118,7 +118,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </figcaption>
 	        </figure>
 
-	        <!-- <figure class="portfolio-item">
+	        <figure class="portfolio-item">
 		        <a href="/tart.php" class="hvr-trim">
 			        <img sizes="100vw" srcset="img/tart-square-250.jpg 250w, img/tart-square-500.jpg 500w, img/tart-square-750.jpg 750w, img/tart-square-1000.jpg 1000w" src="img/tart-square-750.jpg" alt="tart" class="featureimg">
 			        <p class="category">identity <br>
@@ -130,7 +130,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			        <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Take a closer look!
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 			        </figcaption>
-	        </figure> -->
+	        </figure>
 
 	        </section>
 <section>
