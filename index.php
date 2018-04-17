@@ -30,6 +30,34 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </figcaption>
 	        </figure>
 
+	        <figure class="portfolio-item">
+		        <a href="/zetuslapetus.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/zl-icon-square-250.jpg 250w, img/zl-icon-square-500.jpg 500w, img/zl-icon-square-750.jpg 750w, img/zl-icon-square-1000.jpg 1000w" src="img/zl-icon-square-750.jpg" alt="zetus lapetus" class="featureimg">
+			        <p class="category">market&nbsp;research <br>
+			                            identity <br>
+			                            web&nbsp;design <br>
+			                            front&nbsp;end&nbsp;development</p>
+		        </a>
+		        <figcaption>
+
+			        <h3>Virtual reality for everyone.</h3>
+			        <div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Take a closer look!
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+			        </figcaption>
+	        </figure>
+
+	        <figure class="portfolio-item">
+		        <a href="/emeraldcity.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ec-e-square-250.png 250w, img/ec-e-square-500.png 500w, img/ec-e-square-750.png 750w, img/ec-e-square-1000.png 1000w" src="img/ec-e-square-750.png" alt="Emerald City icon" class="featureimg">
+			        <p class="category">identity&nbsp; <br>
+			                            digital&nbsp;advertising <br>
+			                            wordpress&nbsp;development
+			        </p>
+		        </a>
+		        <figcaption>
+			        <h3>The neighborhood cafe with a kick gets a welcoming identity.</h3>
+			        <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>			                        </figcaption>
+	        </figure>
 
 	        <figure class="portfolio-item">
 		        <a href="/coolcatidentity.php" class="hvr-trim">
@@ -74,35 +102,6 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			        <h3>A box that's great in the store and better at home.</h3>
 			        <div class="btn "><a href="/coolcatpackage.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 		        </figcaption>
-	        </figure>
-
-	        <figure class="portfolio-item">
-		        <a href="/emeraldcity.php" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/ec-e-square-250.png 250w, img/ec-e-square-500.png 500w, img/ec-e-square-750.png 750w, img/ec-e-square-1000.png 1000w" src="img/ec-e-square-750.png" alt="Emerald City icon" class="featureimg">
-			        <p class="category">identity&nbsp; <br>
-			                            digital&nbsp;advertising <br>
-			                            wordpress&nbsp;development
-			        </p>
-		        </a>
-		        <figcaption>
-			        <h3>The neighborhood cafe with a kick gets a welcoming identity.</h3>
-			        <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>			                        </figcaption>
-	        </figure>
-
-	        <figure class="portfolio-item">
-		        <a href="/zetuslapetus.php" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/zl-icon-square-250.jpg 250w, img/zl-icon-square-500.jpg 500w, img/zl-icon-square-750.jpg 750w, img/zl-icon-square-1000.jpg 1000w" src="img/zl-icon-square-750.jpg" alt="zetus lapetus" class="featureimg">
-			        <p class="category">market&nbsp;research <br>
-			                            identity <br>
-			                            web&nbsp;design <br>
-			                            front&nbsp;end&nbsp;development</p>
-		        </a>
-		        <figcaption>
-
-			        <h3>Virtual reality for everyone.</h3>
-			        <div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Take a closer look!
-				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
-			        </figcaption>
 	        </figure>
 
 	        <!-- <figure class="portfolio-item">
