@@ -55,7 +55,7 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 		        </div>
 		        <div class="row">
 		        	<img sizes="50vw" srcset="img/jq/jqbrand-sketch1-480.png 480w, img/jq/jqbrand-sketch1-960.png 960w, img/jq/jqbrand-sketch1-1920.png 1920w" src="img/jq/jqbrand-sketch1-960.png" alt="preliminary logo sketches and notes" class="half-width">
-			        <img sizes="50vw" srcset="img/jq/jqbrand-sketch2-480.png 480w, img/jq/jqbrand-sketch2-960.png 960w, img/jq/jqbrand-sketch2-1920.png 1920w" src="img/jq/jqbrand-oldbizcard-960.png" alt="preliminary logo sketches and notes" class="half-width">
+			        <img sizes="50vw" srcset="img/jq/jqbrand-sketch2-480.png 480w, img/jq/jqbrand-sketch2-960.png 960w, img/jq/jqbrand-sketch2-1920.png 1920w" src="img/jq/jqbrand-sketch2-960.png" alt="preliminary logo sketches and notes" class="half-width">
 		        </div>
 		      </section>
 
