@@ -9,57 +9,62 @@
 
 <url>
   <loc>http://jqdesign.co/</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>http://jqdesign.co/about.php</loc>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>http://jqdesign.co/quintanilla-resume.pdf</loc>
-  <lastmod>2018-01-30T19:44:20+00:00</lastmod>
+  <lastmod>2018-04-11T21:06:53+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://jqdesign.co/twinspirits.php</loc>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/jqdesignbrand.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://jqdesign.co/coolcatidentity.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://jqdesign.co/coolcatdigital.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://jqdesign.co/coolcatpackage.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://jqdesign.co/emeraldcity.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/zetuslapetus.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jqdesign.co/emeraldcity.php</loc>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jqdesign.co/coolcatidentity.php</loc>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jqdesign.co/coolcatdigital.php</loc>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://jqdesign.co/coolcatpackage.php</loc>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/tart.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://jqdesign.co/img/ccc-web/CoolCatCrafts-styleguide.pdf</loc>
-  <lastmod>2018-02-16T19:23:03+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://jqdesign.co/zetus-lapetus/</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -68,33 +73,38 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>http://jqdesign.co/img/ccc-web/CoolCatCrafts-styleguide.pdf</loc>
+  <lastmod>2018-02-16T19:23:03+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>http://jqdesign.co/zetus-lapetus/index.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/zetus-lapetus/learn.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/zetus-lapetus/shop.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/zetus-lapetus/applications.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/zetus-lapetus/privacy.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 <url>
   <loc>http://jqdesign.co/zetus-lapetus/contact.php</loc>
-  <lastmod>2018-02-16T21:26:43+00:00</lastmod>
+  <lastmod>2018-04-17T23:07:22+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
