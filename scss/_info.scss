@@ -74,14 +74,14 @@
 	.topten img {
 		max-width: 200px;
 	}
-	.topten a {
-		text-decoration: underline;
-		&:hover,
-		&:focus,
-		&:active {
-			color: $color-highlight1;
-		}
-	}
+	// .topten a {
+	// 	text-decoration: underline;
+	// 	&:hover,
+	// 	&:focus,
+	// 	&:active {
+	// 		color: $color-highlight1;
+	// 	}
+	// }
 	.topten > ul {
 		margin: 0;
 		padding: 0;
