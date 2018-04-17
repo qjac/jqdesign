@@ -46,8 +46,8 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 		        </div>
 		      </section>
 					<section class="project-intro">
-		        <p>Web design by <a href="http://janinahartleydesigns.com/">Janina Hartley</a>. <br>
-		        	Branding by <a href="https://evologycreative.com/work/twin-spirits-distillery/">Evology</a>.</p>
+		        <p>Updated web design by <a href="http://janinahartleydesigns.com/">Janina Hartley</a>. <br>
+		        	Identity and original web design by <a href="https://evologycreative.com/work/twin-spirits-distillery/">Evology</a>.</p>
 	        </section>
 
 	        <section class="project-intro">
