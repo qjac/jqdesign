@@ -188,8 +188,11 @@ p {
 
 a {
 	color: $color-dark;
-	text-decoration: dashed;
-	&:focus {
+	text-decoration-skip-ink: auto;
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color-highlight1;
 		outline: 0;
 	}
 }

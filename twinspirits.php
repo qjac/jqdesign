@@ -26,7 +26,7 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 
 	        <section class="project-intro">
 		        <h2>Quench your thirst with WordPress</h2>
-		        <p>A local distillery was looking for a few new features and a refresh on the look of their website. Custom fields, post types, and page templates extend the original WordPress design to get Twin Spirits Distillery customers the info they need and provide the client with better admin tools for managing content. Modern CSS techniques ensure the layout stays functional and looks professional regardless of how it's being viewed. Now, that's something to raise a glass to—Cheers!</p>
+		        <p>A local distillery was looking for a few new features and a refresh on the look of their website. Custom fields, post types, and page templates extend the original WordPress design to get Twin Spirits Distillery customers the info they need and provide the client with better admin tools for managing content. Modern CSS techniques ensure the layout stays functional and looks professional regardless of how it's being viewed. Now, that's something to raise a glass to&mdash;Cheers!</p>
 		        <p>Web design by <a href="http://janinahartleydesigns.com/">Janina Hartley</a>. <br>
 		        	Branding by <a href="https://evologycreative.com/work/twin-spirits-distillery/">Evology</a>.</p>
 
