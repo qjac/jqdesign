@@ -55,6 +55,9 @@ nav {
 		text-decoration: none;
 		position: relative;
 		transition: $hover-ease;
+		&:active {
+			opacity: 1;
+		}
 	}
 
 	a:before {
@@ -69,15 +72,24 @@ nav {
 	}
 
 	li:hover,
-	li:focus,
-	li:active {
+	li:focus {
 		a:before {
 			width: 100%;
 			background: $color-highlight2;
 		}
+		a {
+			opacity: 0.66;
+			color: $color-bright;
+		}
+	}
+	li:active {
+		a:before {
+			width: 100%;
+			background: $color-bright;
+		}
 	}
 
-	.active a {
+	li.active a {
 		color: $color-primary;
 	}
 } // end nav
