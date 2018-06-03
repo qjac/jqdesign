@@ -28,7 +28,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
   	<div class="topten odd">
   		<span class="number">one</span>
   		<h3>🍋 Pucker up! 🍋</h3>
-  		<p>Lemons are my favorite fruit. As a kid, I would eat bring them to school as a snack with a little salt. Limes are a close second, but they mostly make their appearance as a garnish.🍹 Yum!</p>
+  		<p>Lemons are my favorite fruit. As a kid, I would bring them to school as a snack with a little salt. Limes are a close second, but they mostly make their appearance as a garnish.🍹 Yum!</p>
   	</div>
   	<div class="topten even">
   		<span class="number">two</span>
