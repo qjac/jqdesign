@@ -86,7 +86,7 @@ $twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
 
 		      <section class="project-intro">
 	        <h3></h3>
-	        <p>In today's digital world, a killer website is key. The home page blasts you with in-your-face color and leads you right to the work. The interior pages are calmer with a soothing blue gradient that fades into a white background allowing you to focus on the what's important&mdash;the content.</p>
+	        <p>In today's digital world, a killer website is key. The home page blasts you with in-your-face color and leads you right to the work. The interior pages are calmer with a soothing blue gradient that fades into a white background allowing you to focus on what's important&mdash;the content.</p>
 	        <p></p>
 	        <div class="btn"><a href="/" class="hvr-icon-forward">You're already here…Check&nbsp;out&nbsp;more&nbsp;of&nbsp;my&nbsp;work <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 	      </section>
