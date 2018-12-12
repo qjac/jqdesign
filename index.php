@@ -13,7 +13,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	       </section>
 			<section class="home-intro">
 
-			    <p> As a straightforward and strategic front end engineer, I love to work with the movers, the shakers, and the do-gooders to help them make their mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions to tough problems. </p>
+			    <p> As a straightforward and strategic software engineer, I love to work with the movers, the shakers, and the do-gooders to help them make their mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions to tough problems. </p>
 				<h4>~ Jacqueline Quintanilla ~</h4>
 				<hr>
 			</section>

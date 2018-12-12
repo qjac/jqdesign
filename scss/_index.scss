@@ -5,51 +5,71 @@
 /*=================================================================
 				Index Page
 ==================================================================*/
-
 .index {
-	background-color: $color-highlight1;
+	background-color: $color-bright;
 	svg.logo {
 		width: 20%;
 		padding-top: 3rem;
 	}
-	.content-top {
-		/*margin-top: 2.5em;
-		text-transform: lowercase;
-		font-size: 2em;*/
 
-		@media only screen and (min-width: $breakpoint-md) {
-			/*margin-top: 3em;
-			font-size: 2.5em;*/
-			min-height: 30vh;
+	.logo, .logo-j, .logo-q, .logo-dot {
+		fill: $color-highlight1;
+	}
+
+	nav a {
+		color: $color-primary;
+	}
+
+	nav a:before {
+		background: $color-highlight1;
+	}
+
+	nav li:hover,
+	nav li:focus {
+		a:before {
+			background: $color-highlight2;
 		}
+		a {
+			opacity: 1;
+			color: $color-highlight1;
+		}
+	}
+	nav li:active {
+		a:before {
+			background: $color-bright;
+		}
+	}
 
+	.content-top {
+		@media only screen and (min-width: $breakpoint-md) {
+			min-height: 200px;
+		}
 	}
 
 	.home-intro {
-		background-color: white;
-	
-	
-	padding: 5% 10%;
+		padding: 5% 10%;
 
-	@media only screen and (min-width: $breakpoint-md) {
-		padding: 5%;
-		
-	}
+		@media only screen and (min-width: $breakpoint-md) {
+			padding: 5%;
+		}
 	}
 
 	.home-intro p {
-
+		color: $color-dark;
 		max-width: 50em;
 		width: 80%;
 		margin: 0 auto;
-		/*color: $color-bright;*/
 	}
 
 	.home-intro h4 {
-		color: $color-bright;
+		color:$color-primary;
 		max-width: 50em;
 		width: 80%;
-		margin: 0 auto;
+		margin: 0.5em auto 0;
+	}
+
+	hr {
+		    border-top: 3px solid $color-highlight1;
 	}
 }
 
@@ -62,6 +82,7 @@
 	justify-content: center;
 	align-items: stretch;
 	align-content: center;
+	margin-top: 0;
 }
 
 .index figure.portfolio-item {
@@ -73,9 +94,7 @@
 	background-color: $color-light;
 	flex: 0 1 1;
 	max-width: $breakpoint-md;
-	margin: 0;
-	border-top: 3px solid $color-bright;
-	border-bottom: 3px solid $color-bright;
+	margin: 6px;
 
 	a {
 		display: block;
@@ -90,7 +109,7 @@
 	}
 }
 
-//portfolio img styles
+/*//portfolio img styles*/
 .index img {
 	width: 100%;
 	margin: 0;
@@ -144,7 +163,7 @@
 	}
 }
 
-//portfolio caption styles
+/*//portfolio caption styles*/
 figcaption {
 	max-width: 50em;
 	padding: 0.5em 10%;
