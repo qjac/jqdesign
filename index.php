@@ -1,6 +1,6 @@
-<?php $title="Design + Web Development";
+<?php $title="Portfolio";
 $pageClass="index";
-$pageDesc="A straightforward, strategic designer and web developer who loves working with the movers, shakers, and do-gooders.";
+$pageDesc="A straightforward, strategic front end engineer based in Minneapolis, MN.";
 $fbPic="http://jqdesign.co/img/social/jq-preview-fb.png";
 $twitterPic="http://jqdesign.co/img/social/jq-preview-630.png";
 $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
@@ -10,10 +10,13 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
         <main id="content" class="content">
 	       <section class="content-top">
-		       <h1>
-		       	Front End Development <br> 
-		       <span class="plus"> + </span> a dash of Design</h1>
 	       </section>
+			<section class="home-intro">
+
+			    <p> As a straightforward and strategic front end engineer, I love to work with the movers, the shakers, and the do-gooders to help them make their mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions to tough problems. </p>
+				<h4>~ Jacqueline Quintanilla ~</h4>
+				<hr>
+			</section>
 
         <section class="portfolio">
         	<figure class="portfolio-item">

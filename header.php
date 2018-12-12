@@ -4,8 +4,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>JQ Design Co. // <?php echo $title;?></title>
-	<meta name="description" content="Straightforward, strategic design and web development based in Minneapolis, MN for the movers, shakers, and do-gooders. Let's make a mark, together.">
+	<title>JQ // <?php echo $title;?></title>
+	<meta name="description" content="A straightforward, strategic front end engineer based in Minneapolis, MN. Let's make a mark, together.">
 
 	<link rel="canonical" href="<?php echo $pageLink;?>">
 
@@ -15,8 +15,8 @@
 	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 	<link rel="manifest" href="/manifest.json">
 	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e2088b">
-	<meta name="apple-mobile-web-app-title" content="JQ Design">
-	<meta name="application-name" content="JQ Design">
+	<meta name="apple-mobile-web-app-title" content="JQ">
+	<meta name="application-name" content="JQ">
 	<meta name="theme-color" content="#e2088b">
 	<!-- Place favicon.ico in the root directory -->
 
@@ -26,7 +26,7 @@
 	<meta property="og:title" content="<?php echo $title;?>">
 	<meta property="og:description" content="<?php echo $pageDesc;?>">
 	<meta property="og:url" content="<?php echo $pageLink;?>">
-	<meta property="og:site_name" content="JQ Design Co.">
+	<meta property="og:site_name" content="JQ">
 	<meta property="fb:app_id" content="1806520683001482" />
 	<meta property="og:image" content="<?php echo $fbPic;?>">
 
