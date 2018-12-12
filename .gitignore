@@ -61,6 +61,7 @@ fabric.properties
 # *.ipr
 
 # End of https://www.gitignore.io/api/phpstorm
+notes/
 /scss/.sass-cache/
 css/
 scss/main.css.map
