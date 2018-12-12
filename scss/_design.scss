@@ -1,0 +1,35 @@
+.design {
+	background-color: $color-bright;
+
+	.logo, .logo-j, .logo-q, .logo-dot {
+		fill: $color-highlight1;
+	}
+
+	nav a {
+		color: $color-primary;
+	}
+
+	nav a:before {
+		background: $color-highlight1;
+	}
+
+	nav li:hover,
+	nav li:focus {
+		a:before {
+			background: $color-highlight2;
+		}
+		a {
+			opacity: 1;
+			color: $color-highlight1;
+		}
+	}
+	nav li:active {
+		a:before {
+			background: $color-bright;
+		}
+	}
+
+	hr {
+		    border-top: 3px solid $color-highlight1;
+	}
+}

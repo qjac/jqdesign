@@ -1,24 +1,20 @@
-<?php $title="Portfolio";
-$pageClass="index";
-$pageDesc="A straightforward, strategic front end engineer based in Minneapolis, MN.";
-$fbPic="http://jqdesign.co/img/social/jq-preview-fb.png";
-$twitterPic="http://jqdesign.co/img/social/jq-preview-630.png";
-$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+<?php $title="Design";
+		$pageClass="design";
+		$pageDesc="Take a look at some of my previous design work to get a taste of my creative sensibilities.";
+$fbPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
+$twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
+		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 
 <?php include ("header.php"); ?>
 
         <main id="content" class="content">
 	       <section class="content-top">
+<!--		       h1 is for project title-->
+		       <h1>Design Work</h1>
 	       </section>
-			<section class="home-intro">
 
-			    <p> As a straightforward and strategic software engineer, I love to work with the movers, the shakers, and the do-gooders to help them make their mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions to tough problems. </p>
-				<h4>~ Jacqueline Quintanilla ~</h4>
-				<hr>
-			</section>
-
-        <section class="portfolio">
+	       <section class="portfolio">
         	<figure class="portfolio-item">
 		        <a href="/twinspirits.php" class="hvr-trim">
 			        <img sizes="100vw" srcset="img/tsd-square-250.png 250w, img/tsd-square-500.png 500w, img/tsd-square-750.png 750w, img/tsd-square-1000.png 1000w" src="img/tsd-square-750.png" alt="Twin Spirits Distillery website" class="featureimg">
@@ -29,6 +25,22 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 			        <h3>WordPress quenches thirst.</h3>
 			        <div class="btn "><a href="/twinspirits.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+		        </figcaption>
+	        </figure>
+
+
+        	<figure class="portfolio-item">
+		        <a href="/jqdesignbrand.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/jqdesign-square-250.png 250w, img/jqdesign-square-500.png 500w, img/jqdesign-square-750.png 750w, img/jqdesign-square-1000.png 1000w" src="img/jqdesign-square-750.png" alt="biz cards" class="featureimg">
+			        <p class="category">identity&nbsp;development<br>
+			                            web&nbsp;design <br> 
+			                            front&nbsp;end&nbsp;development <br>
+			                          business&nbsp;collateral&nbsp;design</p>
+		        </a>
+		        	<figcaption>
+
+			        <h3>A portfolio with a punch.</h3>
+			        <div class="btn "><a href="/jqdesignbrand.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 		        </figcaption>
 	        </figure>
 
@@ -62,6 +74,20 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	        </figure>
 
 	        <figure class="portfolio-item">
+		        <a href="/coolcatidentity.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ccc-meow-square-250.jpg 250w, img/ccc-meow-square-500.jpg 500w, img/ccc-meow-square-750.jpg 750w, img/ccc-meow-square-1000.jpg 1000w" src="img/ccc-meow-square-750.jpg" alt="meow" class="featureimg">
+			        <p class="category">identity <br>
+			                            brand&nbsp;strategy <br> business&nbsp;collateral&nbsp;design</p>
+		        </a>
+		        <figcaption>
+
+			        <h3>High-energy identity with an offbeat sensibility.</h3>
+			        <div class="btn "><a href="/coolcatidentity.php" class="hvr-icon-forward">Take a closer look!
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+		        </figcaption>
+	        </figure>
+
+	        <figure class="portfolio-item">
 		        <a href="/coolcatdigital.php" class="hvr-trim">
 			        <img sizes="100vw" srcset="img/ccc-web-square-250.jpg 250w, img/ccc-web-square-500.jpg 500w, img/ccc-web-square-750.jpg 750w, img/ccc-web-square-1000.jpg 1000w" src="img/ccc-web-square-750.jpg" alt="website" class="featureimg">
 			        <p class="category">web&nbsp;design <br>
@@ -78,6 +104,21 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	        </figure>
 
 	        <figure class="portfolio-item">
+		        <a href="/coolcatpackage.php" class="hvr-trim">
+			        <img sizes="100vw" srcset="img/ccc-package-square-250.jpg 250w, img/ccc-package-square-500.jpg 500w, img/ccc-package-square-750.jpg 750w, img/ccc-package-square-1000.jpg 1000w" src="img/ccc-package-square-750.jpg" alt="package with coasters" class="featureimg">
+			        <p class="category">package&nbsp;development <br>
+			                            package&nbsp;design <br>
+			                            art&nbsp;direction <br>
+			                            photo&nbsp;editing
+			                            </p>
+		        </a>
+		        <figcaption>
+			        <h3>A box that's great in the store and better at home.</h3>
+			        <div class="btn "><a href="/coolcatpackage.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+		        </figcaption>
+	        </figure>
+
+	        <figure class="portfolio-item">
 		        <a href="/tart.php" class="hvr-trim">
 			        <img sizes="100vw" srcset="img/tart-square-250.jpg 250w, img/tart-square-500.jpg 500w, img/tart-square-750.jpg 750w, img/tart-square-1000.jpg 1000w" src="img/tart-square-750.jpg" alt="tart" class="featureimg">
 			        <p class="category">identity <br>
@@ -90,21 +131,12 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 			        </figcaption>
 	        </figure>
-
 	        </section>
 
 	        <section class="project-intro">
-		        <h2>There's more where that came from!</h2>
-		        <p>Had enough of all that technology? Take a look at some of my previous design work to get a taste of my creative sensibilities.</p>
-		        <div class="btn"><a href="/design.php" class="hvr-icon-forward">Check it out! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+		        <hr>
 	        </section>
-
-
-<section>
-		<hr>
-</section>
         </main>
-
 
         <?php include ("footer.php"); ?>
 
