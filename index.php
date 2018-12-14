@@ -13,7 +13,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	       </section>
 			<section class="home-intro">
 
-			    <p> As a straightforward and strategic software engineer, I love to work with the movers, the shakers, and the do-gooders to help them make their mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions to tough problems. </p>
+			    <p> As a straightforward and strategic software engineer, I love to work with the movers, the shakers, and the do-gooders to help them make their mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions. </p>
 				<h4>~ Jacqueline Quintanilla ~</h4>
 				<hr>
 			</section>
@@ -41,7 +41,6 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			                            front&nbsp;end&nbsp;development</p>
 		        </a>
 		        <figcaption>
-
 			        <h3>Virtual reality for everyone.</h3>
 			        <div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Take a closer look!
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
@@ -58,23 +57,8 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </a>
 		        <figcaption>
 			        <h3>The neighborhood cafe with a kick gets a welcoming identity.</h3>
-			        <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>			                        </figcaption>
-	        </figure>
-
-	        <figure class="portfolio-item">
-		        <a href="/coolcatdigital.php" class="hvr-trim">
-			        <img sizes="100vw" srcset="img/ccc-web-square-250.jpg 250w, img/ccc-web-square-500.jpg 500w, img/ccc-web-square-750.jpg 750w, img/ccc-web-square-1000.jpg 1000w" src="img/ccc-web-square-750.jpg" alt="website" class="featureimg">
-			        <p class="category">web&nbsp;design <br>
-			                            market&nbsp;research <br>
-			                            axure&nbsp;prototyping <br>
-			                            front&nbsp;end&nbsp;development <br>
-			                            social&nbsp;media&nbsp;campaign <br>
-			                            advertising</p>
-		        </a>
-		        <figcaption>
-			        <h3>Online tools for selling + connecting.</h3>
-			        <div class="btn "><a href="/coolcatdigital.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
-		        </figcaption>
+			        <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>			                        
+			    </figcaption>
 	        </figure>
 
 	        <figure class="portfolio-item">
@@ -90,16 +74,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 			        </figcaption>
 	        </figure>
-
-	        </section>
-
-	        <section class="project-intro">
-		        <h2>There's more where that came from!</h2>
-		        <p>Had enough of all that technology? Take a look at some of my previous design work to get a taste of my creative sensibilities.</p>
-		        <div class="btn"><a href="/design.php" class="hvr-icon-forward">Check it out! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
-	        </section>
-
-
+        </section>
 <section>
 		<hr>
 </section>
