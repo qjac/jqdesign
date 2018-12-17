@@ -39,7 +39,7 @@ $twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
 	        <section class="project-img">
 		        <div class="row">
 			        <img sizes="100vw" srcset="img/tart/tart-web-192.png 192w, img/tart/tart-web-480.png 480w, img/ec/ec-logo-960.png 960w, img/tart/tart-web-1920.png 1920w" src="img/tart/tart-web-960.png" alt="Emerald City logo" class="full-width">
-		        </div> <!--		        end row-->
+		        </div> <!-- end row-->
 	        </section>
 
 	        <section class="project-intro">
