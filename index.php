@@ -77,7 +77,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			<div class="portfolio-item">
 				<span class="date">February 2018</span>
 				<h3>Twin Spirits Distillery</h3>
-				<a href="https://www.twinspirits.us/">twinspirits.us/</a>
+				<a href="https://www.twinspirits.us/">twinspirits.us</a>
 				<a href="https://github.com/qjac/twinspirits">github.com/qjac/twinspirits</a>
 				<ul class="category">
 					<li>PHP</li>
@@ -88,6 +88,67 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				<div class="project-intro">
 					<p>A local distillery was looking for a few new features and a refresh on the look of their website. Custom fields, post types, and page templates extend the original WordPress design to get Twin Spirits Distillery customers the info they need and provide the client with better admin tools for managing content. Modern CSS techniques ensure the layout stays functional and looks professional regardless of how it's being viewed. Now, that's something to raise a glass to—Cheers!</p>
 					<div class="btn "><a href="/twinspirits.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="portfolio-item">
+				<span class="date">April 2017</span>
+				<h3>Zetus Lapetus</h3>
+				<a href="https://qjac.net/zetus-lapetus/">qjac.net/zetus-lapetus</a>
+				<a href="https://github.com/qjac/zetus_lapetus">github.com/qjac/zetus_lapetus</a>
+				<ul class="category">
+					<li>PHP</li>
+					<li>CSS (SCSS)</li>
+					<li>Javascript (jQuery)</li>
+					<li>HTML</li>
+				</ul>
+				<div class="project-intro">
+					<p>Virtual Reality technology is moving fast and Zetus Lapetus wants to get everyone in the game. This marketing demo site aims to spread the word about this new affordable technology. It was built with no frameworks or backend using primarily HTML and CSS with PHP and JavaScript playing supporting roles in the architecture.
+					</p>
+					<div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Take a closer look!
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="portfolio-item">
+				<span class="date">May 2016</span>
+				<h3>Tart</h3>
+				<a href="https://qjac.net/zetus-lapetus/">qjac.net/zetus-lapetus</a>
+				<a href="https://github.com/qjac/zetus_lapetus">github.com/qjac/zetus_lapetus</a>
+				<ul class="category">
+					<li>PHP</li>
+					<li>SQL</li>
+					<li>CSS (Bootstrap)</li>
+					<li>HTML</li>
+				</ul>
+				<div class="project-intro">
+					<p>An in-your-face website for eyewear with attitude. Built as a custom front end for a legacy content management system, the site was built using PHP and MySQL to display all of the funky eyewear styles the shop offers.
+					</p>
+					<div class="btn"><a href="/tart.php" class="hvr-icon-forward">Take a closer look!
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+				</div>
+			</div>
+
+			<hr>
+
+			<div class="portfolio-item">
+				<span class="date">March 2016</span>
+				<h3>Emerald City</h3>
+				<a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/">jacquelinequintanilla.com/webi2000/emeraldcity</a>
+				<ul class="category">
+					<li>WordPress</li>
+					<li>PHP</li>
+					<li>CSS</li>
+					<li>HTML</li>
+				</ul>
+				<div class="project-intro">
+					<p>The neighborhood cafe with a kick gets a welcoming website. This WordPress child theme takes a basic theme and spices it up with a custom layout and brand-specific styling. Functionality is expanded through the use of plugins that are custom styled for a consistent experience.
+					</p>
+					<div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Take a closer look! <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
 				</div>
 			</div>
 
@@ -150,8 +211,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 		        </a>
 		        <figcaption>
 			        <h3>An in-your-face identity and website for eyewear with attitude.</h3>
-			        <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Take a closer look!
-				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+			        
 			        </figcaption>
 	        </figure>
         </section>
