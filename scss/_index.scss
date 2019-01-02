@@ -9,6 +9,11 @@
 	background: linear-gradient($color-bright, rgba($color-bright, 0.5));
 	background-attachment: fixed;
 
+	::-moz-selection,
+	::selection {
+	    background: $color-highlight1;
+	}
+
 	svg.logo {
 		width: 20%;
 		padding-top: 2rem;
