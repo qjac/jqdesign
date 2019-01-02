@@ -2,7 +2,7 @@
 	<h4>Let's chat!</h4>
 
 	<div>
-		<a href="mailto:hello@jqdesign.co" target="_blank">
+		<a href="mailto:hello@qjac.net" target="_blank">
 			<i class="far fa-envelope fa-2x" aria-hidden="true"></i></a>
 		<a href="https://github.com/qjac" target="">
 			<i class="fab fa-github fa-2x" aria-hidden="true"></i></a>

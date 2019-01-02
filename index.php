@@ -75,7 +75,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				<div class="project-intro">
 					<p>ilumen is the first biometric, data-driven mental wellness monitoring and management program offering employees personalized recommendations for health and performance. The public web application offers an assessment and customized tips on how to improve mental wellness and the admin portal features a no-nonsense layout to get right down to business. Both are built using an interactive React front end for modularity and scalability and modern (yet still IE-friendly!) CSS for a seamless branded experience across platforms and browsers.</p>
 					<a href="https://my.ilumen.app/">my.ilumen.app</a>
-				<a href="https://ilumen.app/">ilumen.app</a>
+				<span>Marketing site: </span><a href="https://ilumen.app/">ilumen.app</a>
 				</div>
 				
 				<hr>
@@ -140,8 +140,8 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				<div class="project-intro">
 					<p>An in-your-face website for eyewear with attitude. Built as a custom front end for a legacy content management system, the site was built using PHP and MySQL to display all of the funky eyewear styles the shop offers.
 					</p>
-					<a href="https://qjac.net/zetus-lapetus/">qjac.net/zetus-lapetus</a>
-					<a href="https://github.com/qjac/zetus_lapetus">github.com/qjac/zetus_lapetus</a>
+					<a href="http://jacquelinequintanilla.com/webi2012/final/">jacquelinequintanilla.com/webi2012/final/</a>
+					<a href="https://github.com/qjac/tart">github.com/qjac/tart</a>
 					<!-- <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Read more about Tart
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a>
 				    </div> -->
