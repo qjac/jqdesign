@@ -6,7 +6,11 @@
 				Index Page
 ==================================================================*/
 .index {
-	background-color: $color-bright;
+	/*background-color: $color-bright;*/
+
+	background: linear-gradient($color-bright, rgba($color-bright, 0.5));
+	background-attachment: fixed;
+
 	svg.logo {
 		width: 20%;
 		padding-top: 3rem;
