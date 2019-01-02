@@ -96,8 +96,8 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					<p>A local distillery was looking for a few new features and a refresh on the look of their website. Custom fields, post types, and page templates extend the original WordPress design to get Twin Spirits Distillery customers the info they need and provide the client with better admin tools for managing content. Modern CSS techniques ensure the layout stays functional and looks professional regardless of how it's being viewed. Now, that's something to raise a glass to—Cheers!</p>
 					<a href="https://www.twinspirits.us/">twinspirits.us</a>
 					<a href="https://github.com/qjac/twinspirits">github.com/qjac/twinspirits</a>
-					<div class="btn "><a href="/twinspirits.php" class="hvr-icon-forward">Read more about Twin Spirits <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a>
-					</div>
+					<!-- <div class="btn "><a href="/twinspirits.php" class="hvr-icon-forward">Read more about Twin Spirits <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a>
+					</div> -->
 				</div>
 				
 				<hr>
@@ -120,8 +120,8 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					</p>
 					<a href="https://qjac.net/zetus-lapetus/">qjac.net/zetus-lapetus</a>
 					<a href="https://github.com/qjac/zetus_lapetus">github.com/qjac/zetus_lapetus</a>
-					<div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Read more about Zetus Lapetus
-				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+					<!-- <div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Read more about Zetus Lapetus
+				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div> -->
 				</div>
 				<hr>
 			</div>
@@ -142,9 +142,9 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					</p>
 					<a href="https://qjac.net/zetus-lapetus/">qjac.net/zetus-lapetus</a>
 					<a href="https://github.com/qjac/zetus_lapetus">github.com/qjac/zetus_lapetus</a>
-					<div class="btn"><a href="/tart.php" class="hvr-icon-forward">Read more about Tart
+					<!-- <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Read more about Tart
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a>
-				    </div>
+				    </div> -->
 				</div>
 				<hr>
 			</div>
@@ -164,7 +164,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					<p>The neighborhood cafe with a kick gets a welcoming website. This WordPress child theme takes a basic theme and spices it up with a custom layout and brand-specific styling. Functionality is expanded through the use of plugins that are custom styled for a consistent experience.
 					</p>
 					<a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/">jacquelinequintanilla.com/webi2000/emeraldcity</a>
-					<div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Read more about Emerald City <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div>
+					<!-- <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Read more about Emerald City <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div> -->
 				</div>
 			</div>
         </section>
