@@ -44,16 +44,17 @@ nav {
 		margin-top: 1em;
 	}
 	li {
-		padding: 0.5em 10% 1em 0;
+		padding: 0.5em 0 1em;
 		text-align: right;
-		position: relative;
 	}
 
 	a {
 		@extend h3;
 		color: $color-bright;
 		text-decoration: none;
+		padding-left: 0.5rem;
 		position: relative;
+		right: 0;
 		transition: $hover-ease;
 		&:active {
 			opacity: 1;

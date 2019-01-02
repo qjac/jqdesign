@@ -17,11 +17,16 @@
 	}
 
 	nav a {
+		background-color: rgba($color-bright, 0.75);
 		color: $color-primary;
 	}
 
 	nav a:before {
 		background: $color-highlight1;
+	}
+
+	nav li {
+
 	}
 
 	nav li:hover,
