@@ -73,6 +73,7 @@ scss/main.css.map
 .idea/jqdesign.iml
 .idea/watcherTasks.xml
 config.codekit3
+config.codekit
 .idea/misc.xml
 .eslintrc.json
 package.json
