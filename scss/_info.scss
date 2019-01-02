@@ -18,6 +18,17 @@
 			color: #ffffff;
 		}
 	}
+
+	nav a:before {
+		background: $color-primary;
+	}
+	nav li:hover a,
+	nav li:focus a{
+			color: $color-highlight2;
+			&:before {
+				background: $color-bright;
+			}
+	}
 } //  end info
 
 .about {
@@ -32,6 +43,18 @@
 	@media only screen and (min-width: $breakpoint-lg) {
 		background-size: 100% 32vh;
 	}
+	
+	nav a:before {
+		background: $color-primary;
+	}
+	nav li:hover a,
+	nav li:focus a{
+			color: $color-highlight2;
+			&:before {
+				background: $color-bright;
+			}
+	}
+
 	.content h4 {
 		color: $color-bright;
 		margin-top: -0.5em;
