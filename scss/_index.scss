@@ -56,153 +56,91 @@
 
 	.home-intro p {
 		color: $color-dark;
-		max-width: 50em;
-		width: 80%;
+		max-width: 50rem;
 		margin: 0 auto;
 	}
 
 	.home-intro h4 {
 		color:$color-primary;
-		max-width: 50em;
-		width: 80%;
+		max-width: 50rem;
 		margin: 0.5em auto 0;
 	}
 
 	hr {
-		    border-top: 3px solid $color-highlight1;
+		border-top: 3px solid $color-highlight1;
 	}
-
-	.project-intro h2:before {
-		background: $color-highlight1;
-	}
-}
 
 /*=================================================================
 				portfolio section
 ==================================================================*/
- .portfolio {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
-	align-items: stretch;
-	align-content: center;
-	margin-top: 0;
-	padding-bottom: 1rem;
-}
+	.portfolio {
+		padding: 0 10%;
 
- figure.portfolio-item {
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	justify-content: stretch;
-	align-content: center;
-	background-color: $color-light;
-	flex: 0 1 1;
-	max-width: $breakpoint-md;
-	margin: 6px;
+		@media only screen and (min-width: $breakpoint-md) {
+			padding: 0 5%;
+		}
 
-	a {
-		display: block;
+		hr { 
+			width: 50%;
+			border-top: 3px solid rgba($color-light, 0.65);
+			margin: 1rem auto 2rem; }
+
+		.date {
+			position: absolute;
+			font-family: $font-display;
+			font-size: 3em;
+			line-height: 0.9em;
+			text-align: right;
+			color: $color-light;
+			z-index: -1;
+			opacity: 0.45;	
+			top: 2.75rem;
+			right: -5%;
+
+			@media only screen and (min-width: $breakpoint-md) {
+				font-size: 3.5em;
+				top: 0.25rem;
+				right: -2%;
+			}
+
+			@media only screen and (min-width: $breakpoint-lg) {
+				right: -5%;
+			}
+		}
+
+		.project-header {
+			@media only screen and (min-width: $breakpoint-lg) {
+				display: flex;
+				justify-content: space-between;
+				align-items: baseline;
+			}
+		}
+
+		h3 {
+			font-size: 1.75em;
+			margin-bottom: 0;
+		}
+
+		a {
+			margin-bottom: 0.55rem;
+		}
+
+		.category-box {
+			list-style-type: none;
+			padding: 0;
+		}
+
+		.category {
+			font-family: $font-brand;
+			font-weight: normal;
+		}
 	}
 
-	@media only screen and (min-width: $breakpoint-md) {
-		margin: 0.5rem 0.5rem;
-		flex-basis: 46%;
-	}
-	@media only screen and (min-width: $breakpoint-lg) {
-		flex-basis: 30%;
-	}
-}
+		 .portfolio-item {
+		 	position: relative;
+		 	max-width: 50rem;
+			margin: 0 auto;
+		}
 
-/*//portfolio img styles*/
-.portfolio img {
-	width: 100%;
-	margin: 0;
-	transition: $hover-ease;
-}
 
- .hvr-trim .category {
-	display: none;
-	margin: 0;
-	position: absolute;
-	left: 50%; /* horizontal alignment */
-	top: 50%; /* vertical alignment */
-	transform: translate(-50%, -50%); /* horizontal, vertical alignment fine tuning;*/
-	font-size: 1.25em;
-	font-weight: 500;
-	color: $color-dark;
-	text-shadow: 1px 1px 12px rgba(255, 255, 255, 0.7);
-	z-index: 10;
-	transition: $hover-ease;
-}
-
-/* Trim— for hover flair*/
-.hvr-trim {
-	position: relative;
-	transition: $hover-ease;
-
-	&:before {
-		content: '';
-		position: absolute;
-		border: $color-bright solid 12px;
-		top: 24px;
-		left: 24px;
-		right: 24px;
-		bottom: 24px;
-		opacity: 0;
-		z-index: 1;
-		transition: $hover-ease;
-	}
-	&:focus:before,
-	&:hover:before,
-	&:active:before {
-		opacity: 1;
-	}
-
-	&:hover img {
-		filter: hue-rotate(180deg) brightness(200%) opacity(20%);
-	}
-
-	&:hover .category {
-		display: block;
-	}
-}
-
-/*//portfolio caption styles*/
-figcaption {
-	max-width: 50em;
-	padding: 0.5em 10%;
-	flex-grow: 1;
-	display: flex;
-	flex-flow: column;
-	align-items: stretch;
-	justify-content: space-between;
-}
-
-figcaption h2 {
-	margin-bottom: 0;
-	position: relative;
-
-	&:before {
-		content: '';
-		background: $color-bright;
-		position: absolute;
-		top: -0.5em;
-		left: 0;
-		height: 3px;
-		width: 1.5rem;
-	}
-	figcaption .btn {
-		align-self: flex-end;
-	}
-}
-
-.index .portfolio-item:active > figcaption .hvr-icon-forward,
-.index .portfolio-item:focus > figcaption .hvr-icon-forward,
-.index .portfolio-item:hover > figcaption .hvr-icon-forward {
-	color: $color-highlight1;
-}
-
-.category {
-	font-size: 0.9rem;
 }

@@ -8,7 +8,6 @@
 
 .portfolio-item {
 	display: border-box;
-	background: #ffffff;
 
 	hr {
 		margin-top: 0;
@@ -28,10 +27,10 @@
 		}
 	}
 	.content-top {
-		//default .content-top. for custom backgrounds, keep scrolling
+		/*//default .content-top. for custom backgrounds, keep scrolling*/
 	}
 
-	// category section. now moved to top of page.
+	/*// category section. now moved to top of page.*/
 	.category-box {
 		margin: 0 1rem;
 		display: flex;
@@ -51,7 +50,7 @@
 		border-top-color: $color-highlight2;
 	}
 
-	//.project-intro for text sections
+	/*//.project-intro for text sections*/
 	.project-intro {
 		display: flex;
 		flex-direction: column;
@@ -59,7 +58,7 @@
 		align-items: center;
 	}
 
-	//.project-img for sections of images
+	/*//.project-img for sections of images*/
 	.project-img {
 		width: 100%;
 		box-sizing: border-box;
