@@ -10,13 +10,13 @@ header {
 .logo-q,
 .logo-dot {
 	transition: $hover-ease;
-	position: fixed;
+	position: absolute;
 	z-index: 100;
 	fill: $color-bright;
 }
 
 .logo {
-	position: fixed;
+
 	min-width: 6rem;
 	max-width: 12rem;
 	margin: 0;
