@@ -4,9 +4,8 @@
 			info pages (about, 404, etc)
 ==================================================================*/
 .info {
-	main {
-		background-color: $color-highlight1;
-	}
+	background-color: $color-highlight1;
+
 	.project-intro {
 		max-width: 30em;
 	}
@@ -28,6 +27,10 @@
 			&:before {
 				background: $color-bright;
 			}
+	}
+
+	div a {
+		color: $color-bright;
 	}
 } //  end info
 
