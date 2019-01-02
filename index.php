@@ -13,7 +13,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	       </section>
 			<section class="home-intro">
 			    <p>As a straightforward and strategic software engineer, I love to work with the movers, the shakers, and the do-gooders to make a mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools and elegant solutions.</p>
-				<h4>~ Jacqueline Quintanilla ~</h4>
+				<h4>~ Jacqueline Quintanilla</h4>
 				<hr>
 			</section>
 
@@ -140,7 +140,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				<div class="project-intro">
 					<p>An in-your-face website for eyewear with attitude. Built as a custom front end for a legacy content management system, the site was built using PHP and MySQL to display all of the funky eyewear styles the shop offers.
 					</p>
-					<a href="http://jacquelinequintanilla.com/webi2012/final/">jacquelinequintanilla.com/webi2012/final/</a>
+					<a href="http://jacquelinequintanilla.com/webi2012/final/">jacquelinequintanilla.com/webi2012/final</a>
 					<a href="https://github.com/qjac/tart">github.com/qjac/tart</a>
 					<!-- <div class="btn"><a href="/tart.php" class="hvr-icon-forward">Read more about Tart
 				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a>
@@ -164,9 +164,11 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					<p>The neighborhood cafe with a kick gets a welcoming website. This WordPress child theme takes a basic theme and spices it up with a custom layout and brand-specific styling. Functionality is expanded through the use of plugins that are custom styled for a consistent experience.
 					</p>
 					<a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/">jacquelinequintanilla.com/webi2000/emeraldcity</a>
-					<!-- <div class="btn "><a href="/emeraldcity.php" class="hvr-icon-forward">Read more about Emerald City <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div> -->
+			
 				</div>
+				<hr>
 			</div>
+			
         </section>
 	<section>
 		<hr>
