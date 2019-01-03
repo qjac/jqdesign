@@ -164,6 +164,8 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					<p>The neighborhood cafe with a kick gets a welcoming website. This WordPress child theme takes a basic theme and spices it up with a custom layout and brand-specific styling. Functionality is expanded through the use of plugins that are custom styled for a consistent experience.
 					</p>
 					<a href="http://jacquelinequintanilla.com/webi2000/emeraldcity/">jacquelinequintanilla.com/webi2000/emeraldcity</a>
+					<a href="https://github.com/qjac/emeraldcity">github.com/qjac/emeraldcity</a>
+
 			
 				</div>
 				<hr>
