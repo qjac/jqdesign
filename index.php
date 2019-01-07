@@ -29,7 +29,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					</ul>
 				</div>
 				<div class="project-intro">
-					<p>You're thinking about watching a movie tonight. But here's comes a question that has stumped scholars for millennia. What movie should we watch? Oh...the horror, the tense silence, the frozen fear...</p>
+					<p>You're thinking about watching a movie tonight. But here comes the question that has stumped scholars for millennia&#8212What movie should we watch? Oh...the horror, the tense silence, the frozen fear...</p>
 					<p>Fear no more! Movie Jar will take your carefully curated list of movies and randomly select a gem for you to enjoy without the maddening indecisiveness that might otherwise throw your evening off kilter. Enjoy!</p>
 					<p>Built using a React frontend, this simple single page app is a 
 						<a href="https://github.com/qjac/moviejar">work in progress</a> and a playground for learning. Check back soon to see what’s new!</p>
