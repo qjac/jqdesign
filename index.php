@@ -114,17 +114,6 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 						<li class="category">HTML</li>
 					</ul>
 				</div>
-				
-				<div class="project-intro">
-					<p>Virtual Reality technology is moving fast and Zetus Lapetus wants to get everyone in the game. This marketing demo site aims to spread the word about this new affordable technology. It was built with no frameworks or backend using primarily HTML and CSS with PHP and JavaScript playing supporting roles in the architecture.
-					</p>
-					<a href="https://qjac.net/zetus-lapetus/">qjac.net/zetus-lapetus</a>
-					<a href="https://github.com/qjac/zetus_lapetus">github.com/qjac/zetus_lapetus</a>
-					<!-- <div class="btn "><a href="/zetuslapetus.php" class="hvr-icon-forward">Read more about Zetus Lapetus
-				        <i class="fas fa-angle-double-right fa-lg" data-fa-transform="down-1" aria-hidden="true"></i></a></div> -->
-				</div>
-				<hr>
-			</div>
 
 			<div class="portfolio-item">
 				<span class="date">May 2016</span>
