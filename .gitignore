@@ -3,7 +3,7 @@
 /config.codekit
 **/.idea/workspace.xml
 **/.DS_Store
-.sass-cache/**
+**/.sass-cache/**
 
 
 # Created by https://www.gitignore.io/api/phpstorm
