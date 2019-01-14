@@ -104,18 +104,6 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			</div>
 
 			<div class="portfolio-item">
-				<span class="date">April 2017</span>
-				<div class="project-header">
-					<h3>Zetus Lapetus</h3>
-					<ul class="category-box">
-						<li class="category">PHP</li>
-						<li class="category">CSS (SCSS)</li>
-						<li class="category">Javascript (jQuery)</li>
-						<li class="category">HTML</li>
-					</ul>
-				</div>
-
-			<div class="portfolio-item">
 				<span class="date">May 2016</span>
 				<div class="project-header">
 					<h3>Tart</h3>
@@ -157,7 +145,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
 			
 				</div>
-				<hr>
+			
 			</div>
 			
         </section>
