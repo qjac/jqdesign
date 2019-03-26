@@ -1,8 +1,8 @@
 <?php $title="Portfolio";
 $pageClass="index";
 $pageDesc="A straightforward, strategic front end engineer based in Minneapolis, MN.";
-$fbPic="http://jqdesign.co/img/social/jq-preview-fb.png";
-$twitterPic="http://jqdesign.co/img/social/jq-preview-630.png";
+$fbPic="http://qjac.net/img/social/jq-preview-fb.png";
+$twitterPic="http://qjac.net/img/social/jq-preview-630.png";
 $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 

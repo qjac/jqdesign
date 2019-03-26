@@ -1,8 +1,8 @@
 <?php $title="Cool Cat Online";
 		$pageClass="portfolio-item coolcatdigital";
 		$pageDesc="Online tools for selling + connecting.";
-$fbPic="http://jqdesign.co/img/ccc-web/ccc-web-960.jpg";
-$twitterPic="http://jqdesign.co/img/ccc-web/ccc-web-1920.jpg";
+$fbPic="http://qjac.net/img/ccc-web/ccc-web-960.jpg";
+$twitterPic="http://qjac.net/img/ccc-web/ccc-web-1920.jpg";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 		?>
 

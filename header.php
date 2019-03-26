@@ -32,8 +32,10 @@
 
 <!--	twitter card-->
 	<meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:description" content="<?php echo $pageDesc;?>">
+	<meta name="twitter:site" content="@_qjac">
+	<meta name="twitter:creator" content="@_qjac">
 	<meta name="twitter:title" content="<?php echo $title;?>">
+	<meta name="twitter:description" content="<?php echo $pageDesc;?>">
 	<meta name="twitter:url" content="<?php echo $pageLink;?>">
 	<meta name="twitter:image" content="<?php echo $twitterPic;?>">
 

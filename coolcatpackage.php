@@ -1,8 +1,8 @@
 <?php $title="Cool Cat Packaging";
 		$pageClass="portfolio-item coolcatpackage";
 		$pageDesc="A box that's great in the store and better at home.";
-$fbPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
-$twitterPic="http://jqdesign.co/img/ccc-pack/ccc-package-wood-1920.jpg";
+$fbPic="http://qjac.net/img/ccc-pack/ccc-package-wood-1920.jpg";
+$twitterPic="http://qjac.net/img/ccc-pack/ccc-package-wood-1920.jpg";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 

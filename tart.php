@@ -1,8 +1,8 @@
 <?php $title="Tart";
 		$pageClass="portfolio-item tart";
 		$pageDesc="An in-your-face site for eyewear with attitude.";
-$fbPic="http://jqdesign.co/img/tart/tart-web-1920.png";
-$twitterPic="http://jqdesign.co/img/tart/tart-web-1920.png";
+$fbPic="http://qjac.net/img/tart/tart-web-1920.png";
+$twitterPic="http://qjac.net/img/tart/tart-web-1920.png";
 		$socialPic="img/tart/tart-web-960.png";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>

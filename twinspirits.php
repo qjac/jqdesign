@@ -1,8 +1,8 @@
 <?php $title="Twin Spirits Website Redevelopment";
 		$pageClass="portfolio-item twinspirits";
 		$pageDesc="Fresh site for finding fresh drinks.";
-$fbPic="http://jqdesign.co/img/tsd/tsd-booze-1920.png";
-$twitterPic="http://jqdesign.co/img/tsd/tsd-booze-1920.png";
+$fbPic="http://qjac.net/img/tsd/tsd-booze-1920.png";
+$twitterPic="http://qjac.net/img/tsd/tsd-booze-1920.png";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 

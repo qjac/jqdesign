@@ -1,8 +1,8 @@
 <?php $title="JQ Design Co. Branding";
 		$pageClass="portfolio-item jqdesign";
 		$pageDesc="A portfolio with punch.";
-$fbPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
-$twitterPic="http://jqdesign.co/img/jq/jqbrand-web-1920.png";
+$fbPic="http://qjac.net/img/jq/jqbrand-web-1920.png";
+$twitterPic="http://qjac.net/img/jq/jqbrand-web-1920.png";
 		$pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 ?>
 
