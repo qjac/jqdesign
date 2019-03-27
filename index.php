@@ -18,6 +18,26 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 			</section>
 
         <section class="portfolio">
+        	<div class="portfolio-item">
+				<span class="date">In Progress</span>
+				<div class="project-header">
+					<h3>Web Starter Kit</h3>
+					<ul class="category-box">
+						<li class="category">Javascript</li>
+						<li class="category">JSON</li>
+						<li class="category">npm</li>
+						<li class="category">webpack</li>
+					</ul>
+				</div>
+				<div class="project-intro">
+					<p>It's a ready-to-rock collection of my favorite tools to jumpstart web projects. A variety of tools and config files to maximize efficiency while minimizing developer error including linting, autoformatting, transpiling, minifying, and bundling code. As tools change, so does the starter kit.</p>
+					
+					<a href="https://github.com/qjac/web-starter-kit">https://github.com/qjac/web-starter-kit</a>
+				</div>
+				<hr>
+			</div>
+
+
 			<div class="portfolio-item">
 				<span class="date">In Progress</span>
 				<div class="project-header">
