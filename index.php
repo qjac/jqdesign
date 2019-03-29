@@ -12,31 +12,12 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 	       <section class="content-top">
 	       </section>
 			<section class="home-intro">
-			    <p>As a straightforward and strategic software engineer, I love to work with the movers, the shakers, and the do-gooders to make a mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools, elegant solutions, and a more accessible web.</p>
+			    <p>As a straightforward and strategic web engineer, I love to work with the movers, the shakers, and the do-gooders to make a mark. With a can-do attitude, deft googling chops, and a drive to dig deep, I work to create powerful tools, elegant solutions, and a more accessible web.</p>
 				<h4>~ Jacqueline Quintanilla</h4>
 				<hr>
 			</section>
 
         <section class="portfolio">
-        	<div class="portfolio-item">
-				<span class="date">In Progress</span>
-				<div class="project-header">
-					<h3>Web Starter Kit</h3>
-					<ul class="category-box">
-						<li class="category">Javascript</li>
-						<li class="category">JSON</li>
-						<li class="category">npm</li>
-						<li class="category">webpack</li>
-					</ul>
-				</div>
-				<div class="project-intro">
-					<p>It's a ready-to-rock collection of my favorite tools to jumpstart web projects. A variety of tools and config files to maximize efficiency while minimizing developer error including linting, autoformatting, transpiling, minifying, and bundling code. As tools change, so does the starter kit.</p>
-					
-					<a href="https://github.com/qjac/web-starter-kit">https://github.com/qjac/web-starter-kit</a>
-				</div>
-				<hr>
-			</div>
-
 
 			<div class="portfolio-item">
 				<span class="date">In Progress</span>
@@ -54,6 +35,25 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 					<p>Built using a React frontend, this simple single page app is a 
 						<a href="https://github.com/qjac/moviejar">work in progress</a> and a playground for learning. Check back soon to see what’s new!</p>
 					<a href="https://github.com/qjac/moviejar">github.com/qjac/moviejar</a>
+				</div>
+				<hr>
+			</div>
+
+        	<div class="portfolio-item">
+				<span class="date">March 2019</span>
+				<div class="project-header">
+					<h3>Web Starter Kit</h3>
+					<ul class="category-box">
+						<li class="category">Javascript</li>
+						<li class="category">JSON</li>
+						<li class="category">npm</li>
+						<li class="category">webpack</li>
+					</ul>
+				</div>
+				<div class="project-intro">
+					<p>It's a ready-to-rock collection of my favorite tools to jumpstart web projects. A variety of tools and config files to maximize efficiency while minimizing developer error including linting, autoformatting, transpiling, minifying, and bundling code. As tools change, so does the starter kit.</p>
+					
+					<a href="https://github.com/qjac/web-starter-kit">https://github.com/qjac/web-starter-kit</a>
 				</div>
 				<hr>
 			</div>
