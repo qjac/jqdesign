@@ -34,9 +34,11 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				
 				<div class="project-intro">
 					<p>Service workers, IndexedDB, and caching, oh my! As part of <a href="https://www.udacity.com/course/mobile-web-specialist-nanodegree--nd024">Udacity’s Mobile Web Specialist course</a>, this static, desktop-only site turned into an accessible, responsive, offline-first, dynamic web app where users can read up on the hottest restaurants in town, leave a review, and mark their favorites for later.</p>
-					<a href="https://mws-restaurant-site.netlify.com/">mws-restaurant-site.netlify.com</a> 
+					<span>This demo uses the free tier of Heroku to host the API so the first load can be slow. Please be patient.</span>
+					<a href="https://mws-restaurant-site.netlify.com/">mws-restaurant-site.netlify.com</a>
+
 					<a href="https://github.com/qjac/mws-restaurant">github.com/qjac/mws-restaurant</a>
-					<p>* Since I'm using the free tier of Heroku to host the API, the first load can be slow. Please be patient.</p>
+					
 				</div>
 				
 				<hr>
