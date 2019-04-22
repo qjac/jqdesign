@@ -19,46 +19,7 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 
         <section class="portfolio">
 
-			<div class="portfolio-item">
-				<span class="date">In Progress</span>
-				<div class="project-header">
-					<h3>Movie Jar</h3>
-					<ul class="category-box">
-						<li class="category">Javascript (React)</li>
-						<li class="category">CSS (SCSS)</li>
-						<li class="category">HTML</li>
-					</ul>
-				</div>
-				<div class="project-intro">
-					<p>You're thinking about watching a movie tonight. But here comes the question that has stumped scholars for millennia&#8212What movie should we watch? Oh...the horror, the tense silence, the frozen fear...</p>
-					<p>Fear no more! Movie Jar will take your carefully curated list of movies and randomly select a gem for you to enjoy without the maddening indecisiveness that might otherwise throw your evening off kilter. Enjoy!</p>
-					<p>Built using a React frontend, this simple single page app is a 
-						<a href="https://github.com/qjac/moviejar">work in progress</a> and a playground for learning. Check back soon to see what’s new!</p>
-					<a href="https://github.com/qjac/moviejar">github.com/qjac/moviejar</a>
-				</div>
-				<hr>
-			</div>
-
         	<div class="portfolio-item">
-				<span class="date">March 2019</span>
-				<div class="project-header">
-					<h3>Web Starter Kit</h3>
-					<ul class="category-box">
-						<li class="category">Javascript</li>
-						<li class="category">JSON</li>
-						<li class="category">npm</li>
-						<li class="category">webpack</li>
-					</ul>
-				</div>
-				<div class="project-intro">
-					<p>It's a ready-to-rock collection of my favorite tools to jumpstart web projects. A variety of tools and config files to maximize efficiency while minimizing developer error including linting, autoformatting, transpiling, minifying, and bundling code. As tools change, so does the starter kit.</p>
-					
-					<a href="https://github.com/qjac/web-starter-kit">https://github.com/qjac/web-starter-kit</a>
-				</div>
-				<hr>
-			</div>
-
-			<div class="portfolio-item">
 				<span class="date">November 2018</span>
 				<div class="project-header">
 					<h3>Restaurant Reviews</h3>
@@ -98,6 +59,45 @@ $pageLink= (isset($_SERVER['HTTPS']) ? "https" : "http") . "://$_SERVER[HTTP_HOS
 				<span>Marketing site: </span><a href="https://ilumen.app/">ilumen.app</a>
 				</div>
 				
+				<hr>
+			</div>
+
+        	<div class="portfolio-item">
+				<span class="date">March 2019</span>
+				<div class="project-header">
+					<h3>Web Starter Kit</h3>
+					<ul class="category-box">
+						<li class="category">Javascript</li>
+						<li class="category">JSON</li>
+						<li class="category">npm</li>
+						<li class="category">webpack</li>
+					</ul>
+				</div>
+				<div class="project-intro">
+					<p>It's a ready-to-rock collection of my favorite tools to jumpstart web projects. A variety of tools and config files to maximize efficiency while minimizing developer error including linting, autoformatting, transpiling, minifying, and bundling code. As tools change, so does the starter kit.</p>
+					
+					<a href="https://github.com/qjac/web-starter-kit">https://github.com/qjac/web-starter-kit</a>
+				</div>
+				<hr>
+			</div>
+
+			<div class="portfolio-item">
+				<span class="date">In Progress</span>
+				<div class="project-header">
+					<h3>Movie Jar</h3>
+					<ul class="category-box">
+						<li class="category">Javascript (React)</li>
+						<li class="category">CSS (SCSS)</li>
+						<li class="category">HTML</li>
+					</ul>
+				</div>
+				<div class="project-intro">
+					<p>You're thinking about watching a movie tonight. But here comes the question that has stumped scholars for millennia&#8212What movie should we watch? Oh...the horror, the tense silence, the frozen fear...</p>
+					<p>Fear no more! Movie Jar will take your carefully curated list of movies and randomly select a gem for you to enjoy without the maddening indecisiveness that might otherwise throw your evening off kilter. Enjoy!</p>
+					<p>Built using a React frontend, this simple single page app is a 
+						<a href="https://github.com/qjac/moviejar">work in progress</a> and a playground for learning. Check back soon to see what’s new!</p>
+					<a href="https://github.com/qjac/moviejar">github.com/qjac/moviejar</a>
+				</div>
 				<hr>
 			</div>
 
