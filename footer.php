@@ -41,7 +41,7 @@ $(document).ready(function() {
       if (window.location.pathname == '/about.php') {
 // Set the date we're counting down to
 // 8/23/2018 at 6am is when the fair kicks off
-var countDownDate = new Date("Aug 23, 2018 06:00:00").getTime();
+var countDownDate = new Date("Aug 22, 2019 06:00:00").getTime();
 // Update the count down every 1 second
 var x = setInterval(function() {
   // Get todays date and time
@@ -55,7 +55,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-  document.getElementById("fair-countdown").innerHTML = " in " + days + " days " + hours + " hours " + minutes + " minutes and " + seconds + " seconds";
+  document.getElementById("fair-countdown").innerHTML = " coming in " + days + " days " + hours + " hours " + minutes + " minutes and " + seconds + " seconds";
 
   // If the count down is over, write some text
   if (distance < 0) {
